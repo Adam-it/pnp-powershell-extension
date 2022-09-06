@@ -1,0 +1,52 @@
+.card {
+    border: 1px solid #666;
+    max-width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px #666;
+    transition: all 0.2s ease-in-out;
+    min-height: 440px;
+    max-height: 440px;
+    float: left;
+}
+
+@media only screen and (max-width: 900px) {
+    .card {
+      float: unset;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 400px;
+    }
+}
+
+.card:hover {
+    box-shadow: 1px 0px 15px #666;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-body h3 {
+    text-align: center;
+    min-height: 45px;
+    max-height: 45px;
+}
+
+.card-body p {
+    min-height: 60px;
+    max-height: 60px;
+}
+
+.card-header img {
+    max-height: 200px;
+    width: 100%;
+    min-height: 200px;
+}
+
+.card-footer {
+    text-align: right;
+}
+
+.card-tags {
+    text-align: right;
+}
