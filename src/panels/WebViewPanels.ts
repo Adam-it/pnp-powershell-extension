@@ -117,7 +117,7 @@ export class WebViewPanels implements WebviewViewProvider {
     axios
       .get(sampleUrl)
       .then(res => {
-        const content: string = res.data.split('```' + sample.type + '\n')[1].split('```')[0];
+        const content: string = res.data.split(sample.tabTag)[1].split('```' + sample.type + '\n')[1].split('```')[0];
         const language = sample.type;
         vscode.workspace.openTextDocument({content, language}).then(document => vscode.window.showTextDocument(document));
       })

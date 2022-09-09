@@ -24,12 +24,21 @@ foreach ($sample in $allSamples) {
     $readme = $sample.FullName.Replace('assets\sample.json', 'README.md')
     $readmeContent = Get-Content -Path $readme -Raw
     $type = 'powershell'
+    $tabTag = '#tab/pnpps'
     
     $rawUrl = $sampleJson.url
     $rawUrl = $rawUrl.Replace('https://pnp.github.io/script-samples', 'https://raw.githubusercontent.com/pnp/script-samples/main/scripts')
     $rawUrl = $rawUrl.Replace('.html', '.md')
 
-    $samples += [pscustomobject]@{title = $sampleJson.title; url = $sampleJson.url; rawUrl = $rawUrl; description = $sampleJson.shortDescription; image = $sampleJson.thumbnails[0].url; type = $type}
+    $samples += [pscustomobject]@{
+        title       = $sampleJson.title; 
+        url         = $sampleJson.url; 
+        rawUrl      = $rawUrl; 
+        description = $sampleJson.shortDescription; 
+        image       = $sampleJson.thumbnails[0].url; 
+        type        = $type
+        tabTag      = $tabTag
+    }
 }
 
 $sampleModel.Add('samples', $samples)
