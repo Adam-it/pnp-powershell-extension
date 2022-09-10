@@ -2,7 +2,7 @@
 	"name": "pnp-powershell-extension",
 	"displayName": "PnP PowerShell extension",
 	"description": "This extension adds snippets, syntaxes and commands manual list",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "adamwojcikit",
 	"author": {
 		"name": "Adam"
@@ -24,7 +24,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "//TODO: add url"
+		"url": "https://github.com/Adam-it/pnp-powershell-extension"
 	},
 	"sponsor": {
 		"url": "https://github.com/sponsors/Adam-it"
