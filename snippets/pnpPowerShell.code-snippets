@@ -390,6 +390,15 @@
       "Add-PnPPageTextPart "
     ]
   },
+  "Add-PnPPageWebPart": {
+    "description": "Adds a client-side web part to an existing client-side page.",
+    "prefix": [
+      "Add-PnPPageWebPart"
+    ],
+    "body": [
+      "Add-PnPPageWebPart "
+    ]
+  },
   "Add-PnPPlannerBucket": {
     "description": "This cmdlets creates a new bucket for tasks in a Planner plan.",
     "prefix": [
@@ -1916,6 +1925,28 @@
     ],
     "body": [
       "Get-PnPListItemAttachment "
+    ]
+  },
+  "Get-PnPListItemComment": {
+    "description": [
+      "-Connection",
+      "Optional connection to be used by the cmdlet. Retrieve the value for this parameter by either specifying -ReturnConnection on Connect-PnPOnline or by executing Get-PnPConnection.",
+      "Type: PnPConnection\r\nParameter Sets: (All)\r\n\r\nRequired: False\r\nPosition: Named\r\nDefault value: None\r\nAccept pipeline input: False\r\nAccept wildcard characters: False",
+      "Type: PnPConnectionParameter Sets: (All)Required: FalsePosition: Named\r\nDefault value: NoneAccept pipeline input: FalseAccept wildcard characters: False",
+      "-Identity",
+      "The ID of the listitem, or actual ListItem object",
+      "Type: ListItemPipeBind\r\nParameter Sets: (All)\r\n\r\nRequired: True\r\nPosition: Named\r\nDefault value: None\r\nAccept pipeline input: False\r\nAccept wildcard characters: False",
+      "Type: ListItemPipeBindParameter Sets: (All)Required: TruePosition: Named\r\nDefault value: NoneAccept pipeline input: FalseAccept wildcard characters: False",
+      "-List",
+      "The ID, Title or Url of the list.",
+      "Type: ListPipeBind\r\nParameter Sets: (All)\r\n\r\nRequired: True\r\nPosition: 0\r\nDefault value: None\r\nAccept pipeline input: True (ByValue)\r\nAccept wildcard characters: False",
+      "Type: ListPipeBindParameter Sets: (All)Required: TruePosition: 0\r\nDefault value: NoneAccept pipeline input: True (ByValue)\r\nAccept wildcard characters: False"
+    ],
+    "prefix": [
+      "Get-PnPListItemComment"
+    ],
+    "body": [
+      "Get-PnPListItemComment -List $1 -Identity $2"
     ]
   },
   "Get-PnPListItemPermission": {
@@ -5526,6 +5557,15 @@
     ],
     "body": [
       "Set-PnPSiteScript -Identity $1"
+    ]
+  },
+  "Set-PnPSiteScriptPackage": {
+    "description": "",
+    "prefix": [
+      "Set-PnPSiteScriptPackage"
+    ],
+    "body": [
+      "Set-PnPSiteScriptPackage -Identity $1"
     ]
   },
   "Set-PnPSiteSensitivityLabel": {

@@ -169,8 +169,8 @@
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageTextPart.md"
     },
     {
-      "name": "",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/.md"
+      "name": "Add-PnPPageWebPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageWebPart.md"
     },
     {
       "name": "Add-PnPPlannerBucket",
@@ -387,6 +387,10 @@
     {
       "name": "Copy-PnPFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPFolder.md"
+    },
+    {
+      "name": "Copy-PnPList",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPList.md"
     },
     {
       "name": "Copy-PnPList",
@@ -761,8 +765,8 @@
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemAttachment.md"
     },
     {
-      "name": "Get-PnPListItem",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItem.md"
+      "name": "Get-PnPListItemComment",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemComment.md"
     },
     {
       "name": "Get-PnPListItemPermission",
@@ -2277,8 +2281,8 @@
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteScript.md"
     },
     {
-      "name": "Set-PnPSiteScript",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteScript.md"
+      "name": "Set-PnPSiteScriptPackage",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteScriptPackage.md"
     },
     {
       "name": "Set-PnPSiteSensitivityLabel",

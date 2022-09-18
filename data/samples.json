@@ -685,6 +685,15 @@
       "tabTag": "#tab/pnpps"
     },
     {
+      "title": "SPO Recover Deleted Meeting Recordings",
+      "url": "https://pnp.github.io/script-samples/spo-recover-meeting-recordings/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recover-meeting-recordings/README.md",
+      "description": "With the new 120 day expiration meeting recording policy - what do you do if you need to recover across thousands of accounts.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recover-meeting-recordings/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps"
+    },
+    {
       "title": "Get SharePoint Site Recycle Bin Items And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-recyclebin-items-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recyclebin-items-to-csv/README.md",
