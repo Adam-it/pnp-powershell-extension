@@ -550,6 +550,15 @@
       "tabTag": "#tab/pnpps"
     },
     {
+      "title": "Get all files in a Document Library along with Created By and Modified By",
+      "url": "https://pnp.github.io/script-samples/spo-get-files-and-creators-modifiers/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-files-and-creators-modifiers/README.md",
+      "description": "When connected to a site with Connect-PnPOnline this script will walk through the site's document libraries, list each file, when it was created and by whom, and when it was last modified by whom",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-files-and-creators-modifiers/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps"
+    },
+    {
       "title": "Get SharePoint List Or Library Permissions And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-get-list-library-permission-export-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-list-library-permission-export-to-csv/README.md",

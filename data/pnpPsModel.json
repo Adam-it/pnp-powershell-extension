@@ -537,6 +537,10 @@
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAvailableSiteClassification.md"
     },
     {
+      "name": "Get-PnPAzureADActivityReportDirectoryAudit",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportDirectoryAudit.md"
+    },
+    {
       "name": "Get-PnPAzureADApp",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADApp.md"
     },
