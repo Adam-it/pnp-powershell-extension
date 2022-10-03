@@ -1,13 +1,29 @@
-.cli-commands-list {
+.pnp-commands-list {
     padding: 0;
     list-style: inside;
 }
 
-.cli-commands-list li {
+.pnp-commands-list li {
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
     padding-bottom: 5px;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.pnp-commands-list-controls { 
+    position: fixed;
+    top: 0;
+    min-height: 70px;
+    background-color: var(--vscode-editorGroupHeader-tabsBackground);
+}
+
+.pnp-commands-list-wrapper { 
+    padding-top: 60px;
+}
+
+.pnp-commands-list-actions{
+    text-align: right;
+    padding-right: 5px;
 }

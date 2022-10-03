@@ -1,1 +1,3 @@
-export interface IAppProps {}
+export interface IAppProps {
+    searchQuery: string;
+}

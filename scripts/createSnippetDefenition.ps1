@@ -31,7 +31,6 @@ foreach ($command in $allCommands) {
         $commandDescription = ''
     }
     
-
     $syntax = $html.all.tags('h2') | Where-Object { $_.tagName -eq 'H2' } | Select-Object -First 3
     $syntaxIndex = @($html.all).IndexOf($syntax[$syntax.Count - 1])
     $commandOptions = @($html.all)[($syntaxIndex + 1)..($descriptionIndex - 1)]
@@ -58,7 +57,11 @@ foreach ($command in $allCommands) {
 
     $commandSnippets.Add($commandTitle, $commandClass)
 
-    $commands += [pscustomobject]@{name = "$commandTitle"; url = "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/$commandTitle.md" }
+    $commands += [pscustomobject]@{
+        name    = "$commandTitle"; 
+        url     = "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/$commandTitle.md" ;
+        docs    = "https://pnp.github.io/powershell/cmdlets/$commandTitle.html" 
+    }
 }
 
 $orderedCommandSnippets = [ordered]@{}

@@ -1,6 +1,5 @@
 import * as vscode from 'vscode';
 import { WebviewViewProvider } from 'vscode';
-import * as pnpPsCommands from '../../data/pnpPsModel.json';
 import * as samples from '../../data/samples.json';
 import axios from 'axios';
 
@@ -30,7 +29,7 @@ export class WebViewPanels implements WebviewViewProvider {
     this._activateListener(this._view.webview);
   }
 
-  public getHtmlWebviewForSamplesView() {
+  public getHtmlWebviewForSamplesView(searchQuery: string = '') {
     if (this.sampleView === null) {
       this.sampleView = vscode.window.createWebviewPanel(
         'PnPPSSamples',
@@ -57,8 +56,9 @@ export class WebViewPanels implements WebviewViewProvider {
     const scriptUri = this.sampleView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.js'));
     const stylesUri = this.sampleView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'samplesView', 'build', 'assets', 'index.css'));
 
-    this.sampleView.webview.html = this._getHtmlWebview(this.sampleView.webview, scriptUri, stylesUri);
+    this.sampleView.webview.html = this._getHtmlWebview(this.sampleView.webview, scriptUri, stylesUri, searchQuery);
     this._activateListener(this.sampleView.webview);
+    this.sampleView.reveal();
   }
 
   public getHtmlWebviewForDocsView(commandName: string) {
@@ -83,13 +83,15 @@ export class WebViewPanels implements WebviewViewProvider {
       this.docsView.onDidDispose(() => {
         this.docsView = null;
       });
+
+      this._activateListener(this.docsView.webview);
     }
 
     const scriptUri = this.docsView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.js'));
     const stylesUri = this.docsView.webview.asWebviewUri(vscode.Uri.joinPath(this.extensionPath, 'webview-ui', 'docsView', 'build', 'assets', 'index.css'));
 
-    const commandUrl = pnpPsCommands.commands.find(command => command.name === commandName).url;
-    this.docsView.webview.html = this._getHtmlWebview(this.docsView.webview, scriptUri, stylesUri, commandUrl);
+    this.docsView.webview.html = this._getHtmlWebview(this.docsView.webview, scriptUri, stylesUri, commandName);
+    this.docsView.reveal();
   }
 
   public _activateListener(webview: vscode.Webview) {
@@ -103,6 +105,9 @@ export class WebViewPanels implements WebviewViewProvider {
           break;
         case 'createScriptFile':
           this._createScriptFile(message.value);
+          break;
+        case 'showSamples':
+          this.getHtmlWebviewForSamplesView(message.value);
           break;
         default:
           break;

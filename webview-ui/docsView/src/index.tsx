@@ -11,7 +11,7 @@ declare global {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App commandUrl={window.initialData} />
+    <App commandName={window.initialData} />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,3 +1,3 @@
 export interface IAppProps {
-    commandUrl: string;
+    commandName: string;
 }
