@@ -7,7 +7,35 @@
       "description": "Example how you can delete all Microsoft 365 Groups and SharePoint Online sites in your development environment",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-delete-m365-groups-and-sharepoint-sites/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Patrick Lamber",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Microsoft 365 Groups",
+        "Imported CLI Sample",
+        "m365 login",
+        "m365 status",
+        "m365 aad o365group list",
+        "m365 aad o365group remove",
+        "m365 spo site classic list",
+        "m365 spo site remove",
+        "Connect-PnPOnline",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite",
+        "Remove-PnPDeletedMicrosoft365Group",
+        "Remove-PnPMicrosoft365Group",
+        "Remove-PnPTenantDeletedSite",
+        "Remove-PnPTenantSite"
+      ]
     },
     {
       "title": "Replace a user's membership in selected Microsoft 365 Groups or Teams",
@@ -16,7 +44,43 @@
       "description": "Replace the membership of a user for a selected list of Groups",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-replace-membership-of-selected-groups/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Patrick Lamber",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
+        },
+        {
+          "name": "Alan Eardley",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/10485065?v=4"
+        }
+      ],
+      "tags": [
+        "Microsoft 365 Groups",
+        "Microsoft Teams",
+        "Governance",
+        "Imported CLI Sample",
+        "m365 login",
+        "m365 status",
+        "m365 aad o365group get",
+        "m365 aad o365group user add",
+        "m365 aad o365group user list",
+        "m365 aad o365group user remove",
+        "m365 cli config set",
+        "Add-PnPMicrosoft365GroupMember",
+        "Add-PnPMicrosoft365GroupOwner",
+        "Connect-PnPOnline",
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPMicrosoft365GroupMember",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Remove-PnPMicrosoft365Group",
+        "Remove-PnPMicrosoft365GroupMember",
+        "Remove-PnPMicrosoft365GroupOwner"
+      ]
     },
     {
       "title": "Replace an owner in a Microsoft 365 Group or Microsoft Team",
@@ -25,7 +89,41 @@
       "description": "Find all the Microsoft 365 Groups that a user is an Owner of and replace them with someone",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-replace-owner-with-a-different-one/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Patrick Lamber",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
+        },
+        {
+          "name": "Alan Eardley",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/10485065?v=4"
+        }
+      ],
+      "tags": [
+        "Microsoft 365 Groups",
+        "Microsoft Teams",
+        "Governance",
+        "Imported CLI Sample",
+        "m365 login",
+        "m365 status",
+        "m365 aad o365group list",
+        "m365 aad o365group user add",
+        "m365 aad o365group user list",
+        "m365 aad o365group user remove",
+        "m365 cli config set",
+        "Add-PnPMicrosoft365GroupOwner",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Remove-PnPMicrosoft365Group",
+        "Remove-PnPMicrosoft365GroupOwner"
+      ]
     },
     {
       "title": "Restore large number of items from SharePoint Recycle bin in bulk",
@@ -34,7 +132,20 @@
       "description": "Restores Recycle bin items from CSV file in batches",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/bulk-restore-from-recyclebin/assets/csv-output.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Matthews",
+          "pictureUrl": "https://github.com/pmatthews05.png"
+        }
+      ],
+      "tags": [
+        "recycle bin",
+        "restore",
+        "bulk",
+        "Get-PnPRecycleBin",
+        "Invoke-PnPSPRestMethod"
+      ]
     },
     {
       "title": "Undelete items from SharePoint Recycle bin",
@@ -43,7 +154,28 @@
       "description": "This script allows users to undelete items from recycle bin and restore it in respective document library and list.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/bulk-undelete-from-recyclebin/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Dipen Shah",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/40450958?v=4"
+        }
+      ],
+      "tags": [
+        "recycle bin",
+        "recover",
+        "Connect-PnPOnline",
+        "Get-PnPRecycleBinItem",
+        "Restore-PnPRecycleBinItem",
+        "m365 login",
+        "m365 status",
+        "m365 spo site recyclebinitem list",
+        "m365 spo site recyclebinitem restore"
+      ]
     },
     {
       "title": "Create Modern Sites as alternative primary language",
@@ -52,7 +184,18 @@
       "description": "Create a modern site in another language as the primary language",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/create-comm-sites-specific-locale/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": null
     },
     {
       "title": "Create bulk dummy documents in SharePoint Document library",
@@ -61,7 +204,14 @@
       "description": "This script sample can be useful to upload dummy documents to SP library by auto incrementing file name",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/create-dummy-docs-in-library/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Siddharth Vaghasia",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/9557557?s=400&u=cbb0afefedb5a1d5db510a2e5e6579c8e6fc66ad&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Create bulk dummy documents inc versions in SharePoint Document library",
@@ -70,7 +220,18 @@
       "description": "This script sample can be useful to upload dummy documents and versions to SP library by auto incrementing file name",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/create-dummy-docs-versions-in-library/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Mathijs Verbeeck",
+          "pictureUrl": "https://github.com/mathijsverbeeck.png"
+        },
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Fetch User Profile Properties From Site Collection And Export To CSV",
@@ -79,7 +240,18 @@
       "description": "Get users or user profile properties from any SharePoint site collection and we need it in CSV or Excel format",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/fetch-user-profile-properties/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Mathijs Verbeeck",
+          "pictureUrl": "https://github.com/mathijsverbeeck.png"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": null
     },
     {
       "title": "Export all flows in environment",
@@ -88,7 +260,28 @@
       "description": "This script will get all flows in your default environment and export them for importing back into Power Automate",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/flow-export-all-flows-in-environment/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Luise Freese",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/49960482?v=4"
+        },
+        {
+          "name": "Garry Trinder",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/11563347?v=4"
+        }
+      ],
+      "tags": [
+        "m365 flow export",
+        "m365 flow list",
+        "m365 flow environment list",
+        "Export-PnPFlow",
+        "Get-PnPFlow"
+      ]
     },
     {
       "title": "Flows runs day summary",
@@ -97,7 +290,25 @@
       "description": "This script creates a report of all flow runs from current day and sends the report as an adaptive card to the provided url",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/flow-runs-day-summary/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "Power Automate",
+        "m365 login",
+        "m365 status",
+        "m365 adaptivecard send",
+        "m365 flow list",
+        "m365 flow run list"
+      ]
     },
     {
       "title": " Generate Markdown Report of LCIDs",
@@ -106,7 +317,18 @@
       "description": "Simple report listing out the language IDs in Markdown",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/generate-markdown-lcids/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": null
     },
     {
       "title": "How to to get all site collections with their sub webs",
@@ -115,7 +337,28 @@
       "description": "Get site collections with all the sub-webs",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-all-site-collections-subwebs/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 status",
+        "m365 spo site classic list",
+        "m365 spo site list",
+        "m365 spo web list",
+        "Connect-PnPOnline",
+        "Get-PnPSubWeb",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite"
+      ]
     },
     {
       "title": "Authenticate with and call the Microsoft Graph",
@@ -124,7 +367,29 @@
       "description": "Obtain a new access token for the Microsoft Graph and use it an HTTP request, or connect to the Graph",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-call-graph/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Garry Trinder",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/11563347?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": [
+        "bash",
+        "Imported CLI Sample",
+        "m365 util accesstoken get",
+        "Connect-PnPOnline",
+        "Get-PnPGraphAccessToken",
+        "Invoke-RestMethod",
+        "Connect-MgGraph",
+        "Get-MgContext",
+        "Get-MgUser",
+        "Disconnect-MgGraph"
+      ]
     },
     {
       "title": "Modernize Blog Pages",
@@ -133,7 +398,19 @@
       "description": "Converts all blog pages in a site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/modernize-blog-pages/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "ConvertTo-PnPClientSidePage",
+        "Get-PnPList",
+        "Get-PnPListItem"
+      ]
     },
     {
       "title": "Bulk Convert Classic Publishing Pages to Modern Pages",
@@ -142,7 +419,24 @@
       "description": "The sample script converts all SharePoint online classic publishing pages in a site collection to modern pages in a modern site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/modernize-bulk-publishing-pages/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "bash",
+        "classic",
+        "Connect-PnPOnline",
+        "ConvertTo-PnPPage",
+        "Get-PnPFile",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPWeb",
+        "Save-PnPPageConversionLog"
+      ]
     },
     {
       "title": " Modernizing classic pages from on-premises sites",
@@ -151,7 +445,20 @@
       "description": "Conversion of an on-premises 2013 publishing page to the modern experience",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/modernize-classic-pages-from-publishing-sites/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "ConvertTo-PnPClientSidePage",
+        "ConvertTo-PnPPage",
+        "Export-PnPPage",
+        "Export-PnPPageMapping"
+      ]
     },
     {
       "title": "Export OneDrive Admins",
@@ -160,7 +467,16 @@
       "description": "Exports every OneDrive in the tenant, and the site collection admins. Audit which admins have access to user OneDrives.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/onedrive-export-admins/assets/OneDriveAdmins.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Matt Maher",
+          "pictureUrl": "https://github.com/maher256.png"
+        }
+      ],
+      "tags": [
+        "classic"
+      ]
     },
     {
       "title": "Copy Planner plan",
@@ -169,7 +485,37 @@
       "description": "With this sample, you can copy an existing plan to a certain group.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/planner-copy-planner-plan/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Milan Holemans",
+          "pictureUrl": "https://github.com/milanholemans.png"
+        }
+      ],
+      "tags": [
+        "Planner",
+        "PowerShell",
+        "m365 login",
+        "m365 status",
+        "m365 planner plan get",
+        "m365 planner bucket list",
+        "m365 planner task list",
+        "m365 planner task get",
+        "m365 planner plan add",
+        "m365 planner bucket add",
+        "m365 planner task add",
+        "Add-PnPPlannerBucket",
+        "Add-PnPPlannerTask",
+        "Connect-PnPOnline",
+        "Get-PnPPlannerBucket",
+        "Get-PnPPlannerPlan",
+        "Get-PnPPlannerTask",
+        "New-PnPPlannerPlan"
+      ]
     },
     {
       "title": "Planner migration to SharePoint list",
@@ -178,7 +524,55 @@
       "description": "Migrate a planner plan with buckets and tasks to a SharePoint Online list",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/planner-migration-spo-list/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jasey Waegebaert",
+          "pictureUrl": "https://github.com/Jwaegebaert.png"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Albert-Jan Schot",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/15227781?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Microsoft 365",
+        "PowerShell",
+        "Planner",
+        "Imported CLI Sample",
+        "Security",
+        "m365 login",
+        "m365 status",
+        "m365 planner plan list",
+        "m365 planner bucket list",
+        "m365 planner task list",
+        "m365 planner task get",
+        "m365 aad user get",
+        "m365 spo list add",
+        "m365 spo field add",
+        "m365 spo listitem add",
+        "m365 spo listitem set",
+        "m365 spo list view field add",
+        "m365 spo list view set",
+        "Add-PnPField",
+        "Add-PnPFieldFromXml",
+        "Add-PnPListItem",
+        "Add-PnPView",
+        "Connect-PnPOnline",
+        "Get-PnPAzureADUser",
+        "Get-PnPPlannerBucket",
+        "Get-PnPPlannerPlan",
+        "Get-PnPPlannerTask",
+        "New-PnPList",
+        "Set-PnPList",
+        "Set-PnPListItem",
+        "Set-PnPView"
+      ]
     },
     {
       "title": "Remove delete option on a document library",
@@ -187,7 +581,18 @@
       "description": "Remove the delete option on a document library to prevent users from accidentally deleting libraries",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/remove-delete-option-library/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": null
     },
     {
       "title": "Report of Private Teams channels to Excel",
@@ -196,7 +601,18 @@
       "description": "Gathers all of the teams private channels in your tenant and produces an Excel file",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/report-private-teams-excel/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": null
     },
     {
       "title": "Report of where a Term is used",
@@ -205,7 +621,14 @@
       "description": "Lists all the places where a specific Term ID is used",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/ReportTermUse/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Bo Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": null
     },
     {
       "title": "Reset files permission unique to inheritance",
@@ -214,7 +637,36 @@
       "description": "Reset bulk file permissions  from unique to parent folder inheritance.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/reset-files-permission-unique-to-inherited/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Dipen Shah",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/40450958?v=4"
+        }
+      ],
+      "tags": [
+        "Permission",
+        "Unique Permission",
+        "Permission Inheritance",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPContext",
+        "Get-PnPFolder",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPProperty",
+        "m365 login",
+        "m365 status",
+        "m365 spo list list",
+        "m365 spo file list",
+        "m365 spo file get",
+        "m365 spo listitem get",
+        "m365 spo listitem roleinheritance reset"
+      ]
     },
     {
       "title": "Add App Catalog to SharePoint site",
@@ -223,7 +675,22 @@
       "description": "Deploy certain SharePoint solution to a specific site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-app-catalog/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        },
+        {
+          "name": "David Ramalho",
+          "pictureUrl": "https://i1.wp.com/pbs.twimg.com/profile_images/1060671490847326208/zyudunZr_200x200.jpg?zoom=1.25&ssl=1"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": null
     },
     {
       "title": "Add bulk users to SharePoint site groups from CSV.",
@@ -232,7 +699,51 @@
       "description": "Add bulk users to SharePoint site groups from CSV.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-bulk-users-to-groups/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "Add-PnPGroupMember",
+        "Connect-PnPOnline",
+        "Get-PnPGroup",
+        "Get-PnPGroupMember"
+      ]
+    },
+    {
+      "title": "Add Content Type Hub with calendar format field to List",
+      "url": "https://pnp.github.io/script-samples/spo-add-contenttypehub-format-field-to-List/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-contenttypehub-format-field-to-List/README.md",
+      "description": "This script will create Content Type Hub with custom calendar List field formatting and include in destination site and associated custom List",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-contenttypehub-format-field-to-List/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "André Lage",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8522348?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPContentTypePublishingHubUrl",
+        "Invoke-WebRequest",
+        "Get-PnPContentType",
+        "Add-PnPContentType",
+        "Add-PnPField",
+        "Set-PnPField",
+        "Add-PnPFieldToContentType",
+        "Publish-PnPContentType",
+        "Add-PnPContentTypesFromContentTypeHub",
+        "New-PnPList",
+        "Remove-PnPContentTypeFromList",
+        "Add-PnPContentTypeToList",
+        "Set-PnPView",
+        "Disconnect-PnPOnline"
+      ]
     },
     {
       "title": "Add a document library web part to a page",
@@ -241,7 +752,22 @@
       "description": "Add a document library web part to a page (and only show a specific folder)",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-document-library-webpart-to-page/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Todd Klindt",
+          "pictureUrl": "https://github.com/ToddKlindt.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Marijn Somers",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/47852415?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Adding a new modern calendar view to a SharePoint list",
@@ -250,7 +776,14 @@
       "description": "This script allow you to add a new modern calendar view to an existing SharePoint list using the SharePoint REST API",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-modern-calendar-view/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Creates multiple document libraries by applying custom list template",
@@ -259,7 +792,24 @@
       "description": "Script that creates multiple libraries by applying custom list template with custom document library, site columns and site content types",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-list-template-with-custom-library/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Add-PnPNavigationNode",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPField",
+        "Get-PnPList",
+        "Invoke-PnPQuery",
+        "Set-PnPList",
+        "Connect-SPOService"
+      ]
     },
     {
       "title": "Add multiple folders in libraries using a csv file",
@@ -268,7 +818,23 @@
       "description": "This script will create the folders (not nested) into the libraries provided in the .csv file.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-multiple-folders-in-libraries-using-csv-file/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jiten Parmar",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7124132?v=4"
+        },
+        {
+          "name": "Veronique Lengelle",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25181757?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Governance",
+        "Imported CLI Sample",
+        "m365 spo folder add"
+      ]
     },
     {
       "title": "Add multiple lists or libraries using csv file",
@@ -277,7 +843,14 @@
       "description": "This script sample shows how to bulk create lists or libraries using CSV file",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-multiple-lists-using-csv-file/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Creates and apply custom site design with custom column types",
@@ -286,7 +859,31 @@
       "description": "Script that creates and applies custom site design with custom column types",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-site-design-with-custom-list/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "m365 login",
+        "m365 logout",
+        "m365 status",
+        "m365 spo site get",
+        "m365 spo sitedesign add",
+        "m365 spo sitedesign apply",
+        "m365 spo sitedesign set",
+        "m365 spo sitescript add",
+        "Add-PnPSiteDesign",
+        "Add-PnPSiteScript",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Invoke-PnPSiteDesign",
+        "Set-PnPSite",
+        "Set-PnPSiteDesign"
+      ]
     },
     {
       "title": "Add a tenant theme to SharePoint Online",
@@ -295,7 +892,22 @@
       "description": "This is example for adding a SharePoint Theme as an option for modern sites in the tenant",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-tenant-theme/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Script allow copy column format in SharePoint and apply to different column.",
@@ -304,7 +916,27 @@
       "description": "Copy column format from column or web sample and apply to different column",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-column-format/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jasey Waegebaert",
+          "pictureUrl": "https://github.com/Jwaegebaert.png"
+        },
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPField",
+        "Set-PnPField",
+        "m365 login",
+        "m365 status",
+        "m365 spo field get",
+        "m365 spo field set"
+      ]
     },
     {
       "title": "Bulk Publish Syntex Models To Libraries",
@@ -313,7 +945,19 @@
       "description": "This script sample will publish Syntex Document Understanding Models to many libraries using the batching functionality of PnP PowerShell.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-publish-syntex-model/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Publish-PnPSyntexModel",
+        "SharePoint Syntex",
+        "Invoke-PnPBatch"
+      ]
     },
     {
       "title": "Clean Up Unwanted Site Columns from Content Types and Lists/Libraries",
@@ -322,7 +966,18 @@
       "description": "We decide we want to trim away a few of the Site Columns we’ve created, here is the script that does just that",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-cleanup-site-column-usage/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Marc D Anderson",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/1295627?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Copy library view to another library(ies)",
@@ -331,7 +986,29 @@
       "description": "The script copies a library view to library(ies) in destination site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-library-view/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Add-PnPView",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPView",
+        "Set-PnPView",
+        "m365 login",
+        "m365 logout",
+        "m365 status",
+        "m365 spo list list",
+        "m365 spo list view add",
+        "m365 spo list view get",
+        "m365 spo list view set"
+      ]
     },
     {
       "title": "Copy Custom Web Part Settings",
@@ -340,7 +1017,21 @@
       "description": "Script to copy custom SPFx web part settings from one page to other pages",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-webpart-settings/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Anoop Tatti",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/9694225?v=4"
+        }
+      ],
+      "tags": [
+        "Modern page",
+        "SPFx",
+        "Web Part Settings",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPPage"
+      ]
     },
     {
       "title": "Copy Webparts From One Page To Another Page",
@@ -349,7 +1040,16 @@
       "description": "This script sample shows how to copy webparts from one page to another page in the same site collection.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-webparts-to-another-page/assets/example.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline"
+      ]
     },
     {
       "title": "Bulk library generation",
@@ -358,7 +1058,30 @@
       "description": "With this sample, you can create a whole bunch of libraries at once.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-bulk-libraries/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Milan Holemans",
+          "pictureUrl": "https://github.com/milanholemans.png"
+        },
+        {
+          "name": "Jasey Waegebaert",
+          "pictureUrl": "https://github.com/Jwaegebaert.png"
+        }
+      ],
+      "tags": [
+        "bash",
+        "classic",
+        "m365 login",
+        "m365 status",
+        "m365 spo field add",
+        "m365 spo list add",
+        "m365 spo list view add",
+        "Add-PnPField",
+        "Add-PnPView",
+        "Connect-PnPOnline",
+        "New-PnPList"
+      ]
     },
     {
       "title": "Create Modern SharePoint Pages and add web parts",
@@ -367,7 +1090,14 @@
       "description": "Create modern SharePoint pages and adding web parts without using a provisioning engine",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-modern-pages-add-web-parts/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Create SharePoint Groups in Bulk using CSV file",
@@ -376,7 +1106,18 @@
       "description": "This script shows how to create multiple groups in SharePoint for different site collection providing input from CSV file.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-sharepoint-groups-bulk-csv/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kunj Balkrishna Sangani",
+          "pictureUrl": "https://github.com/kunj-sangani.png"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Connect-PnPOnline",
+        "New-PnPGroup"
+      ]
     },
     {
       "title": "Delete orphaned temporary pages from Site Pages",
@@ -385,7 +1126,22 @@
       "description": "Script to clean up temporary pages from Site Pages library",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-delete-orphaned-temporary-sitepages/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Brian P. McCullough",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8305245?v=4"
+        }
+      ],
+      "tags": [
+        "Modern page",
+        "Site Pages",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPContext",
+        "Get-PnPList",
+        "Invoke-PnPQuery"
+      ]
     },
     {
       "title": "Detect Installed Theme",
@@ -394,7 +1150,21 @@
       "description": "This script will detect install theme for particular site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-detect-theme/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dipen Shah",
+          "pictureUrl": "https://avatars.githubusercontent.com/dips365"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "SPO Theme",
+        "Connect-PnPOnline",
+        "Get-PnPTenant",
+        "Get-PnPTenantTheme",
+        "Get-PnPWeb"
+      ]
     },
     {
       "title": "Empty the tenant recycle bin",
@@ -403,7 +1173,28 @@
       "description": "Script that removes sites from the tenant recycle bin",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-tenant-recyclebin/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Laura Kokkarinen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "bash",
+        "Imported CLI Sample",
+        "m365 spo tenant recyclebinitem list",
+        "m365 spo tenant recyclebinitem remove",
+        "Clear-PnPTenantRecycleBinItem",
+        "Connect-PnPOnline",
+        "Get-PnPTenant",
+        "Get-PnPTenantRecycleBinItem"
+      ]
     },
     {
       "title": "Export checked-out files in all sites associated with a hub site to CSV",
@@ -412,7 +1203,20 @@
       "description": "Export checked-out files in all sites associated with a hub site to CSV",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-checked-out-files-in-all-sites-associated-with-a-hub-site-to-csv/assets/screen-output.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Arash Aghajani",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/29246344?v=4"
+        }
+      ],
+      "tags": [
+        "m365",
+        "sharepoint",
+        "documents",
+        "checkedout",
+        "hubsite"
+      ]
     },
     {
       "title": "Export CSV To SharePoint List Data",
@@ -421,7 +1225,28 @@
       "description": "This script sample shows how to export CSV to SharePoint list data",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-data-to-sharepoint-lists/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 status",
+        "m365 spo field add",
+        "m365 spo list add",
+        "m365 spo list view field add",
+        "m365 spo listitem add",
+        "Add-PnPField",
+        "Add-PnPListItem",
+        "New-PnPList"
+      ]
     },
     {
       "title": "Exporting Document libraries inc folders and versions for selected Site Collections to a Fileshare/drive",
@@ -430,7 +1255,14 @@
       "description": "The purpose of this script is to exporting Document libraries inc folders and versions for selected Site Collections to a Fileshare/drive",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-files-and-versions/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Get Hub Sites Information And Export It To CSV",
@@ -439,7 +1271,22 @@
       "description": "This script sample shows how to get hub sites information and export it to CSV",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-sites-details-to-csv/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jasey Waegebaert",
+          "pictureUrl": "https://github.com/Jwaegebaert.png"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Get-PnPHubSite"
+      ]
     },
     {
       "title": "Export SharePoint List Data to CSV with attachments",
@@ -448,7 +1295,24 @@
       "description": "This script sample shows how to export SharePoint list to CSV with attachments",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-sharepoint-list-items-to-csv/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo field list",
+        "m365 spo listitem list",
+        "m365 spo listitem attachment list",
+        "m365 spo file get"
+      ]
     },
     {
       "title": "Export all content from an existing SharePoint site",
@@ -457,7 +1321,27 @@
       "description": "This script shows how to export all content from an existing SharePoint site ",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-site-all-content/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Rodrigo Pinto",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
+        }
+      ],
+      "tags": [
+        "Add-PnPFile",
+        "Add-PnPFileToSiteTemplate",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPFile",
+        "Get-PnPFolder",
+        "Get-PnPFolderItem",
+        "Get-PnPList",
+        "Get-PnPSite",
+        "Get-PnPSiteTemplate",
+        "Invoke-PnPSiteTemplate",
+        "Save-PnPSiteTemplate"
+      ]
     },
     {
       "title": "Get Site Usage Reports And Export It To CSV",
@@ -466,7 +1350,18 @@
       "description": "This script sample shows how to get all site collections with usage information and Export to CSV.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-site-usage-reports/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Get SharePoint Site Collection and their Subwebs Permissions And Export It To CSV",
@@ -475,7 +1370,21 @@
       "description": "This script sample shows how to get permission for site collection with their subwebs and export it to CSV with some required details",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-sitecollection-permission-with-subwebs/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPGroup",
+        "Get-PnPGroupMember",
+        "Get-PnPProperty",
+        "Get-PnPSubWeb",
+        "Get-PnPWeb"
+      ]
     },
     {
       "title": "Extract Space content type page as template and save to SharePoint",
@@ -484,7 +1393,25 @@
       "description": "Script that extract space content type page as template and save it to SharePoint",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-space-page-as-template-and-save-to-sharepoint/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPHomePage",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPSite",
+        "Get-PnPSiteTemplate",
+        "Get-PnPWeb",
+        "Invoke-PnPSiteTemplate",
+        "Set-PnPHomePage"
+      ]
     },
     {
       "title": "Export SharePoint Term Store terms to CSV",
@@ -493,7 +1420,31 @@
       "description": "Export SharePoint Term Store terms to CSV",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-termstore-terms-to-csv/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Ramin Ahmadi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/15119083?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo terms list",
+        "m365 logout",
+        "m365 status",
+        "m365 spo term group list",
+        "m365 spo term list",
+        "m365 spo term set list",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPTerm",
+        "Get-PnPTermGroup",
+        "Get-PnPTermSet"
+      ]
     },
     {
       "title": "Create a SharePoint site using the configuration of another site",
@@ -502,7 +1453,14 @@
       "description": "This script uses PnP Powershell to extract the template of one SharePoint site and invoke it on another site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-extract-and-invoke-site-template/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Lewis Baybutt",
+          "pictureUrl": "https://github.com/lowcodelewis.png"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Extract Modern Pages to Individual Provisioning Files",
@@ -511,7 +1469,20 @@
       "description": "Script that extracts all the pages in the pages library",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-extract-modern-pages/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Export-PnPPage",
+        "Get-PnPList",
+        "Get-PnPListItem"
+      ]
     },
     {
       "title": "Generate Demo Events for SharePoint Events List",
@@ -520,7 +1491,25 @@
       "description": "This sample script generates demo events for the SharePoint Events List within a modern site using a CSV file",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-demo-events/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "m365 login",
+        "m365 status",
+        "m365 spo listitem add",
+        "Add-PnPListItem",
+        "Connect-PnPOnline"
+      ]
     },
     {
       "title": "Report of SharePoint Storage Savings by trimming document versions",
@@ -529,7 +1518,14 @@
       "description": "This script creates an overview for The total amount of SharePoint Storage, and how much could be saved by trimming the versions.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-sp-storage-savings-report/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Get All Apps From The App Catalog And Export It To CSV",
@@ -538,7 +1534,18 @@
       "description": "This script sample shows how to get all apps from the app catalog and export it to CSV.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-all-apps-from-appcatalog/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Get SharePoint List Fields With Required properties And Export It To CSV",
@@ -547,7 +1554,25 @@
       "description": "This script sample shows how to get list fields with some required propertiesand export it to CSV ",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-and-export-list-fields/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 status",
+        "m365 spo field get",
+        "m365 spo field list",
+        "Connect-PnPOnline",
+        "Get-PnPField"
+      ]
     },
     {
       "title": "Get all files in a Document Library along with Created By and Modified By",
@@ -556,7 +1581,22 @@
       "description": "When connected to a site with Connect-PnPOnline this script will walk through the site's document libraries, list each file, when it was created and by whom, and when it was last modified by whom",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-files-and-creators-modifiers/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Todd Klindt",
+          "pictureUrl": "https://github.com/ToddKlindt.png"
+        }
+      ],
+      "tags": [
+        "bash",
+        "classic",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite"
+      ]
     },
     {
       "title": "Get SharePoint List Or Library Permissions And Export It To CSV",
@@ -565,7 +1605,29 @@
       "description": "This script sample shows how to get permission for list/library and export it to CSV with some required details",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-list-library-permission-export-to-csv/assets/example.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "Permission",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 spo list get",
+        "m365 spo group user list",
+        "m365 status",
+        "Get-PnPGroup",
+        "Get-PnPGroupMember",
+        "Get-PnPProperty"
+      ]
     },
     {
       "title": "Export all List and Libraries with Item count and Permission in CSV",
@@ -574,7 +1636,18 @@
       "description": "Get all lists and Libraries along with total Item count and permissions and export it in CSV",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-lists-libraries-item-count-permissions/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Dipen Shah",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/40450958?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Hide SharePoint list from Site Contents",
@@ -583,7 +1656,29 @@
       "description": "Hide the SharePoint list from the UI this script will hide a specific list from the site contents",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-hide-list-from-site-contents/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "David Ramalho",
+          "pictureUrl": "https://i1.wp.com/pbs.twimg.com/profile_images/1060671490847326208/zyudunZr_200x200.jpg?zoom=1.25&ssl=1"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Hide List",
+        "bash",
+        "Imported CLI Sample",
+        "m365 login",
+        "m365 spo list get",
+        "m365 spo list set",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Set-PnPList"
+      ]
     },
     {
       "title": "SharePoint Online Hub Site Association",
@@ -592,7 +1687,29 @@
       "description": "This script sample shows how to associate SharePoint online site with a hub site.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-hub-sites-association/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jasey Waegebaert",
+          "pictureUrl": "https://github.com/Jwaegebaert.png"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Hub Site",
+        "Connect-PnPOnline",
+        "Add-PnPHubSiteAssociation",
+        "m365 login",
+        "m365 status",
+        "m365 spo hubsite list",
+        "m365 spo hubsite connect",
+        "Add-SPOHubSiteAssociation",
+        "Connect-SPOService"
+      ]
     },
     {
       "title": "Import CSV to an existing SharePoint List",
@@ -601,7 +1718,14 @@
       "description": "This script shows how to import a CSV to an existing SharePoint list without explicitly enumerating all list fields ",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-import-csv-data-to-existing-sharepoint-list/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Rodrigo Pinto",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Import taxonomy terms and labels into a term set",
@@ -610,7 +1734,23 @@
       "description": "The sample is a small set of terms to showcase the use case but the requirement was to import 100s of terms with labels into SharePoint Online.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-import-taxonomy-terms-labels/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Connect-PnPOnline",
+        "Get-PnPTerm",
+        "Get-PnPTermGroup",
+        "Get-PnPTermLabel",
+        "Import-PnPTermSet",
+        "New-PnPTerm",
+        "New-PnPTermGroup"
+      ]
     },
     {
       "title": "Add Large List items to PnP Template",
@@ -619,7 +1759,14 @@
       "description": "Add Large list items to PnP Template using PnP command",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-large-list-items-to-pnp-template/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jiten Parmar",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7124132?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Export / Import list formatting",
@@ -628,7 +1775,27 @@
       "description": "SharePoint Online provides user interface for defining column and view formatting and forms",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-formatting/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kinga Kazala",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/22429087?v=4"
+        }
+      ],
+      "tags": [
+        "Add-PnPView",
+        "Connect-PnPOnline",
+        "Get-PnPContentType",
+        "Get-PnPContext",
+        "Get-PnPField",
+        "Get-PnPList",
+        "Get-PnPSite",
+        "Get-PnPSiteTemplate",
+        "Get-PnPView",
+        "Invoke-PnPSiteTemplate",
+        "Set-PnPField",
+        "Set-PnPView"
+      ]
     },
     {
       "title": "Get/add/update/delete list items in large lists",
@@ -637,7 +1804,32 @@
       "description": "Get/add/update/delete items in large SharePoint list",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-items-large-lists/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 status",
+        "m365 spo list get",
+        "m365 spo listitem add",
+        "m365 spo listitem list",
+        "m365 spo listitem remove",
+        "m365 spo listitem set",
+        "Add-PnPListItem",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Invoke-PnPBatch",
+        "New-PnPBatch",
+        "Remove-PnPList",
+        "Remove-PnPListItem",
+        "Set-PnPList",
+        "Set-PnPListItem"
+      ]
     },
     {
       "title": "Read SharePoint List Items Using CAML Query",
@@ -646,7 +1838,22 @@
       "description": "This script sample shows how to get SharePoint list items using CAML query with different types of fields",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-items-with-caml-query/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jago Pauwels",
+          "pictureUrl": "https://github.com/jagopauwels.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "List all external users in all site collections",
@@ -655,7 +1862,43 @@
       "description": "Script helps you to list all external users in all SharePoint Online sites",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-site-externalusers/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Martin Lingstuyl",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/5267487?s=400&u=dbb983e7bd20e98e8115aca75faa2d457ad32cb5&v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        },
+        {
+          "name": "Albert-Jan Schot",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/15227781?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Governance",
+        "External Users",
+        "Imported CLI Sample",
+        "m365 login",
+        "m365 status",
+        "m365 spo externaluser list",
+        "m365 spo site classic list",
+        "m365 spo user list",
+        "Connect-PnPOnline",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite",
+        "Get-PnPUser",
+        "Connect-SPOService",
+        "Get-SPOExternalUser",
+        "Get-SPOSite"
+      ]
     },
     {
       "title": "List external users across all sites and in what site groups they are",
@@ -664,7 +1907,29 @@
       "description": "The script shows in what site groups external users are added in all SharePoint Online sites",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-site-externalusers-in-groups/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Martin Lingstuyl",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/5267487?s=400&u=dbb983e7bd20e98e8115aca75faa2d457ad32cb5&v=4"
+        },
+        {
+          "name": "Bart-Jan Dekker",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12426259?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Governance",
+        "External Users",
+        "m365 login",
+        "m365 status",
+        "m365 spo site classic list",
+        "m365 util accesstoken get",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Invoke-PnPSPRestMethod"
+      ]
     },
     {
       "title": "SharePoint Modern Page Publishing Report",
@@ -673,7 +1938,27 @@
       "description": "Scan through modern pages within a site and reports out the publishing status of the pages",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-modern-page-publishing-report/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo web get",
+        "m365 spo page list",
+        "m365 status",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPWeb"
+      ]
     },
     {
       "title": "SharePoint Modern Page URL Report",
@@ -682,7 +1967,14 @@
       "description": "Scan through modern pages and reports out the URLs in the quick links web parts",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-modern-page-url-report/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Provision Home Page to a SharePoint site",
@@ -691,7 +1983,48 @@
       "description": "The script exports the page from a source site and provisions it to a destination site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-provision-homepage/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Connect-PnPOnline",
+        "Export-PnPPage",
+        "Invoke-PnPSiteTemplate",
+        "Set-PnPHomePage"
+      ]
+    },
+    {
+      "title": "Create a Quick Links web part with items defined in a datasource",
+      "url": "https://pnp.github.io/script-samples/spo-quicklink-wp-creator/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-quicklink-wp-creator/README.md",
+      "description": "This script will enable you to create a Quick Links web part where the items are defined in some kind of data source",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-quicklink-wp-creator/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?v=4"
+        }
+      ],
+      "tags": [
+        "Add-PnPField",
+        "Add-PnPListItem",
+        "Add-PnPPage",
+        "Add-PnPPageWebPart",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPPage",
+        "Get-PnPWeb",
+        "New-PnPList"
+      ]
     },
     {
       "title": "SPO Recover Deleted Meeting Recordings",
@@ -700,7 +2033,22 @@
       "description": "With the new 120 day expiration meeting recording policy - what do you do if you need to recover across thousands of accounts.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recover-meeting-recordings/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jason Baxter",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/68377916?s=96&v=4"
+        }
+      ],
+      "tags": [
+        "bash",
+        "classic",
+        "Get-PnPRecycleBinItem",
+        "Restore-PnPRecycleBinItem",
+        "Get-SPODeletedSite",
+        "Get-SPOSite",
+        "Set-SPOUser"
+      ]
     },
     {
       "title": "Get SharePoint Site Recycle Bin Items And Export It To CSV",
@@ -709,7 +2057,18 @@
       "description": "This script sample shows how to get recycle bin items from SharePoint site and export it to CSV",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-recyclebin-items-to-csv/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Delete custom color themes from SharePoint",
@@ -718,7 +2077,27 @@
       "description": "Creating a lot of beautiful themes lately and testing them but don’t want to keep them anymore, this script is for you",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-custom-themes/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Laura Kokkarinen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Themes",
+        "bash",
+        "Imported CLI Sample",
+        "m365 spo theme list",
+        "m365 spo theme remove",
+        "Get-PnPTenantTheme",
+        "Remove-PnPTenantTheme"
+      ]
     },
     {
       "title": "Delete a library exceeding the list threshold limit. ",
@@ -727,7 +2106,18 @@
       "description": "Delete a large SharePoint library by removing the files and folders before deleting the library",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-large-library/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Delete custom SharePoint list designs",
@@ -736,7 +2126,26 @@
       "description": "Remove List designs and corresponding site scripts.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-list-designs/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "List Designs",
+        "PnP PowerShell",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListDesign",
+        "Get-PnPSite",
+        "Get-PnPSiteScript",
+        "Remove-PnPList",
+        "Remove-PnPListDesign",
+        "Remove-PnPSiteScript"
+      ]
     },
     {
       "title": "Remove orphaned redirect sites",
@@ -745,7 +2154,29 @@
       "description": "Provides you with an overview of all orphaned redirect sites and allows you to quickly delete them",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-orphaned-redirect-sites/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Albert-Jan Schot",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/15227781?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Redirect sites",
+        "bash",
+        "Imported CLI Sample",
+        "m365 spo site classic list",
+        "m365 spo site remove",
+        "Connect-PnPOnline",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite",
+        "Remove-PnPTenantSite"
+      ]
     },
     {
       "title": "Delete custom SharePoint site designs",
@@ -754,7 +2185,38 @@
       "description": "Remove Site designs and  site scripts that ends up just hanging around in your tenant. Use the scripts below to get rid of them",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-designs/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Laura Kokkarinen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Site Designs",
+        "bash",
+        "Imported CLI Sample",
+        "m365 spo sitedesign list",
+        "m365 spo sitedesign remove",
+        "Connect-SPOService",
+        "Connect-PnPOnline",
+        "Get-SPOSite",
+        "Get-SPOSiteDesign",
+        "Get-PnPSiteDesign",
+        "Remove-SPOSite",
+        "Remove-SPOSiteDesign",
+        "Remove-PnPSiteScript",
+        "Remove-PnPSiteDesign"
+      ]
     },
     {
       "title": "Request Reindex of SharePoint User Profile Properties",
@@ -763,7 +2225,21 @@
       "description": "This function, Request-PnPReindexUserProfile, triggers a full crawl of each user's profile properties.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-request-pnp-reindex-user-profile/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Todd Klindt",
+          "pictureUrl": "https://github.com/ToddKlindt.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPProperty",
+        "Get-PnPUPABulkImportStatus",
+        "New-PnPUPABulkImportJob",
+        "Submit-PnPSearchQuery"
+      ]
     },
     {
       "title": "Run jobs in parallel using ForEach-Object -Parallel to iterate SharePoint site collections",
@@ -772,7 +2248,14 @@
       "description": "This script sample shows the basic of using ForEach-Object -Parallel to speed up trivial SharePoint operations across many site collections",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-run-jobs-in-parallel/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Run A Search Query And Export To CSV",
@@ -781,7 +2264,24 @@
       "description": "Perform a search query (such as 'Show me all News Posts in this tenant') and export the results to CSV.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-search-export-to-csv/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
+        },
+        {
+          "name": "Jim Love",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/3036301?v=4"
+        }
+      ],
+      "tags": [
+        "search",
+        "Submit-PnPSearchQuery",
+        "m365 login",
+        "m365 spo search",
+        "m365 status"
+      ]
     },
     {
       "title": "Set Home site for SharePoint online tenant",
@@ -790,7 +2290,25 @@
       "description": "This sample script sets a communication site as a home site for SharePoint online tenant",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-set-home-site/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Smita Nachan",
+          "pictureUrl": "https://github.com/SmitaNachan.png"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "m365 login",
+        "m365 status",
+        "m365 spo homesite set",
+        "Connect-PnPOnline",
+        "Set-PnPHomeSite"
+      ]
     },
     {
       "title": "Set Page Author Byline",
@@ -799,7 +2317,23 @@
       "description": "Sets the author by line of a modern page",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-set-page-authorbyline/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Anoop Tatti",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/9694225?v=4"
+        }
+      ],
+      "tags": [
+        "Modern page",
+        "Author byline",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPConnection",
+        "Get-PnPPage",
+        "Get-PnPUser",
+        "New-PnPUser"
+      ]
     },
     {
       "title": "Set SharePoint regional settings",
@@ -808,7 +2342,14 @@
       "description": "Script will set custom regional settings in your sharepoint site",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-set-sharepoint-regional-settings/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Setup example site",
@@ -817,7 +2358,69 @@
       "description": "This script is a good starting point for a setup script to create site with some assets like columns, content types, lists, navigation",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-setup-example-site/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
+        },
+        {
+          "name": "Adam",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Create Site",
+        "Create Field",
+        "Create Content type",
+        "Create List",
+        "Modify View",
+        "Modify Navigation",
+        "Imported CLI Sample",
+        "m365 login",
+        "m365 status",
+        "m365 spo contenttype add",
+        "m365 spo contenttype field set",
+        "m365 spo contenttype get",
+        "m365 spo field add",
+        "m365 spo field get",
+        "m365 spo folder add",
+        "m365 spo folder get",
+        "m365 spo list add",
+        "m365 spo list contenttype add",
+        "m365 spo list get",
+        "m365 spo list set",
+        "m365 spo list view field add",
+        "m365 spo list view list",
+        "m365 spo navigation node add",
+        "m365 spo navigation node list",
+        "m365 spo navigation node remove",
+        "m365 spo site add",
+        "m365 spo site get",
+        "Add-PnPContentType",
+        "Add-PnPContentTypeToList",
+        "Add-PnPField",
+        "Add-PnPFieldFromXml",
+        "Add-PnPFieldToContentType",
+        "Add-PnPFolder",
+        "Add-PnPNavigationNode",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPContentType",
+        "Get-PnPField",
+        "Get-PnPFolder",
+        "Get-PnPList",
+        "Get-PnPNavigationNode",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite",
+        "Get-PnPView",
+        "New-PnPList",
+        "New-PnPSite",
+        "Remove-PnPNavigationNode",
+        "Set-PnPList",
+        "Set-PnPView"
+      ]
     },
     {
       "title": "Translate columns in a SharePoint list",
@@ -826,7 +2429,24 @@
       "description": "Say we have PowerApp that is storing its data in SharePoint lists. We want to make the app multilingual. This sample shows you the process.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-translate-list/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Russell Gove",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/2412956?v=4"
+        }
+      ],
+      "tags": [
+        "Document Library",
+        "Conversion",
+        "PDF",
+        "Add-PnPListItem",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Remove-PnPList",
+        "Remove-PnPListItem"
+      ]
     },
     {
       "title": "Update web part properties on modern pages",
@@ -835,7 +2455,23 @@
       "description": "Update web part properties on modern pages",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-modern-webpart-properties/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ramin Ahmadi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/15119083?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo web part",
+        "m365 spo web part properties",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPPage"
+      ]
     },
     {
       "title": "Update user profile properties",
@@ -844,7 +2480,21 @@
       "description": "This script sample shows how to update user profile properties.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-user-profile-properties/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jasey Waegebaert",
+          "pictureUrl": "https://github.com/Jwaegebaert.png"
+        },
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Set-PnPUserProfileProperty"
+      ]
     },
     {
       "title": "Bulk Create Teams with JSON File",
@@ -853,7 +2503,24 @@
       "description": "Create teams in an environment to test governance scenarios making over a 1000 teams - this sample script can generate the required teams.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-bulk-create-teams/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 teams team get",
+        "m365 aad o365group add",
+        "m365 aad o365group list",
+        "m365 aad o365group teamify"
+      ]
     },
     {
       "title": "Clone a Microsoft Team with\\without content",
@@ -862,7 +2529,14 @@
       "description": "This script allow us to clone an existing team (structure and content!) into a new one with changed attributes including content.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-clone-team/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Rodrigo Pinto",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Create a Teams based on a existing team template",
@@ -871,7 +2545,14 @@
       "description": "The script first exports a selected team template and create a new team based on the template.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-createteam-from-template/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Rodrigo Pinto",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "List all teams and teams members in Microsoft Teams in the tenant",
@@ -880,7 +2561,25 @@
       "description": "List all teams and teams members in Microsoft Teams in the tenant and exports the results in a CSV",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-export-teams-information/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "Microsoft Teams",
+        "Microsoft 365",
+        "PowerShell",
+        "m365 login",
+        "m365 status",
+        "m365 teams team list",
+        "m365 teams user list",
+        "Connect-PnPOnline",
+        "Get-PnPTeamsTeam",
+        "Get-PnPTeamsUser"
+      ]
     },
     {
       "title": "Force Team Files Tab Provision",
@@ -889,7 +2588,14 @@
       "description": "This script allow us to force Files tab provision, usefull for migrations or even for your Team's governance toolset..",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-force-filestab-provision/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Rodrigo Pinto",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Teams Full Report",
@@ -898,7 +2604,18 @@
       "description": "Script to generate Team's full report, gathering all Teams,Channels,Tabs available info.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-full-report/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Rodrigo Pinto",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Collect and export Teams templates",
@@ -907,7 +2624,14 @@
       "description": "This script allow us to collect and export current tenant Teams Templates",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-get-templates/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Rodrigo Pinto",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7837053?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "List guests within Teams in a tenant",
@@ -916,7 +2640,22 @@
       "description": "List all guests in Microsoft Teams teams in the tenant and exports the results in a CSV.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-guestusers/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jasey Waegebaert",
+          "pictureUrl": "https://github.com/Jwaegebaert.png"
+        },
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Jiten Parmar",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7124132?v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "List all Microsoft Teams team's Owners and Members",
@@ -925,7 +2664,33 @@
       "description": "This script allows you to list all Teams team's owners and members and export them into a CSV file.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-teams-owners-and-members/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Patrick Lamber",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
+        }
+      ],
+      "tags": [
+        "Microsoft Teams",
+        "Governance",
+        "Imported CLI Sample",
+        "m365 login",
+        "m365 status",
+        "m365 cli config set",
+        "m365 teams team get",
+        "m365 teams team list",
+        "m365 teams user list",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPMicrosoft365Group",
+        "Get-PnPMicrosoft365GroupMember",
+        "Get-PnPMicrosoft365GroupOwner"
+      ]
     },
     {
       "title": "Testing user preferred language of SharePoint site",
@@ -934,7 +2699,18 @@
       "description": "Changes the MUI setting for a user within the User Information List",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/user-language-for-site/assets/preview.png",
       "type": "powershell",
-      "tabTag": "#tab/pnpps"
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        }
+      ],
+      "tags": null
     }
   ]
 }

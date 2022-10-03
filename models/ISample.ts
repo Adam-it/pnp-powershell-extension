@@ -1,3 +1,5 @@
+import { IAuthor } from './IAuthor';
+
 export interface ISample {
     title: string;
     url: string;
@@ -5,4 +7,6 @@ export interface ISample {
     description: string;
     image: string;
     type: string;
+    tags: string[];
+    authors: IAuthor[];
 }

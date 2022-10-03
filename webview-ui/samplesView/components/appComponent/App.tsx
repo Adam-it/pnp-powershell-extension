@@ -15,15 +15,21 @@ export default class App extends React.Component<IAppProps, IAppState> {
 
     this.state = {
       loading: true,
-      samples: null
+      samples: null,
+      searchQueryInput: ''
     };
   }
 
   public componentDidMount(): void {
+    const { searchQuery } = this.props;
+
     this.setState({
       samples: samples.samples as ISample[],
-      loading: false
+      loading: false,
+      searchQueryInput: searchQuery ?? ''
     });
+
+    this._handleSearch(searchQuery);
   }
 
   public render(): React.ReactElement<IAppProps> {
@@ -35,7 +41,7 @@ export default class App extends React.Component<IAppProps, IAppState> {
           <h2>PnP PowerShell samples</h2>
         </div>
         <div className='app-search'>
-          <VSCodeTextField placeholder="Search for sample" size={50} onInput={e => this._handleSearch((e.target as HTMLInputElement)?.value)}>
+          <VSCodeTextField placeholder="Search for sample" size={50} value={this.state.searchQueryInput} onInput={e => this._handleSearch((e.target as HTMLInputElement)?.value)}>
             <span slot="start" className="codicon codicon-search"></span>
           </VSCodeTextField>
           <VSCodeDivider />
@@ -51,7 +57,15 @@ export default class App extends React.Component<IAppProps, IAppState> {
 
   private _handleSearch(searchInput: string): void {
     const allSamples: ISample[] = samples.samples as ISample[];
-    const searchResult: ISample[] = allSamples.filter(sample => sample.title.toLowerCase().includes(searchInput.toLowerCase()));
-    this.setState({ samples: searchResult });
+    searchInput = searchInput?.toLowerCase() ?? '';
+    const searchResult: ISample[] = allSamples.filter(sample =>
+      sample.title.toLowerCase().includes(searchInput) ||
+      (sample.tags !== null && sample.tags.some(tag => tag.toLowerCase().includes(searchInput)) ||
+        (sample.authors !== null && sample.authors.some(author => author.name.toLowerCase().includes(searchInput)))));
+
+    this.setState({
+      samples: searchResult,
+      searchQueryInput: searchInput
+    });
   }
 }

@@ -5,7 +5,7 @@ import './CommandsList.css';
 import { ICommandsListProps } from './ICommandsListProps';
 import { ICommandsListState } from './ICommandsListState';
 import { vscode } from '../../utilities/vscode';
-import { VSCodeDivider, VSCodeTextField } from '@vscode/webview-ui-toolkit/react';
+import { VSCodeButton, VSCodeDivider, VSCodeTextField } from '@vscode/webview-ui-toolkit/react';
 
 export default class CommandsList extends React.Component<ICommandsListProps, ICommandsListState> {
 
@@ -22,16 +22,30 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
     return (
       <div>
-        <div>
-          <VSCodeTextField placeholder="Search" size={50} onInput={e => this._handleSearch((e.target as HTMLInputElement)?.value)}>
-            <span slot="start" className="codicon codicon-search"></span>
-          </VSCodeTextField>
+        <div className='pnp-commands-list-controls'>
+          <div className='pnp-commands-list-actions'>
+            <VSCodeButton appearance='secondary' title='PnP PowerShell samples' onClick={() => this._handleShowSamplesButtonClick()}>
+              Samples
+              <span slot='start' className='codicon codicon-file-code'></span>
+            </VSCodeButton>
+          </div>
           <VSCodeDivider />
+          <VSCodeTextField placeholder='Search' size={50} onInput={e => this._handleSearch((e.target as HTMLInputElement)?.value)}>
+            <span slot='start' className='codicon codicon-search'></span>
+          </VSCodeTextField>
         </div>
-        <ul className='cli-commands-list'>
-          {commands.map(command => (<li key={commands.indexOf(command)} onClick={() => this._handleCommandClick(command.name)} className='cliCommand'>{command.name}</li>))}
-        </ul>
+        <div className='pnp-commands-list-wrapper'>
+          <ul className='pnp-commands-list'>
+            {commands.map(command => (<li key={commands.indexOf(command)} onClick={() => this._handleCommandClick(command.name)} className='cliCommand'>{command.name}</li>))}
+          </ul>
+        </div>
       </div>);
+  }
+
+  private _handleShowSamplesButtonClick(): void {
+    vscode.postMessage({
+      command: 'showSamples'
+    });
   }
 
   private _handleSearch(searchInput: string): void {

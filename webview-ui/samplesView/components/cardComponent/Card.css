@@ -4,8 +4,8 @@
     margin: 20px;
     box-shadow: 0px 0px 5px #666;
     transition: all 0.2s ease-in-out;
-    min-height: 440px;
-    max-height: 440px;
+    min-height: 480px;
+    max-height: 480px;
     float: left;
 }
 
@@ -49,4 +49,15 @@
 
 .card-tags {
     text-align: right;
+}
+
+.card-footer-authors {
+    margin-top: 5px;
+}
+
+.card-footer-author img{
+    width: 40px;
+    border-radius: 50px;
+    float: left;
+    margin-right: -15px;
 }
