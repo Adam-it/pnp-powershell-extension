@@ -1,6 +1,7 @@
 # PnP PowerShell extension
 
 This extension provides functionalities that may be helpful when creating scripts using PnP PowerShell. Currently the extension provides:
+
 - docs viewer inside vscode
 - samples gallery
 - snippets with all possible commands
@@ -11,13 +12,17 @@ Please check [PnP PowerShell docs](https://pnp.github.io/powershell/) for more i
 
 ### Script samples gallery
 
-Using `PnP PS: Open samples gallery` command you may open the gallery with all available samples. Currently the samples shown are retrieved from the [PnP script samples repository](https://github.com/pnp/script-samples). From the samples gallery you may go to the sample location or create a new tab in editor prefilled with the PnP PowerShell script.
+Using `PnP PS: Open samples gallery` command, or 'Samples' button, you may open the gallery with all available samples. Currently the samples shown are retrieved from the [PnP script samples repository](https://github.com/pnp/script-samples). From the samples gallery you may go to the sample location or create a new tab in editor prefilled with the PnP PowerShell script.  It is possible to search for sample by:
+
+- title
+- authors
+- commands used in samples
 
 ![samples](/assets/images/samplesCommand.gif)
 
 ### Docs
 
-This functionality provides PnP PowerShell docs view for all commands inside vscode. No more transition between the code editor and browser is needed.
+This functionality provides PnP PowerShell docs view for all commands inside vscode. No more transition between the code editor and browser is needed. It is possible to go to docs original web site location and also open sample gallery showing all samples using the command.
 
 ![docs](/assets/images/howDocsWork.gif)
 
@@ -50,7 +55,7 @@ The extension provides the following commands:
 
 ![commands](/assets/images/commands.png)
 
-## 💬 Feedback 
+## 💬 Feedback
 
 Any questions, problems, feedback is more than welcome. Please create an issue in the extension repository [issue list](https://github.com/Adam-it/pnp-powershell-extension/issues).
 Any ideas or want to see what is on the list of features to show up? Please check the [discussions](https://github.com/Adam-it/pnp-powershell-extension/discussions)
