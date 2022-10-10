@@ -201,6 +201,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPage.html"
     },
     {
+      "name": "Add-PnPPageImageWebPart",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageImageWebPart.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPageImageWebPart.html"
+    },
+    {
       "name": "Add-PnPPageSection",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPPageSection.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPPageSection.html"
@@ -491,9 +496,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPList.html"
     },
     {
-      "name": "Copy-PnPList",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPList.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPList.html"
+      "name": "Copy-PnPTeamsTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPTeamsTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPTeamsTeam.html"
     },
     {
       "name": "Deny-PnPTenantServicePrincipalPermissionRequest",
@@ -514,6 +519,11 @@
       "name": "Disable-PnPPageScheduling",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPPageScheduling.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPPageScheduling.html"
+    },
+    {
+      "name": "Disable-PnPPowerShellTelemetry",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Disable-PnPPowerShellTelemetry.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Disable-PnPPowerShellTelemetry.html"
     },
     {
       "name": "Disable-PnPSharingForNonOwnersOfSite",
@@ -554,6 +564,11 @@
       "name": "Enable-PnPPageScheduling",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPageScheduling.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPageScheduling.html"
+    },
+    {
+      "name": "Enable-PnPPowerShellTelemetry",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Enable-PnPPowerShellTelemetry.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Enable-PnPPowerShellTelemetry.html"
     },
     {
       "name": "Enable-PnPSiteClassification",
@@ -674,6 +689,11 @@
       "name": "Get-PnPAzureADActivityReportDirectoryAudit",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportDirectoryAudit.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADActivityReportDirectoryAudit.html"
+    },
+    {
+      "name": "Get-PnPAzureADActivityReportSignIn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportSignIn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADActivityReportSignIn.html"
     },
     {
       "name": "Get-PnPAzureADApp",
@@ -1344,6 +1364,11 @@
       "name": "Get-PnPTeamsTab",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsTab.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsTab.html"
+    },
+    {
+      "name": "Get-PnPTeamsTag",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTeamsTag.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTeamsTag.html"
     },
     {
       "name": "Get-PnPTeamsTeam",
@@ -2271,6 +2296,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsTab.html"
     },
     {
+      "name": "Remove-PnPTeamsTag",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsTag.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsTag.html"
+    },
+    {
       "name": "Remove-PnPTeamsTeam",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPTeamsTeam.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPTeamsTeam.html"
@@ -2914,6 +2944,11 @@
       "name": "Set-PnPTeamsTab",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsTab.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsTab.html"
+    },
+    {
+      "name": "Set-PnPTeamsTag",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPTeamsTag.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPTeamsTag.html"
     },
     {
       "name": "Set-PnPTeamsTeam",

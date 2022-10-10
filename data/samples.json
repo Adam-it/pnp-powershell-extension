@@ -669,6 +669,27 @@
       ]
     },
     {
+      "title": "Activate a site feature in SharePoint online",
+      "url": "https://pnp.github.io/script-samples/spo-activate-site-feature/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-activate-site-feature/README.md",
+      "description": "This sample script shows how to Activate a site feature in SharePoint online site.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-activate-site-feature/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPFeature",
+        "Enable-PnPFeature"
+      ]
+    },
+    {
       "title": "Add App Catalog to SharePoint site",
       "url": "https://pnp.github.io/script-samples/spo-add-app-catalog/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-app-catalog/README.md",
@@ -1932,6 +1953,28 @@
       ]
     },
     {
+      "title": "Update content type of files in folder with system update",
+      "url": "https://pnp.github.io/script-samples/spo-list-update-contenttype-systemupdate/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-update-contenttype-systemupdate/README.md",
+      "description": "The script updates content type of files in folder with system update.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-update-contenttype-systemupdate/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPListItem",
+        "Set-PnPListItem"
+      ]
+    },
+    {
       "title": "SharePoint Modern Page Publishing Report",
       "url": "https://pnp.github.io/script-samples/spo-modern-page-publishing-report/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-modern-page-publishing-report/README.md",
@@ -2256,6 +2299,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Change the Placeholder text in SharePoint Search Box",
+      "url": "https://pnp.github.io/script-samples/spo-search-change-placeholder-text/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-search-change-placeholder-text/README.md",
+      "description": "This sample script shows how to change the placeholder text in SharePoint online search box for a given (sub) site and/or for all the sites in a site collection.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-search-change-placeholder-text/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "search",
+        "Connect-PnPOnline",
+        "Set-PnPSearchSettings"
+      ]
     },
     {
       "title": "Run A Search Query And Export To CSV",

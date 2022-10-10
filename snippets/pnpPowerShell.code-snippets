@@ -9,7 +9,10 @@
     ]
   },
   "Add-PnPApp": {
-    "description": "",
+    "description": [
+      "Allows to upload an app to the app catalog at tenant or site collection level. By specifying -Publish option it is possible to deploy/trust it at the same time.",
+      "-Publish"
+    ],
     "body": [
       "Add-PnPApp "
     ],
@@ -27,7 +30,7 @@
     ]
   },
   "Add-PnPAvailableSiteClassification": {
-    "description": "",
+    "description": "Allows to add classic site classification values",
     "body": [
       "Add-PnPAvailableSiteClassification -Classifications $1"
     ],
@@ -36,7 +39,10 @@
     ]
   },
   "Add-PnPAzureADGroupMember": {
-    "description": "",
+    "description": [
+      "Allows to add users to Azure Active Directory Group. This can be a security, distribution or Microsoft 365 group. By specifying -RemoveExisting option it is possible to first clear the group of all existing members.",
+      "-RemoveExisting"
+    ],
     "body": [
       "Add-PnPAzureADGroupMember -Identity $1 -Users $2"
     ],
@@ -45,7 +51,10 @@
     ]
   },
   "Add-PnPAzureADGroupOwner": {
-    "description": "",
+    "description": [
+      "Allows to add users to owners of an Azure Active Directory Group. This can be a security, distribution or Microsoft 365 group. By specifying -RemoveExisting option it is possible to first clear the group of all existing members.",
+      "-RemoveExisting"
+    ],
     "body": [
       "Add-PnPAzureADGroupOwner -Identity $1 -Users $2"
     ],
@@ -63,7 +72,7 @@
     ]
   },
   "Add-PnPContentTypesFromContentTypeHub": {
-    "description": "",
+    "description": "Allows to add content types from content type hub site to current site. In case the same content type is already present on the current site then the latest published version will be used.",
     "body": [
       "Add-PnPContentTypesFromContentTypeHub -ContentTypes $1"
     ],
@@ -72,7 +81,7 @@
     ]
   },
   "Add-PnPContentTypeToDocumentSet": {
-    "description": "",
+    "description": "Allows to add content type to document set.",
     "body": [
       "Add-PnPContentTypeToDocumentSet -ContentType $1 -DocumentSet $2"
     ],
@@ -81,7 +90,10 @@
     ]
   },
   "Add-PnPContentTypeToList": {
-    "description": "",
+    "description": [
+      "Allows to add content type to list. By specifying -DefaultContentType option it is possible set the newly added content type as default.",
+      "-DefaultContentType"
+    ],
     "body": [
       "Add-PnPContentTypeToList -List $1 -ContentType $2"
     ],
@@ -99,7 +111,11 @@
     ]
   },
   "Add-PnPDataRowsToSiteTemplate": {
-    "description": "",
+    "description": [
+      "Allows to add datarows to list inside a PnP Provisioning Template. The command allows to specify the fields which should be retrieved using -Fields option and filter the datarows to be used by using -Query option.",
+      "-Fields",
+      "-Query"
+    ],
     "body": [
       "Add-PnPDataRowsToSiteTemplate "
     ],
@@ -108,7 +124,7 @@
     ]
   },
   "Add-PnPDocumentSet": {
-    "description": "",
+    "description": "Allows to add new document set to library.",
     "body": [
       "Add-PnPDocumentSet -List $1 -Name $2 -ContentType $3"
     ],
@@ -135,7 +151,7 @@
     ]
   },
   "Add-PnPFieldFromXml": {
-    "description": "",
+    "description": "Allows to add new field by specifying its definition in CAML/XML format to list or site columns.",
     "body": [
       "Add-PnPFieldFromXml "
     ],
@@ -144,7 +160,7 @@
     ]
   },
   "Add-PnPFieldToContentType": {
-    "description": "",
+    "description": "Allows to add a field from site columns to an existing content type.",
     "body": [
       "Add-PnPFieldToContentType -Field $1 -ContentType $2"
     ],
@@ -162,14 +178,7 @@
     ]
   },
   "Add-PnPFileToSiteTemplate": {
-    "description": [
-      "Local File",
-      "Add-PnPFileToSiteTemplate [-Path] <String> [-Source] <String> [-Folder] <String>\r\n [[-Container] <String>] [[-FileLevel] <FileLevel>] [-FileOverwrite]\r\n [[-TemplateProviderExtensions] <ITemplateProviderExtension[]>] \r\n [-Connection <PnPConnection>] [<CommonParameters>]",
-      "Add-PnPFileToSiteTemplate [-Path] <String> [-Source] <String> [-Folder] <String>\r\n [[-Container] <String>] [[-FileLevel] <FileLevel>] [-FileOverwrite]\r\n [[-TemplateProviderExtensions] <ITemplateProviderExtension[]>] \r\n [-Connection <PnPConnection>] [<CommonParameters>]",
-      "Remove File",
-      "Add-PnPFileToSiteTemplate [-Path] <String> [-SourceUrl] <String> [[-Container] <String>]\r\n [[-FileLevel] <FileLevel>] [-FileOverwrite] [[-TemplateProviderExtensions] <ITemplateProviderExtension[]>]\r\n [-Connection <PnPConnection>] [<CommonParameters>]",
-      "Add-PnPFileToSiteTemplate [-Path] <String> [-SourceUrl] <String> [[-Container] <String>]\r\n [[-FileLevel] <FileLevel>] [-FileOverwrite] [[-TemplateProviderExtensions] <ITemplateProviderExtension[]>]\r\n [-Connection <PnPConnection>] [<CommonParameters>]"
-    ],
+    "description": "Allows adding a file to a PnP Provisioning Template package (.pnp) so that the file will get uploaded to the SharePoint Online site to which the template is being invoked. This allows the file to be referenced in i.e. a document template, site logo or any other component that references a file.",
     "body": [
       "Add-PnPFileToSiteTemplate "
     ],
@@ -178,7 +187,7 @@
     ]
   },
   "Add-PnPFolder": {
-    "description": "",
+    "description": "Allows to add a new folder.",
     "body": [
       "Add-PnPFolder -Name $1 -Folder $2"
     ],
@@ -187,7 +196,7 @@
     ]
   },
   "Add-PnPGroupMember": {
-    "description": "",
+    "description": "Allows to add new user to SharePoint group. The SharePoint group may be specified either by id, name or related object.",
     "body": [
       "Add-PnPGroupMember -LoginName $1 -Group $2"
     ],
@@ -196,7 +205,7 @@
     ]
   },
   "Add-PnPHtmlPublishingPageLayout": {
-    "description": "",
+    "description": "Allows to add a HTML based publishing page layout.",
     "body": [
       "Add-PnPHtmlPublishingPageLayout -SourceFilePath $1 -Title $2 -Description $3 -AssociatedContentTypeID $4"
     ],
@@ -223,7 +232,7 @@
     ]
   },
   "Add-PnPIndexedProperty": {
-    "description": "",
+    "description": "Allows to set search index on propertybag key.",
     "body": [
       "Add-PnPIndexedProperty "
     ],
@@ -250,7 +259,7 @@
     ]
   },
   "Add-PnPListDesign": {
-    "description": "",
+    "description": "Allows to add new List Design to tenant.",
     "body": [
       "Add-PnPListDesign -Title $1 -SiteScriptIds $2"
     ],
@@ -259,7 +268,7 @@
     ]
   },
   "Add-PnPListFoldersToSiteTemplate": {
-    "description": "",
+    "description": "Allows to add folders to a list in a PnP Provisioning Template.",
     "body": [
       "Add-PnPListFoldersToSiteTemplate "
     ],
@@ -268,7 +277,7 @@
     ]
   },
   "Add-PnPListItem": {
-    "description": "",
+    "description": "Allows to add an item to the list and sets the creation time to the current date and time. The author is set to the current authenticated user executing the cmdlet. In order to set the author to a different user, please refer to Set-PnPListItem.",
     "body": [
       "Add-PnPListItem "
     ],
@@ -286,7 +295,7 @@
     ]
   },
   "Add-PnPListItemComment": {
-    "description": "",
+    "description": "Allows to add comment to the specified list item.",
     "body": [
       "Add-PnPListItemComment "
     ],
@@ -295,7 +304,7 @@
     ]
   },
   "Add-PnPMasterPage": {
-    "description": "",
+    "description": "Allows to add Masterpage.",
     "body": [
       "Add-PnPMasterPage -SourceFilePath $1 -Title $2 -Description $3"
     ],
@@ -304,7 +313,7 @@
     ]
   },
   "Add-PnPMicrosoft365GroupMember": {
-    "description": "",
+    "description": "Allows to add multiple users to Microsoft 365 Group.",
     "body": [
       "Add-PnPMicrosoft365GroupMember -Identity $1 -Users $2"
     ],
@@ -313,7 +322,7 @@
     ]
   },
   "Add-PnPMicrosoft365GroupOwner": {
-    "description": "",
+    "description": "Allows to add multiple users to Microsoft 365 Group as owners.",
     "body": [
       "Add-PnPMicrosoft365GroupOwner -Identity $1 -Users $2"
     ],
@@ -355,7 +364,7 @@
     ]
   },
   "Add-PnPOrgNewsSite": {
-    "description": "",
+    "description": "Allows to add site as an organization news source in your tenant.",
     "body": [
       "Add-PnPOrgNewsSite -OrgNewsSiteUrl $1"
     ],
@@ -372,8 +381,17 @@
       "Add-PnPPage"
     ]
   },
+  "Add-PnPPageImageWebPart": {
+    "description": "Adds a new image element to a section on a client-side page.",
+    "body": [
+      "Add-PnPPageImageWebPart "
+    ],
+    "prefix": [
+      "Add-PnPPageImageWebPart"
+    ]
+  },
   "Add-PnPPageSection": {
-    "description": "",
+    "description": "Allows to add a new section to a page.",
     "body": [
       "Add-PnPPageSection "
     ],
@@ -384,7 +402,7 @@
   "Add-PnPPageTextPart": {
     "description": "Adds a new text element to a section on a client-side page.",
     "body": [
-      "Add-PnPPageTextPart "
+      "Add-PnPPageTextPart -Page $1 -Text $2"
     ],
     "prefix": [
       "Add-PnPPageTextPart"
@@ -436,7 +454,7 @@
     ]
   },
   "Add-PnPPublishingImageRendition": {
-    "description": "",
+    "description": "Allowss to add an Image Rendition.",
     "body": [
       "Add-PnPPublishingImageRendition -Name $1 -Width $2 -Height $3"
     ],
@@ -445,7 +463,7 @@
     ]
   },
   "Add-PnPPublishingPage": {
-    "description": "",
+    "description": "Allows to add a publishing page.",
     "body": [
       "Add-PnPPublishingPage -PageName $1"
     ],
@@ -454,7 +472,7 @@
     ]
   },
   "Add-PnPPublishingPageLayout": {
-    "description": "",
+    "description": "Allows to add a publishing page layout and associate it to a content type.",
     "body": [
       "Add-PnPPublishingPageLayout -SourceFilePath $1 -Title $2 -Description $3 -AssociatedContentTypeID $4"
     ],
@@ -484,7 +502,7 @@
     ]
   },
   "Add-PnPSiteCollectionAppCatalog": {
-    "description": "",
+    "description": "Allows to add Site Collection scoped App Catalog.",
     "body": [
       "Add-PnPSiteCollectionAppCatalog "
     ],
@@ -493,7 +511,7 @@
     ]
   },
   "Add-PnPSiteDesign": {
-    "description": "",
+    "description": "Allows to add a new Site Design on the current tenant.",
     "body": [
       "Add-PnPSiteDesign -Title $1 -SiteScriptIds $2"
     ],
@@ -516,7 +534,7 @@
     ]
   },
   "Add-PnPSiteDesignTask": {
-    "description": "",
+    "description": "Allows to apply a site design to a specified site collection. This command is intended to be used when you need to apply a large number of actions or multiple site scripts.",
     "body": [
       "Add-PnPSiteDesignTask -SiteDesignId $1"
     ],
@@ -525,7 +543,7 @@
     ]
   },
   "Add-PnPSiteScript": {
-    "description": "",
+    "description": "Allows to add a Site Script on the current tenant.",
     "body": [
       "Add-PnPSiteScript -Title $1"
     ],
@@ -534,7 +552,7 @@
     ]
   },
   "Add-PnPSiteScriptPackage": {
-    "description": "",
+    "description": "Allows to add a new Site Script Package on the current tenant",
     "body": [
       "Add-PnPSiteScriptPackage -Title $1"
     ],
@@ -543,7 +561,7 @@
     ]
   },
   "Add-PnPSiteTemplate": {
-    "description": "",
+    "description": "Allows to add PnP Site Template object to a tenant template.",
     "body": [
       "Add-PnPSiteTemplate -SiteTemplate $1 -TenantTemplate $2"
     ],
@@ -573,7 +591,10 @@
     ]
   },
   "Add-PnPTeamsChannel": {
-    "description": "",
+    "description": [
+      "Allows to add channel to an existing team in Microsoft Teams. By using the IsFavoriteByDefault it is possible to specify if the channel will be visible for members by default.",
+      "IsFavoriteByDefault"
+    ],
     "body": [
       "Add-PnPTeamsChannel -Team $1 -DisplayName $2"
     ],
@@ -582,7 +603,7 @@
     ]
   },
   "Add-PnPTeamsChannelUser": {
-    "description": "",
+    "description": "Allows to add a user to a private channel in Microsoft Teams.",
     "body": [
       "Add-PnPTeamsChannelUser -Team $1 -Channel $2 -User $3 -Role $4"
     ],
@@ -591,7 +612,10 @@
     ]
   },
   "Add-PnPTeamsTab": {
-    "description": "",
+    "description": [
+      "Allows to add a tab to an existing Channel. By using ContentUrl option you may specify the content of the tab.",
+      "ContentUrl"
+    ],
     "body": [
       "Add-PnPTeamsTab -Team $1 -Channel $2 -DisplayName $3 -Type $4 -ContentUrl $5"
     ],
@@ -630,7 +654,7 @@
     ]
   },
   "Add-PnPTenantSequence": {
-    "description": "",
+    "description": "Allows to add a a tenant sequence object to a tenant template.",
     "body": [
       "Add-PnPTenantSequence -Template $1 -Sequence $2"
     ],
@@ -639,7 +663,7 @@
     ]
   },
   "Add-PnPTenantSequenceSite": {
-    "description": "",
+    "description": "Allows to add a existing tenant sequence site object to a tenant template.",
     "body": [
       "Add-PnPTenantSequenceSite -Site $1 -Sequence $2"
     ],
@@ -648,7 +672,7 @@
     ]
   },
   "Add-PnPTenantSequenceSubSite": {
-    "description": "",
+    "description": "Allows to add a tenant sequence sub site object to a tenant sequence site object.",
     "body": [
       "Add-PnPTenantSequenceSubSite -SubSite $1 -Site $2"
     ],
@@ -675,7 +699,7 @@
     ]
   },
   "Add-PnPView": {
-    "description": "",
+    "description": "Allows to add a new view to a list.",
     "body": [
       "Add-PnPView "
     ],
@@ -693,7 +717,7 @@
     ]
   },
   "Add-PnPVivaConnectionsDashboardACE": {
-    "description": "",
+    "description": "Allows to add a new an Adaptive card extension in the Viva Home dashboard page. Before running the command it is required you are connect to a SharePoint Home site and have configured the Viva connections page.",
     "body": [
       "Add-PnPVivaConnectionsDashboardACE "
     ],
@@ -702,7 +726,7 @@
     ]
   },
   "Add-PnPWebhookSubscription": {
-    "description": "",
+    "description": "Allows to addd a new Webhook subscription to a list.",
     "body": [
       "Add-PnPWebhookSubscription "
     ],
@@ -711,7 +735,10 @@
     ]
   },
   "Add-PnPWebPartToWebPartPage": {
-    "description": "",
+    "description": [
+      "Allows to add a web part to a web part page. Use the ZoneIndex option to specifi the zone.",
+      "ZoneIndex"
+    ],
     "body": [
       "Add-PnPWebPartToWebPartPage -ServerRelativePageUrl $1 -Xml $2 -ZoneId $3 -ZoneIndex $4"
     ],
@@ -720,7 +747,11 @@
     ]
   },
   "Add-PnPWebPartToWikiPage": {
-    "description": "",
+    "description": [
+      "Allows to add a web part a wiki page. Use the Row and Column option to specify the location of the web part.",
+      "Row",
+      "Column"
+    ],
     "body": [
       "Add-PnPWebPartToWikiPage -ServerRelativePageUrl $1 -Xml $2 -Row $3 -Column $4"
     ],
@@ -729,7 +760,7 @@
     ]
   },
   "Add-PnPWikiPage": {
-    "description": "",
+    "description": "Allows to add a wiki page.",
     "body": [
       "Add-PnPWikiPage -ServerRelativePageUrl $1 -Content $2"
     ],
@@ -752,7 +783,7 @@
     ]
   },
   "Clear-PnPAzureADGroupMember": {
-    "description": "",
+    "description": "Allows to remove all current members from specified Azure Active Directory group. This can be a security, distribution or Microsoft 365 group.",
     "body": [
       "Clear-PnPAzureADGroupMember -Identity $1"
     ],
@@ -761,7 +792,7 @@
     ]
   },
   "Clear-PnPAzureADGroupOwner": {
-    "description": "",
+    "description": "Allows to remove all current owners from specified Azure Active Directory group. This can be a security, distribution or Microsoft 365 group.",
     "body": [
       "Clear-PnPAzureADGroupOwner -Identity $1"
     ],
@@ -779,7 +810,7 @@
     ]
   },
   "Clear-PnPListItemAsRecord": {
-    "description": "",
+    "description": "Allows to undeclare a list item in a list as a record.",
     "body": [
       "Clear-PnPListItemAsRecord "
     ],
@@ -788,7 +819,7 @@
     ]
   },
   "Clear-PnPMicrosoft365GroupMember": {
-    "description": "",
+    "description": "Allows to remove all current members from a specified Microsoft 365 Group.",
     "body": [
       "Clear-PnPMicrosoft365GroupMember -Identity $1"
     ],
@@ -797,7 +828,7 @@
     ]
   },
   "Clear-PnPMicrosoft365GroupOwner": {
-    "description": "",
+    "description": "Allows to remove all current owners from a specified Microsoft 365 Group.",
     "body": [
       "Clear-PnPMicrosoft365GroupOwner -Identity $1"
     ],
@@ -806,7 +837,11 @@
     ]
   },
   "Clear-PnPRecycleBinItem": {
-    "description": "",
+    "description": [
+      "Allows to permanently delete items from recycle bin. By default the command will delete all items but it is allow to specify the items by using the Identity or RowLimit options.",
+      "Identity",
+      "RowLimit"
+    ],
     "body": [
       "Clear-PnPRecycleBinItem "
     ],
@@ -815,7 +850,7 @@
     ]
   },
   "Clear-PnPTenantAppCatalogUrl": {
-    "description": "",
+    "description": "Allows to remove the url of the tenant scoped app catalog. The app catalog site collection will not be removed.",
     "body": [
       "Clear-PnPTenantAppCatalogUrl "
     ],
@@ -845,7 +880,7 @@
     ]
   },
   "Convert-PnPFolderToSiteTemplate": {
-    "description": "",
+    "description": "Allows to convert the current folder together with all files, to a pnp package file of and existing template xml.",
     "body": [
       "Convert-PnPFolderToSiteTemplate "
     ],
@@ -854,7 +889,7 @@
     ]
   },
   "Convert-PnPSiteTemplate": {
-    "description": "",
+    "description": "Allows to convert a provisioning template to an other schema version.",
     "body": [
       "Convert-PnPSiteTemplate "
     ],
@@ -1048,6 +1083,20 @@
       "Copy-PnPList"
     ]
   },
+  "Copy-PnPTeamsTeam": {
+    "description": [
+      "Using this command, global admins and Microsoft Teams service admins can access teams that they are not a member of to make a copy of them.",
+      "Creates a copy of a team. This operation also creates a copy of the corresponding group. You can specify which parts of the team to clone:",
+      "apps - Copies Microsoft Teams apps that are installed in the team. channels – Copies the channel structure (but not the messages in the channel). members – Copies the members and owners of the group. settings – Copies all settings within the team, along with key group settings. tabs – Copies the tabs within channels.",
+      "When tabs are cloned, they are put into an unconfigured state -- they are displayed on the tab bar in Microsoft Teams, and the first time you open them, you'll go through the configuration screen. If the person opening the tab does not have permission to configure apps, they will see a message explaining that the tab hasn't been configured."
+    ],
+    "body": [
+      "Copy-PnPTeamsTeam -DisplayName $1 -Identity $2"
+    ],
+    "prefix": [
+      "Copy-PnPTeamsTeam"
+    ]
+  },
   "Deny-PnPTenantServicePrincipalPermissionRequest": {
     "description": [
       "Denies a permission request for the current tenant's \"SharePoint Online Client\" service principal",
@@ -1087,6 +1136,15 @@
       "Disable-PnPPageScheduling"
     ]
   },
+  "Disable-PnPPowerShellTelemetry": {
+    "description": "This cmdlet disables sending of telemetry data.",
+    "body": [
+      "Disable-PnPPowerShellTelemetry "
+    ],
+    "prefix": [
+      "Disable-PnPPowerShellTelemetry"
+    ]
+  },
   "Disable-PnPSharingForNonOwnersOfSite": {
     "description": "Configures the site to only allow sharing of the site and items in the site by owners. At this point there is no interface available yet to undo this action through script. You will have to do so through the user interface of SharePoint.",
     "body": [
@@ -1097,7 +1155,7 @@
     ]
   },
   "Disable-PnPSiteClassification": {
-    "description": "",
+    "description": "Allows to disable site classifications for the tenant.",
     "body": [
       "Disable-PnPSiteClassification "
     ],
@@ -1140,7 +1198,7 @@
     ]
   },
   "Enable-PnPFeature": {
-    "description": "",
+    "description": "Allows to enable to feature.",
     "body": [
       "Enable-PnPFeature "
     ],
@@ -1166,8 +1224,17 @@
       "Enable-PnPPageScheduling"
     ]
   },
+  "Enable-PnPPowerShellTelemetry": {
+    "description": "This cmdlet Enables sending of telemetry data.",
+    "body": [
+      "Enable-PnPPowerShellTelemetry "
+    ],
+    "prefix": [
+      "Enable-PnPPowerShellTelemetry"
+    ]
+  },
   "Enable-PnPSiteClassification": {
-    "description": "",
+    "description": "Allows to enable site classifications for the tenant.",
     "body": [
       "Enable-PnPSiteClassification -Classifications $1 -DefaultClassification $2"
     ],
@@ -1197,7 +1264,7 @@
     ]
   },
   "Export-PnPListToSiteTemplate": {
-    "description": "",
+    "description": "Allows to export one or more lists to provisioning template.",
     "body": [
       "Export-PnPListToSiteTemplate -List $1"
     ],
@@ -1206,7 +1273,7 @@
     ]
   },
   "Export-PnPPage": {
-    "description": "",
+    "description": "Allows to export a Client Side Page to a PnP Provisioning Template.",
     "body": [
       "Export-PnPPage "
     ],
@@ -1237,7 +1304,7 @@
     ]
   },
   "Export-PnPTaxonomy": {
-    "description": "",
+    "description": "Allows to export a taxonomy to either the output or to a file.",
     "body": [
       "Export-PnPTaxonomy "
     ],
@@ -1246,7 +1313,7 @@
     ]
   },
   "Export-PnPTermGroupToXml": {
-    "description": "",
+    "description": "Allows to export a taxonomy TermGroup to either the output or to an XML file.",
     "body": [
       "Export-PnPTermGroupToXml "
     ],
@@ -1273,7 +1340,7 @@
     ]
   },
   "Find-PnPFile": {
-    "description": "",
+    "description": "Allows to find a file in the virtual file system of the web.",
     "body": [
       "Find-PnPFile "
     ],
@@ -1294,7 +1361,10 @@
     ]
   },
   "Get-PnPAlert": {
-    "description": "",
+    "description": [
+      "Allows to retrieve all registered alerts for given users. Using AllUsers option will allow to retrieve all alerts in the current site, regardless of the user or list it belongs to.",
+      "AllUsers"
+    ],
     "body": [
       "Get-PnPAlert "
     ],
@@ -1303,7 +1373,11 @@
     ]
   },
   "Get-PnPApp": {
-    "description": "",
+    "description": [
+      "Allows to retrieve available apps from the app catalog. In order to get apps from site collection scoped app catalog set Scope option to Site.",
+      "Scope",
+      "Site"
+    ],
     "body": [
       "Get-PnPApp "
     ],
@@ -1360,7 +1434,7 @@
     ]
   },
   "Get-PnPAuditing": {
-    "description": "",
+    "description": "Allows to get the auditing setting of the site.",
     "body": [
       "Get-PnPAuditing "
     ],
@@ -1378,7 +1452,7 @@
     ]
   },
   "Get-PnPAvailableLanguage": {
-    "description": "",
+    "description": "Allows to retrieve available languages from the current site.",
     "body": [
       "Get-PnPAvailableLanguage "
     ],
@@ -1420,6 +1494,15 @@
       "Get-PnPAzureADActivityReportDirectoryAudit"
     ]
   },
+  "Get-PnPAzureADActivityReportSignIn": {
+    "description": "This cmdlet gets the list of sign in logs generated by Azure AD.",
+    "body": [
+      "Get-PnPAzureADActivityReportSignIn "
+    ],
+    "prefix": [
+      "Get-PnPAzureADActivityReportSignIn"
+    ]
+  },
   "Get-PnPAzureADApp": {
     "description": "This cmdlets returns all app registrations or a specific one.",
     "body": [
@@ -1448,7 +1531,10 @@
     ]
   },
   "Get-PnPAzureADGroup": {
-    "description": "",
+    "description": [
+      "Allows to retrieve list of Azure Active Directory groups. Those can be a security, distribution or Microsoft 365 group. By specifing Identity option it is possible to get single group.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPAzureADGroup "
     ],
@@ -1457,7 +1543,7 @@
     ]
   },
   "Get-PnPAzureADGroupMember": {
-    "description": "",
+    "description": "Allows to list members from given Azure Active Directory group. This can be a security, distribution or Microsoft 365 group.",
     "body": [
       "Get-PnPAzureADGroupMember -Identity $1"
     ],
@@ -1466,7 +1552,7 @@
     ]
   },
   "Get-PnPAzureADGroupOwner": {
-    "description": "",
+    "description": "Allows to list owners from given Azure Active Directory group. This can be a security, distribution or Microsoft 365 group.",
     "body": [
       "Get-PnPAzureADGroupOwner -Identity $1"
     ],
@@ -1475,7 +1561,7 @@
     ]
   },
   "Get-PnPAzureADUser": {
-    "description": "",
+    "description": "Allows to retrieve single or list of users from Azure Active Directory.",
     "body": [
       "Get-PnPAzureADUser "
     ],
@@ -1484,7 +1570,7 @@
     ]
   },
   "Get-PnPAzureCertificate": {
-    "description": "",
+    "description": "Allows to PEM values and manifest settings for an existing certificate (.pfx) for use when using CSOM via an app-only ADAL application.",
     "body": [
       "Get-PnPAzureCertificate -Path $1"
     ],
@@ -1529,7 +1615,7 @@
     ]
   },
   "Get-PnPCompatibleHubContentTypes": {
-    "description": "",
+    "description": "Allows to retrieve list of content types present in content type hub site that are possible to be added to the current site or given list.",
     "body": [
       "Get-PnPCompatibleHubContentTypes -WebUrl $1"
     ],
@@ -1547,7 +1633,10 @@
     ]
   },
   "Get-PnPContentType": {
-    "description": "",
+    "description": [
+      "Allows to get single or list of content types from site or list. Use the Identity option to specify the exact content type.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPContentType "
     ],
@@ -1556,7 +1645,7 @@
     ]
   },
   "Get-PnPContentTypePublishingHubUrl": {
-    "description": "",
+    "description": "Allows to retrieve the url of the Content Type Publishing Hub.",
     "body": [
       "Get-PnPContentTypePublishingHubUrl "
     ],
@@ -1565,7 +1654,7 @@
     ]
   },
   "Get-PnPContentTypePublishingStatus": {
-    "description": "",
+    "description": "Allows to retrieve the publishing status of a content type present on content type hub site.",
     "body": [
       "Get-PnPContentTypePublishingStatus -ContentType $1"
     ],
@@ -1601,7 +1690,10 @@
     ]
   },
   "Get-PnPDeletedMicrosoft365Group": {
-    "description": "",
+    "description": [
+      "Allows to get list of deleted Microsoft 365 Groups. Use the Identity option to specify the exact group.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPDeletedMicrosoft365Group "
     ],
@@ -1628,7 +1720,7 @@
     ]
   },
   "Get-PnPDocumentSetTemplate": {
-    "description": "",
+    "description": "Allows to retrieve a document set template.",
     "body": [
       "Get-PnPDocumentSetTemplate "
     ],
@@ -1883,7 +1975,10 @@
     ]
   },
   "Get-PnPLabel": {
-    "description": "",
+    "description": [
+      "Allows to retrieve all retention labels for current site or list. Use Raw option if you want will include more detailed information regarding labels.",
+      "Raw"
+    ],
     "body": [
       "Get-PnPLabel "
     ],
@@ -1910,7 +2005,7 @@
     ]
   },
   "Get-PnPListInformationRightsManagement": {
-    "description": "",
+    "description": "Allows to get the site closure status of the current site or list which has a site policy applied.",
     "body": [
       "Get-PnPListInformationRightsManagement -List $1"
     ],
@@ -1919,7 +2014,7 @@
     ]
   },
   "Get-PnPListItem": {
-    "description": "",
+    "description": "Allows to retrieve list items.",
     "body": [
       "Get-PnPListItem "
     ],
@@ -1928,7 +2023,10 @@
     ]
   },
   "Get-PnPListItemAttachment": {
-    "description": "",
+    "description": [
+      "Allows to download the list item attachments to a specified path. Use Force option in order to skip the confirmation question and overwrite the files on the local disk, if they already exist.",
+      "Force"
+    ],
     "body": [
       "Get-PnPListItemAttachment "
     ],
@@ -1959,7 +2057,7 @@
     ]
   },
   "Get-PnPListItemPermission": {
-    "description": "",
+    "description": "Allows to retrieve list item permissions.",
     "body": [
       "Get-PnPListItemPermission "
     ],
@@ -1977,7 +2075,7 @@
     ]
   },
   "Get-PnPListRecordDeclaration": {
-    "description": "",
+    "description": "Allows to retrieve the record declaration settings for given list.",
     "body": [
       "Get-PnPListRecordDeclaration -List $1"
     ],
@@ -1986,7 +2084,7 @@
     ]
   },
   "Get-PnPMasterPage": {
-    "description": "",
+    "description": "Allows to retrieve urls of the default Master Page and custom Master Page of the current site.",
     "body": [
       "Get-PnPMasterPage "
     ],
@@ -1995,7 +2093,7 @@
     ]
   },
   "Get-PnPMessageCenterAnnouncement": {
-    "description": "",
+    "description": "Allows to retrieve the available message center announcements.",
     "body": [
       "Get-PnPMessageCenterAnnouncement "
     ],
@@ -2004,7 +2102,10 @@
     ]
   },
   "Get-PnPMicrosoft365Group": {
-    "description": "",
+    "description": [
+      "Allows to retrieve Microsoft 365 Groups. By using Identity option you may specify the exact group that will be retrieved.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPMicrosoft365Group "
     ],
@@ -2031,7 +2132,7 @@
     ]
   },
   "Get-PnPMicrosoft365GroupOwner": {
-    "description": "",
+    "description": "Allows to retrieve owners of Microsoft 365 Group.",
     "body": [
       "Get-PnPMicrosoft365GroupOwner -Identity $1"
     ],
@@ -2040,7 +2141,10 @@
     ]
   },
   "Get-PnPMicrosoft365GroupSettings": {
-    "description": "",
+    "description": [
+      "Allows to retrieve tenant wide settings of Microsoft 365 Groups or by using Identity option you may specify the exact Microsoft 365 Group.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPMicrosoft365GroupSettings "
     ],
@@ -2049,7 +2153,7 @@
     ]
   },
   "Get-PnPMicrosoft365GroupSettingTemplates": {
-    "description": "",
+    "description": "Allows to retrieve available system wide template of settings for Microsoft 365 Groups.",
     "body": [
       "Get-PnPMicrosoft365GroupSettingTemplates "
     ],
@@ -2076,7 +2180,10 @@
     ]
   },
   "Get-PnPNavigationNode": {
-    "description": "",
+    "description": [
+      "Allows to retrieve all navigation nodes or a specifi on by using Id option.",
+      "Id"
+    ],
     "body": [
       "Get-PnPNavigationNode "
     ],
@@ -2085,7 +2192,7 @@
     ]
   },
   "Get-PnPOrgAssetsLibrary": {
-    "description": "",
+    "description": "Allows to retrieve list of all the configured organizational asset libraries.",
     "body": [
       "Get-PnPOrgAssetsLibrary "
     ],
@@ -2094,7 +2201,7 @@
     ]
   },
   "Get-PnPOrgNewsSite": {
-    "description": "",
+    "description": "Allows to retrieve list of all the configured organizational news sites.",
     "body": [
       "Get-PnPOrgNewsSite "
     ],
@@ -2217,7 +2324,11 @@
     ]
   },
   "Get-PnPPropertyBag": {
-    "description": "",
+    "description": [
+      "Allows to retrieve all property bag values. It is possible to get property bag values for a folder using Folder option or a specific property bag value using Key option.",
+      "Folder",
+      "Key"
+    ],
     "body": [
       "Get-PnPPropertyBag "
     ],
@@ -2226,7 +2337,10 @@
     ]
   },
   "Get-PnPPublishingImageRendition": {
-    "description": "",
+    "description": [
+      "Allows to retrieve all image renditions or a specific one when Identity option is used.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPPublishingImageRendition "
     ],
@@ -2244,7 +2358,7 @@
     ]
   },
   "Get-PnPRequestAccessEmails": {
-    "description": "",
+    "description": "Allows to retrieve request access e-mail addresses.",
     "body": [
       "Get-PnPRequestAccessEmails "
     ],
@@ -2253,7 +2367,7 @@
     ]
   },
   "Get-PnPRoleDefinition": {
-    "description": "",
+    "description": "Allows to retrieve Role Definitions of a site.",
     "body": [
       "Get-PnPRoleDefinition "
     ],
@@ -2262,7 +2376,7 @@
     ]
   },
   "Get-PnPSearchConfiguration": {
-    "description": "",
+    "description": "Allows to retrieve search configuration.",
     "body": [
       "Get-PnPSearchConfiguration "
     ],
@@ -2271,7 +2385,10 @@
     ]
   },
   "Get-PnPSearchCrawlLog": {
-    "description": "",
+    "description": [
+      "Allows to retrieve entries from the SharePoint search crawl log. To be able to use this command you need to grant access to the crawl log via the SharePoint search admin center at https://-admin.sharepoint.com/_layouts/15/searchadmin/crawllogreadpermission.aspx.",
+      null
+    ],
     "body": [
       "Get-PnPSearchCrawlLog "
     ],
@@ -2280,7 +2397,7 @@
     ]
   },
   "Get-PnPSearchSettings": {
-    "description": "",
+    "description": "Allows to retrieve search settings for a site.",
     "body": [
       "Get-PnPSearchSettings "
     ],
@@ -2289,7 +2406,7 @@
     ]
   },
   "Get-PnPServiceCurrentHealth": {
-    "description": "",
+    "description": "Allows to retrieve current service status of the Office 365 Services from the Microsoft Graph API.",
     "body": [
       "Get-PnPServiceCurrentHealth "
     ],
@@ -2298,7 +2415,7 @@
     ]
   },
   "Get-PnPServiceHealthIssue": {
-    "description": "",
+    "description": "Allows to retrieve current service health issues of the Office 365 Services from the Microsoft Graph API.",
     "body": [
       "Get-PnPServiceHealthIssue "
     ],
@@ -2316,7 +2433,7 @@
     ]
   },
   "Get-PnPSite": {
-    "description": "",
+    "description": "Allows to retrieve current site collection from the context.",
     "body": [
       "Get-PnPSite "
     ],
@@ -2325,7 +2442,7 @@
     ]
   },
   "Get-PnPSiteClosure": {
-    "description": "",
+    "description": "Allows to retrieve current site closure status of the site which has a site policy applied.",
     "body": [
       "Get-PnPSiteClosure "
     ],
@@ -2370,7 +2487,7 @@
     ]
   },
   "Get-PnPSiteDesignRights": {
-    "description": "",
+    "description": "Allows to retrieve the principals with design rights on a specific Site Design.",
     "body": [
       "Get-PnPSiteDesignRights "
     ],
@@ -2379,7 +2496,10 @@
     ]
   },
   "Get-PnPSiteDesignRun": {
-    "description": "",
+    "description": [
+      "Allows to retrieve a list of site designs applied to a specified site collection. By default the command will retrieve list of designs applied to the current site but it is also possible to get this information from a different site collection using WebUrl option.",
+      "WebUrl"
+    ],
     "body": [
       "Get-PnPSiteDesignRun "
     ],
@@ -2388,7 +2508,7 @@
     ]
   },
   "Get-PnPSiteDesignRunStatus": {
-    "description": "",
+    "description": "Allows to retrieve a list of all site script actions executed for a specified site design applied to a site.",
     "body": [
       "Get-PnPSiteDesignRunStatus -Run $1"
     ],
@@ -2397,7 +2517,7 @@
     ]
   },
   "Get-PnPSiteDesignTask": {
-    "description": "",
+    "description": "Allows to retrieve a scheduled site design script.",
     "body": [
       "Get-PnPSiteDesignTask "
     ],
@@ -2415,7 +2535,7 @@
     ]
   },
   "Get-PnPSitePolicy": {
-    "description": "",
+    "description": "Allows to retrieve site policies.",
     "body": [
       "Get-PnPSitePolicy "
     ],
@@ -2424,7 +2544,10 @@
     ]
   },
   "Get-PnPSiteScript": {
-    "description": "",
+    "description": [
+      "Allows to retrieve site scripts registered on the current tenant. By using Identity option it is possible to retrieve specified site script",
+      "Identity"
+    ],
     "body": [
       "Get-PnPSiteScript "
     ],
@@ -2451,7 +2574,7 @@
     ]
   },
   "Get-PnPSiteSearchQueryResults": {
-    "description": "",
+    "description": "Allows to run a search query to retrieve indexed site collections.",
     "body": [
       "Get-PnPSiteSearchQueryResults "
     ],
@@ -2469,7 +2592,7 @@
     ]
   },
   "Get-PnPSiteTemplate": {
-    "description": "",
+    "description": "Allows to generate a provisioning site template from a web.",
     "body": [
       "Get-PnPSiteTemplate "
     ],
@@ -2487,7 +2610,7 @@
     ]
   },
   "Get-PnPStorageEntity": {
-    "description": "",
+    "description": "Allows to retrieve storage entities from either tenant app catalog or current site app catalog.",
     "body": [
       "Get-PnPStorageEntity "
     ],
@@ -2535,7 +2658,7 @@
     ]
   },
   "Get-PnPSubWeb": {
-    "description": "",
+    "description": "Allows to retrieve subwebs of the current web.",
     "body": [
       "Get-PnPSubWeb "
     ],
@@ -2571,7 +2694,7 @@
     ]
   },
   "Get-PnPTaxonomySession": {
-    "description": "",
+    "description": "Allows to retrieve taxonomy session.",
     "body": [
       "Get-PnPTaxonomySession "
     ],
@@ -2580,7 +2703,10 @@
     ]
   },
   "Get-PnPTeamsApp": {
-    "description": "",
+    "description": [
+      "Allows to retrieve Microsoft Teams apps. By using Identity option it is possible to retrieve a specific app.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPTeamsApp "
     ],
@@ -2589,7 +2715,7 @@
     ]
   },
   "Get-PnPTeamsChannel": {
-    "description": "",
+    "description": "Allows to retrieve list of channels for a specified team.",
     "body": [
       "Get-PnPTeamsChannel -Team $1"
     ],
@@ -2598,7 +2724,7 @@
     ]
   },
   "Get-PnPTeamsChannelFilesFolder": {
-    "description": "",
+    "description": "Allows to retrieve folder metadata for specified channel.",
     "body": [
       "Get-PnPTeamsChannelFilesFolder "
     ],
@@ -2607,7 +2733,7 @@
     ]
   },
   "Get-PnPTeamsChannelMessage": {
-    "description": "",
+    "description": "Allows to retrieve messages from the specified channel.",
     "body": [
       "Get-PnPTeamsChannelMessage -Team $1 -Channel $2"
     ],
@@ -2616,7 +2742,7 @@
     ]
   },
   "Get-PnPTeamsChannelMessageReply": {
-    "description": "",
+    "description": "Allows to retrieve replies from the specified channel message.",
     "body": [
       "Get-PnPTeamsChannelMessageReply -Team $1 -Channel $2 -Message $3"
     ],
@@ -2625,7 +2751,7 @@
     ]
   },
   "Get-PnPTeamsChannelUser": {
-    "description": "",
+    "description": "Allows to retrieve list of members of the specified private channel.",
     "body": [
       "Get-PnPTeamsChannelUser -Team $1 -Channel $2"
     ],
@@ -2643,7 +2769,10 @@
     ]
   },
   "Get-PnPTeamsTab": {
-    "description": "",
+    "description": [
+      "Allows to retrieve tabs in channel. By using Identity it is possible to retrieve a specifi single tab.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPTeamsTab -Team $1 -Channel $2"
     ],
@@ -2651,8 +2780,20 @@
       "Get-PnPTeamsTab"
     ]
   },
-  "Get-PnPTeamsTeam": {
+  "Get-PnPTeamsTag": {
     "description": "",
+    "body": [
+      "Get-PnPTeamsTag -Team $1"
+    ],
+    "prefix": [
+      "Get-PnPTeamsTag"
+    ]
+  },
+  "Get-PnPTeamsTeam": {
+    "description": [
+      "Allows to retrieve list of Microsoft Teams teams. By using Identity it is possible to retrieve a specifi team.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPTeamsTeam "
     ],
@@ -2661,7 +2802,7 @@
     ]
   },
   "Get-PnPTeamsUser": {
-    "description": "",
+    "description": "Allows to retrieve list of owners, members or guests from a team.",
     "body": [
       "Get-PnPTeamsUser -Team $1"
     ],
@@ -2670,7 +2811,7 @@
     ]
   },
   "Get-PnPTemporarilyDisableAppBar": {
-    "description": "",
+    "description": "Allows to retrieve disabled state of the SharePoint Online App Bar.",
     "body": [
       "Get-PnPTemporarilyDisableAppBar "
     ],
@@ -2692,7 +2833,7 @@
     ]
   },
   "Get-PnPTenantAppCatalogUrl": {
-    "description": "",
+    "description": "Allows to retrieve the url of the tenant scoped app catalog.",
     "body": [
       "Get-PnPTenantAppCatalogUrl "
     ],
@@ -2737,7 +2878,7 @@
     ]
   },
   "Get-PnPTenantId": {
-    "description": "",
+    "description": "Allows to retrieve id of tenant.",
     "body": [
       "Get-PnPTenantId -TenantUrl $1"
     ],
@@ -2746,7 +2887,7 @@
     ]
   },
   "Get-PnPTenantInstance": {
-    "description": "",
+    "description": "Allows to retrieve list of all instances of the tenant.",
     "body": [
       "Get-PnPTenantInstance "
     ],
@@ -2764,7 +2905,10 @@
     ]
   },
   "Get-PnPTenantSequence": {
-    "description": "",
+    "description": [
+      "Allows to retrieve provisioning sequence objects from a tenant template. By using Identity option it is possible to retrieve a specific provisioning sequence object.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPTenantSequence -Template $1"
     ],
@@ -2773,7 +2917,7 @@
     ]
   },
   "Get-PnPTenantSequenceSite": {
-    "description": "",
+    "description": "Allows to retrieve list of sites from tenant template sequence.",
     "body": [
       "Get-PnPTenantSequenceSite -Sequence $1"
     ],
@@ -2849,7 +2993,7 @@
     ]
   },
   "Get-PnPTenantTemplate": {
-    "description": "",
+    "description": "Allows to generate a provisioning tenant template from a site. If the site is a hubsite any connected site will be included.",
     "body": [
       "Get-PnPTenantTemplate "
     ],
@@ -2876,7 +3020,7 @@
     ]
   },
   "Get-PnPTermGroup": {
-    "description": "",
+    "description": "Allows to retrieve a taxonomy term group.",
     "body": [
       "Get-PnPTermGroup "
     ],
@@ -2903,7 +3047,7 @@
     ]
   },
   "Get-PnPTheme": {
-    "description": "",
+    "description": "Allows to retrieve current theme/composed look of the current web.",
     "body": [
       "Get-PnPTheme "
     ],
@@ -2921,7 +3065,7 @@
     ]
   },
   "Get-PnPUnifiedAuditLog": {
-    "description": "",
+    "description": "Allows to retrieve unified audit logs from the Office 365 Management API.",
     "body": [
       "Get-PnPUnifiedAuditLog "
     ],
@@ -2966,7 +3110,10 @@
     ]
   },
   "Get-PnPView": {
-    "description": "",
+    "description": [
+      "Allows to retrieve list of views from a list. By using Identity option it is possible to retrieve a specifi view.",
+      "Identity"
+    ],
     "body": [
       "Get-PnPView "
     ],
@@ -2975,7 +3122,7 @@
     ]
   },
   "Get-PnPVivaConnectionsDashboardACE": {
-    "description": "",
+    "description": "Allows to retrieve the adaptive card extensions from the Viva connections dashboard page.",
     "body": [
       "Get-PnPVivaConnectionsDashboardACE "
     ],
@@ -2984,7 +3131,7 @@
     ]
   },
   "Get-PnPWeb": {
-    "description": "",
+    "description": "Allows to retrieve the current web.",
     "body": [
       "Get-PnPWeb "
     ],
@@ -3002,7 +3149,7 @@
     ]
   },
   "Get-PnPWebhookSubscriptions": {
-    "description": "",
+    "description": "Allows to retrieve Webhook subscriptions of specified list.",
     "body": [
       "Get-PnPWebhookSubscriptions "
     ],
@@ -3020,7 +3167,7 @@
     ]
   },
   "Get-PnPWebPartProperty": {
-    "description": "",
+    "description": "Allows to retrieve web part property.",
     "body": [
       "Get-PnPWebPartProperty -ServerRelativePageUrl $1 -Identity $2"
     ],
@@ -3029,7 +3176,7 @@
     ]
   },
   "Get-PnPWebPartXml": {
-    "description": "",
+    "description": "Allows to retrieve web part XML defintion.",
     "body": [
       "Get-PnPWebPartXml -ServerRelativePageUrl $1 -Identity $2"
     ],
@@ -3047,7 +3194,7 @@
     ]
   },
   "Get-PnPWikiPageContent": {
-    "description": "",
+    "description": "Allows to retrieve contents/source of a wiki page.",
     "body": [
       "Get-PnPWikiPageContent "
     ],
@@ -3068,7 +3215,7 @@
     ]
   },
   "Grant-PnPHubSiteRights": {
-    "description": "",
+    "description": "Allows to add additional permissions to existing once to associate sites to Hub Sites for specified users.",
     "body": [
       "Grant-PnPHubSiteRights "
     ],
@@ -3077,7 +3224,7 @@
     ]
   },
   "Grant-PnPSiteDesignRights": {
-    "description": "",
+    "description": "Allows to grant permission to use the site design for specified principal.",
     "body": [
       "Grant-PnPSiteDesignRights "
     ],
@@ -3086,7 +3233,7 @@
     ]
   },
   "Grant-PnPTenantServicePrincipalPermission": {
-    "description": "",
+    "description": "Allows to grant a specified permission o the \"SharePoint Online Client Extensibility Web Application Principal\" service principal for SPFx solutions.",
     "body": [
       "Grant-PnPTenantServicePrincipalPermission -Scope $1"
     ],
@@ -3095,7 +3242,7 @@
     ]
   },
   "Import-PnPTaxonomy": {
-    "description": "",
+    "description": "Allows to import taxonomy terms from array or file.",
     "body": [
       "Import-PnPTaxonomy "
     ],
@@ -3104,7 +3251,7 @@
     ]
   },
   "Import-PnPTermGroupFromXml": {
-    "description": "",
+    "description": "Allows to import taxonomy term group from xml.",
     "body": [
       "Import-PnPTermGroupFromXml "
     ],
@@ -3130,7 +3277,7 @@
     ]
   },
   "Install-PnPApp": {
-    "description": "",
+    "description": "Allows to install an available app from the app catalog.",
     "body": [
       "Install-PnPApp "
     ],
@@ -3222,7 +3369,7 @@
     ]
   },
   "Invoke-PnPSiteTemplate": {
-    "description": "",
+    "description": "Allows to apply a site template on a web.",
     "body": [
       "Invoke-PnPSiteTemplate "
     ],
@@ -3240,7 +3387,7 @@
     ]
   },
   "Invoke-PnPTenantTemplate": {
-    "description": "",
+    "description": "Allows to apply a tenant template on current tenant.",
     "body": [
       "Invoke-PnPTenantTemplate "
     ],
@@ -3249,7 +3396,7 @@
     ]
   },
   "Invoke-PnPWebAction": {
-    "description": "",
+    "description": "Allows to execute operations on web, lists and list items.",
     "body": [
       "Invoke-PnPWebAction "
     ],
@@ -3258,7 +3405,7 @@
     ]
   },
   "Measure-PnPList": {
-    "description": "",
+    "description": "Allows to retrieve statistics on specified list. The command may fail on lists larger than the list view threshold.",
     "body": [
       "Measure-PnPList "
     ],
@@ -3267,7 +3414,10 @@
     ]
   },
   "Measure-PnPWeb": {
-    "description": "",
+    "description": [
+      "Allows to retrieve statistics on specified web. By specifing Recursive it is possible to retrieve statistics on all subwebs as well.",
+      "Recursive"
+    ],
     "body": [
       "Measure-PnPWeb "
     ],
@@ -3289,7 +3439,7 @@
     ]
   },
   "Move-PnPFolder": {
-    "description": "",
+    "description": "Allows to move folder to another location in the current web. If you want to move a folder to a different site collection, use the Move-PnPFile cmdlet instead, which also supports moving folders and also accross site collections. Move-PnPFolder can be used to move folders that are within the list view threshold, the commandlet will fail if the list view threshold is exceeded.",
     "body": [
       "Move-PnPFolder -Folder $1 -TargetFolder $2"
     ],
@@ -3298,7 +3448,7 @@
     ]
   },
   "Move-PnPListItemToRecycleBin": {
-    "description": "",
+    "description": "Allows to move an item to the recycle bin.",
     "body": [
       "Move-PnPListItemToRecycleBin "
     ],
@@ -3325,7 +3475,7 @@
     ]
   },
   "New-PnPAzureADGroup": {
-    "description": "",
+    "description": "Allows to create an Azure Active Directory group. This can be either security or distribution group.",
     "body": [
       "New-PnPAzureADGroup -DisplayName $1 -Description $2 -MailNickname $3"
     ],
@@ -3347,7 +3497,7 @@
     ]
   },
   "New-PnPAzureCertificate": {
-    "description": "",
+    "description": "Allows to create a self-signed certificate and manifest settings to be used with CSOM via an app-only ADAL application.",
     "body": [
       "New-PnPAzureCertificate "
     ],
@@ -3365,7 +3515,7 @@
     ]
   },
   "New-PnPExtensibilityHandlerObject": {
-    "description": "",
+    "description": "Allows to create an ExtensibilityHandler.",
     "body": [
       "New-PnPExtensibilityHandlerObject "
     ],
@@ -3396,7 +3546,7 @@
     ]
   },
   "New-PnPList": {
-    "description": "",
+    "description": "Allows to create a new list.",
     "body": [
       "New-PnPList -Title $1 -Template $2"
     ],
@@ -3405,7 +3555,7 @@
     ]
   },
   "New-PnPMicrosoft365Group": {
-    "description": "",
+    "description": "Allows to create a new Microsoft 365 Group.",
     "body": [
       "New-PnPMicrosoft365Group -DisplayName $1 -Description $2 -MailNickname $3"
     ],
@@ -3414,7 +3564,7 @@
     ]
   },
   "New-PnPMicrosoft365GroupSettings": {
-    "description": "",
+    "description": "Allows to create a new Microsoft 365 Group setting for a specific group or the tenant.",
     "body": [
       "New-PnPMicrosoft365GroupSettings -Identity $1 -DisplayName $2 -TemplateId $3 -Values $4"
     ],
@@ -3495,7 +3645,7 @@
     ]
   },
   "New-PnPSiteTemplate": {
-    "description": "",
+    "description": "Allows to create a new provisioning site template.",
     "body": [
       "New-PnPSiteTemplate "
     ],
@@ -3504,7 +3654,7 @@
     ]
   },
   "New-PnPSiteTemplateFromFolder": {
-    "description": "",
+    "description": "Allows to create a new provisioning site template based on a given folder, including files present in it.",
     "body": [
       "New-PnPSiteTemplateFromFolder "
     ],
@@ -3513,7 +3663,7 @@
     ]
   },
   "New-PnPTeamsApp": {
-    "description": "",
+    "description": "Allows to add an app to the Teams App Catalog.",
     "body": [
       "New-PnPTeamsApp -Path $1"
     ],
@@ -3522,7 +3672,7 @@
     ]
   },
   "New-PnPTeamsTeam": {
-    "description": "",
+    "description": "Allows to create new team in Microsoft Teams or to teamify an existing Microsoft 365 Group. If the Microsoft 365 Group does not exist yet, it will create it first and then add a Microsoft Teams team to the group.",
     "body": [
       "New-PnPTeamsTeam -GroupId $1"
     ],
@@ -3531,7 +3681,7 @@
     ]
   },
   "New-PnPTenantSequence": {
-    "description": "",
+    "description": "Allows to create a new tenant sequence object.",
     "body": [
       "New-PnPTenantSequence "
     ],
@@ -3540,7 +3690,7 @@
     ]
   },
   "New-PnPTenantSequenceCommunicationSite": {
-    "description": "",
+    "description": "Allows to create a new communication site object.",
     "body": [
       "New-PnPTenantSequenceCommunicationSite -Url $1 -Title $2"
     ],
@@ -3549,7 +3699,7 @@
     ]
   },
   "New-PnPTenantSequenceTeamNoGroupSite": {
-    "description": "",
+    "description": "Allows to create a new site without a Microsoft 365 group in-memory object.",
     "body": [
       "New-PnPTenantSequenceTeamNoGroupSite -Url $1 -Title $2 -TimeZoneId $3"
     ],
@@ -3558,7 +3708,7 @@
     ]
   },
   "New-PnPTenantSequenceTeamNoGroupSubSite": {
-    "description": "",
+    "description": "Allows to create a new team site subsite with no Microsoft 365 group object.",
     "body": [
       "New-PnPTenantSequenceTeamNoGroupSubSite -Url $1 -Title $2 -TimeZoneId $3"
     ],
@@ -3567,7 +3717,7 @@
     ]
   },
   "New-PnPTenantSequenceTeamSite": {
-    "description": "",
+    "description": "Allows to create a new team site object.",
     "body": [
       "New-PnPTenantSequenceTeamSite -Alias $1 -Title $2"
     ],
@@ -3585,7 +3735,7 @@
     ]
   },
   "New-PnPTenantTemplate": {
-    "description": "",
+    "description": "Allows to create a new tenant template object.",
     "body": [
       "New-PnPTenantTemplate "
     ],
@@ -3603,7 +3753,7 @@
     ]
   },
   "New-PnPTermGroup": {
-    "description": "",
+    "description": "Allows to create a taxonomy term group.",
     "body": [
       "New-PnPTermGroup -Name $1"
     ],
@@ -3621,7 +3771,7 @@
     ]
   },
   "New-PnPTermSet": {
-    "description": "",
+    "description": "Allows to create a taxonomy term set.",
     "body": [
       "New-PnPTermSet -Name $1"
     ],
@@ -3642,7 +3792,7 @@
     ]
   },
   "New-PnPUser": {
-    "description": "",
+    "description": "Allows to add a user to current site.",
     "body": [
       "New-PnPUser -LoginName $1"
     ],
@@ -3651,7 +3801,7 @@
     ]
   },
   "New-PnPWeb": {
-    "description": "",
+    "description": "Allows to create new subweb under the current web.",
     "body": [
       "New-PnPWeb -Title $1 -Url $2"
     ],
@@ -3660,7 +3810,7 @@
     ]
   },
   "Publish-PnPApp": {
-    "description": "",
+    "description": "Allows to deploy/trust an available app in the app catalog.",
     "body": [
       "Publish-PnPApp "
     ],
@@ -3678,7 +3828,7 @@
     ]
   },
   "Publish-PnPContentType": {
-    "description": "",
+    "description": "Allows to publish a content type present on content type hub site.",
     "body": [
       "Publish-PnPContentType -ContentType $1"
     ],
@@ -3705,7 +3855,7 @@
     ]
   },
   "Read-PnPTenantTemplate": {
-    "description": "",
+    "description": "Allows to load a PnP tenant template from the file system to memory and return its instance object.",
     "body": [
       "Read-PnPTenantTemplate "
     ],
@@ -3723,7 +3873,7 @@
     ]
   },
   "Register-PnPAppCatalogSite": {
-    "description": "",
+    "description": "Allows to create a new App Catalog Site and sets this site as the Tenant App Catalog.",
     "body": [
       "Register-PnPAppCatalogSite -Url $1 -Owner $2 -TimeZoneId $3"
     ],
@@ -3779,7 +3929,7 @@
     ]
   },
   "Remove-PnPAlert": {
-    "description": "",
+    "description": "Allows to remove an alert for a user.",
     "body": [
       "Remove-PnPAlert "
     ],
@@ -3788,7 +3938,7 @@
     ]
   },
   "Remove-PnPApp": {
-    "description": "",
+    "description": "Allows to remove an app from the app catalog.",
     "body": [
       "Remove-PnPApp "
     ],
@@ -3806,7 +3956,7 @@
     ]
   },
   "Remove-PnPAvailableSiteClassification": {
-    "description": "",
+    "description": "Allows to remove existing classic site classification values.",
     "body": [
       "Remove-PnPAvailableSiteClassification -Classifications $1"
     ],
@@ -3824,7 +3974,7 @@
     ]
   },
   "Remove-PnPAzureADGroup": {
-    "description": "",
+    "description": "Allows to remove Azure Active Directory group.",
     "body": [
       "Remove-PnPAzureADGroup -Identity $1"
     ],
@@ -3833,7 +3983,7 @@
     ]
   },
   "Remove-PnPAzureADGroupMember": {
-    "description": "",
+    "description": "Allows to remove members from Azure Active Directory group.",
     "body": [
       "Remove-PnPAzureADGroupMember -Identity $1 -Users $2"
     ],
@@ -3842,7 +3992,7 @@
     ]
   },
   "Remove-PnPAzureADGroupOwner": {
-    "description": "",
+    "description": "Allows to remove owners from Azure Active Directory group.",
     "body": [
       "Remove-PnPAzureADGroupOwner -Identity $1 -Users $2"
     ],
@@ -3851,7 +4001,7 @@
     ]
   },
   "Remove-PnPContentType": {
-    "description": "",
+    "description": "Allows to remove content type from web.",
     "body": [
       "Remove-PnPContentType "
     ],
@@ -3860,7 +4010,7 @@
     ]
   },
   "Remove-PnPContentTypeFromDocumentSet": {
-    "description": "",
+    "description": "Allows to remove content type from document set.",
     "body": [
       "Remove-PnPContentTypeFromDocumentSet -ContentType $1 -DocumentSet $2"
     ],
@@ -3869,7 +4019,7 @@
     ]
   },
   "Remove-PnPContentTypeFromList": {
-    "description": "",
+    "description": "Allows to remove content type from list.",
     "body": [
       "Remove-PnPContentTypeFromList -List $1 -ContentType $2"
     ],
@@ -3878,7 +4028,7 @@
     ]
   },
   "Remove-PnPCustomAction": {
-    "description": "",
+    "description": "Allows to remove custom action.",
     "body": [
       "Remove-PnPCustomAction "
     ],
@@ -3887,7 +4037,7 @@
     ]
   },
   "Remove-PnPDeletedMicrosoft365Group": {
-    "description": "",
+    "description": "Allows to permanently remove a deleted Microsoft 365 Group.",
     "body": [
       "Remove-PnPDeletedMicrosoft365Group -Identity $1"
     ],
@@ -3917,7 +4067,7 @@
     ]
   },
   "Remove-PnPField": {
-    "description": "",
+    "description": "Allows to remove a field from list or site.",
     "body": [
       "Remove-PnPField "
     ],
@@ -3926,7 +4076,7 @@
     ]
   },
   "Remove-PnPFieldFromContentType": {
-    "description": "",
+    "description": "Allows to remove a field from a content type.",
     "body": [
       "Remove-PnPFieldFromContentType -Field $1 -ContentType $2"
     ],
@@ -3935,7 +4085,7 @@
     ]
   },
   "Remove-PnPFile": {
-    "description": "",
+    "description": "Allows to remove a file.",
     "body": [
       "Remove-PnPFile "
     ],
@@ -3944,7 +4094,7 @@
     ]
   },
   "Remove-PnPFileFromSiteTemplate": {
-    "description": "",
+    "description": "Allows to remove a file from a PnP Provisioning Template.",
     "body": [
       "Remove-PnPFileFromSiteTemplate "
     ],
@@ -3971,7 +4121,7 @@
     ]
   },
   "Remove-PnPFolder": {
-    "description": "",
+    "description": "Allows to remove a folder.",
     "body": [
       "Remove-PnPFolder -Name $1 -Folder $2"
     ],
@@ -3980,7 +4130,7 @@
     ]
   },
   "Remove-PnPGraphSubscription": {
-    "description": "",
+    "description": "Allows to remove an existing Microsoft Graph subscription.",
     "body": [
       "Remove-PnPGraphSubscription -Identity $1"
     ],
@@ -3989,7 +4139,7 @@
     ]
   },
   "Remove-PnPGroup": {
-    "description": "",
+    "description": "Allows to remove a group from web.",
     "body": [
       "Remove-PnPGroup "
     ],
@@ -3998,7 +4148,7 @@
     ]
   },
   "Remove-PnPGroupMember": {
-    "description": "",
+    "description": "Allows to remove a user from group.",
     "body": [
       "Remove-PnPGroupMember -LoginName $1 -Group $2"
     ],
@@ -4007,7 +4157,7 @@
     ]
   },
   "Remove-PnPHomeSite": {
-    "description": "",
+    "description": "Allows to remove a site which currently is set as home site.",
     "body": [
       "Remove-PnPHomeSite "
     ],
@@ -4016,7 +4166,7 @@
     ]
   },
   "Remove-PnPHubSiteAssociation": {
-    "description": "",
+    "description": "Allows to remove a hub site association from a site.",
     "body": [
       "Remove-PnPHubSiteAssociation -Site $1"
     ],
@@ -4034,7 +4184,7 @@
     ]
   },
   "Remove-PnPIndexedProperty": {
-    "description": "",
+    "description": "Allows to remove indexed property from the current web.",
     "body": [
       "Remove-PnPIndexedProperty "
     ],
@@ -4043,7 +4193,7 @@
     ]
   },
   "Remove-PnPJavaScriptLink": {
-    "description": "",
+    "description": "Allows to remove JavaScript link or block from a web or sitecollection.",
     "body": [
       "Remove-PnPJavaScriptLink "
     ],
@@ -4052,7 +4202,7 @@
     ]
   },
   "Remove-PnPKnowledgeHubSite": {
-    "description": "",
+    "description": "Allows to remove Knowledge Hub Site setting for your tenant.",
     "body": [
       "Remove-PnPKnowledgeHubSite "
     ],
@@ -4061,7 +4211,7 @@
     ]
   },
   "Remove-PnPList": {
-    "description": "",
+    "description": "Allows to remove a list.",
     "body": [
       "Remove-PnPList "
     ],
@@ -4070,7 +4220,7 @@
     ]
   },
   "Remove-PnPListDesign": {
-    "description": "",
+    "description": "Allows to remove a list design.",
     "body": [
       "Remove-PnPListDesign "
     ],
@@ -4079,7 +4229,7 @@
     ]
   },
   "Remove-PnPListItem": {
-    "description": "",
+    "description": "Allows to remove a list item.",
     "body": [
       "Remove-PnPListItem "
     ],
@@ -4097,7 +4247,7 @@
     ]
   },
   "Remove-PnPListItemComment": {
-    "description": "",
+    "description": "Allows to remove comments from list item.",
     "body": [
       "Remove-PnPListItemComment "
     ],
@@ -4106,7 +4256,7 @@
     ]
   },
   "Remove-PnPMicrosoft365Group": {
-    "description": "",
+    "description": "Allows to remove Microsoft 365 Group.",
     "body": [
       "Remove-PnPMicrosoft365Group -Identity $1"
     ],
@@ -4115,7 +4265,7 @@
     ]
   },
   "Remove-PnPMicrosoft365GroupMember": {
-    "description": "",
+    "description": "Allows to remove members from a specified Microsoft 365 Group.",
     "body": [
       "Remove-PnPMicrosoft365GroupMember -Identity $1 -Users $2"
     ],
@@ -4124,7 +4274,7 @@
     ]
   },
   "Remove-PnPMicrosoft365GroupOwner": {
-    "description": "",
+    "description": "Allows to remove owners from a specified Microsoft 365 Group.",
     "body": [
       "Remove-PnPMicrosoft365GroupOwner -Identity $1 -Users $2"
     ],
@@ -4133,7 +4283,7 @@
     ]
   },
   "Remove-PnPMicrosoft365GroupSettings": {
-    "description": "",
+    "description": "Allows to remove Microsoft 365 Group settings from the tenant or the specified group.",
     "body": [
       "Remove-PnPMicrosoft365GroupSettings -Identity $1 -Group $2"
     ],
@@ -4142,7 +4292,7 @@
     ]
   },
   "Remove-PnPNavigationNode": {
-    "description": "",
+    "description": "Allows to remove menu item from either the quicklaunch or top navigation.",
     "body": [
       "Remove-PnPNavigationNode "
     ],
@@ -4160,7 +4310,7 @@
     ]
   },
   "Remove-PnPOrgNewsSite": {
-    "description": "Removes a given site from the list of organizational news sites based on its URL in your SharePoint Online Tenant.",
+    "description": "Removes a given site from the list of organizational news sites based on its URL in your SharePoint Online tenant.",
     "body": [
       "Remove-PnPOrgNewsSite -OrgNewsSiteUrl $1"
     ],
@@ -4169,7 +4319,7 @@
     ]
   },
   "Remove-PnPPage": {
-    "description": "",
+    "description": "Allows to remove a page.",
     "body": [
       "Remove-PnPPage "
     ],
@@ -4244,7 +4394,7 @@
     ]
   },
   "Remove-PnPPublishingImageRendition": {
-    "description": "",
+    "description": "Allows to remove an existing image rendition.",
     "body": [
       "Remove-PnPPublishingImageRendition "
     ],
@@ -4325,7 +4475,7 @@
     ]
   },
   "Remove-PnPSiteGroup": {
-    "description": "",
+    "description": "Allows to remove a group from specified site.",
     "body": [
       "Remove-PnPSiteGroup -Identity $1"
     ],
@@ -4352,7 +4502,7 @@
     ]
   },
   "Remove-PnPStorageEntity": {
-    "description": "",
+    "description": "Allows to remove Storage Entities / Farm Properties from either the tenant scoped app catalog or the current site collection app catalog.",
     "body": [
       "Remove-PnPStorageEntity -Key $1"
     ],
@@ -4379,7 +4529,7 @@
     ]
   },
   "Remove-PnPTeamsApp": {
-    "description": "",
+    "description": "Allows to remove an app from the Teams AppCatalog.",
     "body": [
       "Remove-PnPTeamsApp -Identity $1"
     ],
@@ -4388,7 +4538,7 @@
     ]
   },
   "Remove-PnPTeamsChannel": {
-    "description": "",
+    "description": "Allows to remove a channel from specified team.",
     "body": [
       "Remove-PnPTeamsChannel -Team $1 -Identity $2"
     ],
@@ -4397,7 +4547,7 @@
     ]
   },
   "Remove-PnPTeamsChannelUser": {
-    "description": "",
+    "description": "Allows to remove a user from specified private channel.",
     "body": [
       "Remove-PnPTeamsChannelUser -Team $1 -Channel $2 -Identity $3"
     ],
@@ -4406,12 +4556,21 @@
     ]
   },
   "Remove-PnPTeamsTab": {
-    "description": "",
+    "description": "Allows to remove a tab from channel.",
     "body": [
       "Remove-PnPTeamsTab -Team $1 -Channel $2 -Identity $3"
     ],
     "prefix": [
       "Remove-PnPTeamsTab"
+    ]
+  },
+  "Remove-PnPTeamsTag": {
+    "description": "",
+    "body": [
+      "Remove-PnPTeamsTag -Team $1 -Identity $2"
+    ],
+    "prefix": [
+      "Remove-PnPTeamsTag"
     ]
   },
   "Remove-PnPTeamsTeam": {
@@ -4427,7 +4586,7 @@
     ]
   },
   "Remove-PnPTeamsUser": {
-    "description": "",
+    "description": "Allows to remove user from a team.",
     "body": [
       "Remove-PnPTeamsUser -Team $1 -User $2"
     ],
@@ -4542,7 +4701,7 @@
     ]
   },
   "Remove-PnPView": {
-    "description": "",
+    "description": "Allows to remove view from a list.",
     "body": [
       "Remove-PnPView "
     ],
@@ -4551,7 +4710,7 @@
     ]
   },
   "Remove-PnPVivaConnectionsDashboardACE": {
-    "description": "",
+    "description": "Allows to remove Adaptive card extensions from the Viva connections dashboard page.",
     "body": [
       "Remove-PnPVivaConnectionsDashboardACE "
     ],
@@ -4569,7 +4728,7 @@
     ]
   },
   "Remove-PnPWebhookSubscription": {
-    "description": "",
+    "description": "Allows to remove Webhook subscription from list.",
     "body": [
       "Remove-PnPWebhookSubscription "
     ],
@@ -4578,7 +4737,7 @@
     ]
   },
   "Remove-PnPWebPart": {
-    "description": "",
+    "description": "Allows to remove web part from a page.",
     "body": [
       "Remove-PnPWebPart -Identity $1 -ServerRelativePageUrl $2"
     ],
@@ -4596,7 +4755,7 @@
     ]
   },
   "Rename-PnPFile": {
-    "description": "",
+    "description": "Allows to rename a file.",
     "body": [
       "Rename-PnPFile "
     ],
@@ -4605,7 +4764,7 @@
     ]
   },
   "Rename-PnPFolder": {
-    "description": "",
+    "description": "Allows to rename a folder.",
     "body": [
       "Rename-PnPFolder -Folder $1 -TargetFolderName $2"
     ],
@@ -4685,7 +4844,7 @@
     ]
   },
   "Request-PnPReIndexList": {
-    "description": "",
+    "description": "Allows to mark the list for full indexing during the next incremental crawl.",
     "body": [
       "Request-PnPReIndexList "
     ],
@@ -4717,7 +4876,7 @@
     ]
   },
   "Reset-PnPFileVersion": {
-    "description": "",
+    "description": "Allows to rolback a file to its previous version.",
     "body": [
       "Reset-PnPFileVersion -ServerRelativeUrl $1"
     ],
@@ -4735,7 +4894,7 @@
     ]
   },
   "Reset-PnPMicrosoft365GroupExpiration": {
-    "description": "",
+    "description": "Allows to extend the Microsoft 365 Group expiration date by the number of days defined in the group expiration policy.",
     "body": [
       "Reset-PnPMicrosoft365GroupExpiration -Identity $1"
     ],
@@ -4828,7 +4987,7 @@
     ]
   },
   "Revoke-PnPHubSiteRights": {
-    "description": "",
+    "description": "Allows to revoke permissions from existing once to associate sites to Hub Sites for specified users.",
     "body": [
       "Revoke-PnPHubSiteRights "
     ],
@@ -4881,7 +5040,7 @@
     ]
   },
   "Save-PnPSiteTemplate": {
-    "description": "",
+    "description": "Allows to save a PnP site template to the file system.",
     "body": [
       "Save-PnPSiteTemplate -Template $1"
     ],
@@ -4899,7 +5058,7 @@
     ]
   },
   "Send-PnPMail": {
-    "description": "",
+    "description": "Allows to send an email using the Office 365 SMTP Service or SharePoin.",
     "body": [
       "Send-PnPMail "
     ],
@@ -4932,7 +5091,10 @@
     ]
   },
   "Set-PnPAppSideLoading": {
-    "description": "",
+    "description": [
+      "This cmdlet enables or disables the app sideloading feature on the site.",
+      "Allows to enable the App SideLoading Feature on a site."
+    ],
     "body": [
       "Set-PnPAppSideLoading "
     ],
@@ -4941,7 +5103,7 @@
     ]
   },
   "Set-PnPAuditing": {
-    "description": "",
+    "description": "Allows to modify Auditing setting for a site.",
     "body": [
       "Set-PnPAuditing "
     ],
@@ -5034,7 +5196,7 @@
     ]
   },
   "Set-PnPDefaultContentTypeToList": {
-    "description": "",
+    "description": "Allows to modify the default content type for a list.",
     "body": [
       "Set-PnPDefaultContentTypeToList -List $1 -ContentType $2"
     ],
@@ -5043,7 +5205,7 @@
     ]
   },
   "Set-PnPDefaultPageLayout": {
-    "description": "",
+    "description": "Allows to set the default page layout for a publishing site.",
     "body": [
       "Set-PnPDefaultPageLayout -Title $1"
     ],
@@ -5061,7 +5223,7 @@
     ]
   },
   "Set-PnPDocumentSetField": {
-    "description": "",
+    "description": "Allows to set a site column from the available content types to a document set.",
     "body": [
       "Set-PnPDocumentSetField -DocumentSet $1 -Field $2"
     ],
@@ -5070,7 +5232,7 @@
     ]
   },
   "Set-PnPField": {
-    "description": "",
+    "description": "Allows to modify a field in a specific list or for site.",
     "body": [
       "Set-PnPField "
     ],
@@ -5088,7 +5250,7 @@
     ]
   },
   "Set-PnPFileCheckedOut": {
-    "description": "",
+    "description": "Allows to check out a file.",
     "body": [
       "Set-PnPFileCheckedOut "
     ],
@@ -5115,7 +5277,7 @@
     ]
   },
   "Set-PnPGraphSubscription": {
-    "description": "",
+    "description": "Allows to update an existing Microsoft Graph subscription.",
     "body": [
       "Set-PnPGraphSubscription -Identity $1 -ExpirationDate $2"
     ],
@@ -5154,7 +5316,7 @@
     ]
   },
   "Set-PnPHomePage": {
-    "description": "",
+    "description": "Allows to set the home page of the current site.",
     "body": [
       "Set-PnPHomePage "
     ],
@@ -5163,7 +5325,7 @@
     ]
   },
   "Set-PnPHomeSite": {
-    "description": "",
+    "description": "Allows to set the home site of the current tenant.",
     "body": [
       "Set-PnPHomeSite -HomeSiteUrl $1"
     ],
@@ -5199,7 +5361,7 @@
     ]
   },
   "Set-PnPKnowledgeHubSite": {
-    "description": "",
+    "description": "Allows to set Knowledge Hub Site of the current tenant.",
     "body": [
       "Set-PnPKnowledgeHubSite -KnowledgeHubSiteUrl $1"
     ],
@@ -5235,7 +5397,7 @@
     ]
   },
   "Set-PnPListItem": {
-    "description": "",
+    "description": "Allows to modify a list item.",
     "body": [
       "Set-PnPListItem "
     ],
@@ -5244,7 +5406,7 @@
     ]
   },
   "Set-PnPListItemAsRecord": {
-    "description": "",
+    "description": "Allows to set a list item as a record.",
     "body": [
       "Set-PnPListItemAsRecord "
     ],
@@ -5253,7 +5415,7 @@
     ]
   },
   "Set-PnPListItemPermission": {
-    "description": "",
+    "description": "Allows to modify list item permissions.",
     "body": [
       "Set-PnPListItemPermission "
     ],
@@ -5298,7 +5460,7 @@
     ]
   },
   "Set-PnPMessageCenterAnnouncementAsArchived": {
-    "description": "",
+    "description": "Allows to mark message center announcements as archived.",
     "body": [
       "Set-PnPMessageCenterAnnouncementAsArchived "
     ],
@@ -5307,7 +5469,7 @@
     ]
   },
   "Set-PnPMessageCenterAnnouncementAsFavorite": {
-    "description": "",
+    "description": "Allows to mark message center announcements as favorite.",
     "body": [
       "Set-PnPMessageCenterAnnouncementAsFavorite "
     ],
@@ -5316,7 +5478,7 @@
     ]
   },
   "Set-PnPMessageCenterAnnouncementAsNotArchived": {
-    "description": "",
+    "description": "Allows to mark message center announcements as not archived.",
     "body": [
       "Set-PnPMessageCenterAnnouncementAsNotArchived "
     ],
@@ -5325,7 +5487,7 @@
     ]
   },
   "Set-PnPMessageCenterAnnouncementAsNotFavorite": {
-    "description": "",
+    "description": "Allows to mark message center announcements as not favorite.",
     "body": [
       "Set-PnPMessageCenterAnnouncementAsNotFavorite "
     ],
@@ -5334,7 +5496,7 @@
     ]
   },
   "Set-PnPMessageCenterAnnouncementAsRead": {
-    "description": "",
+    "description": "Allows to mark message center announcements as read.",
     "body": [
       "Set-PnPMessageCenterAnnouncementAsRead "
     ],
@@ -5352,7 +5514,7 @@
     ]
   },
   "Set-PnPMicrosoft365Group": {
-    "description": "",
+    "description": "Allows to modify Microsoft 365 Group.",
     "body": [
       "Set-PnPMicrosoft365Group -Identity $1"
     ],
@@ -5361,7 +5523,7 @@
     ]
   },
   "Set-PnPMicrosoft365GroupSettings": {
-    "description": "",
+    "description": "Allows to modify Microsoft 365 Group settings for tenat or specified group.",
     "body": [
       "Set-PnPMicrosoft365GroupSettings -Identity $1"
     ],
@@ -5490,7 +5652,7 @@
     ]
   },
   "Set-PnPSearchSettings": {
-    "description": "",
+    "description": "Allows to modify search settings for a site.",
     "body": [
       "Set-PnPSearchSettings "
     ],
@@ -5499,7 +5661,7 @@
     ]
   },
   "Set-PnPSite": {
-    "description": "",
+    "description": "Allows to modify a site properties.",
     "body": [
       "Set-PnPSite "
     ],
@@ -5521,7 +5683,7 @@
     ]
   },
   "Set-PnPSiteClosure": {
-    "description": "",
+    "description": "Allows to open or close a site which has a site policy applied.",
     "body": [
       "Set-PnPSiteClosure -State $1"
     ],
@@ -5530,7 +5692,7 @@
     ]
   },
   "Set-PnPSiteDesign": {
-    "description": "",
+    "description": "Allows to update a Site Design on the current tenant.",
     "body": [
       "Set-PnPSiteDesign -Identity $1"
     ],
@@ -5551,7 +5713,7 @@
     ]
   },
   "Set-PnPSitePolicy": {
-    "description": "",
+    "description": "Allows to modify a site policy.",
     "body": [
       "Set-PnPSitePolicy -Name $1"
     ],
@@ -5569,7 +5731,7 @@
     ]
   },
   "Set-PnPSiteScriptPackage": {
-    "description": "",
+    "description": "Allows to update an existing Site Script Package on the current tenant.",
     "body": [
       "Set-PnPSiteScriptPackage -Identity $1"
     ],
@@ -5594,7 +5756,7 @@
     ]
   },
   "Set-PnPSiteTemplateMetadata": {
-    "description": "",
+    "description": "Allows to modify metadata of a provisioning template.",
     "body": [
       "Set-PnPSiteTemplateMetadata "
     ],
@@ -5603,7 +5765,7 @@
     ]
   },
   "Set-PnPStorageEntity": {
-    "description": "",
+    "description": "Allows to set Storage Entities / Farm Properties in either the tenant scoped app catalog or the site collection app catalog.",
     "body": [
       "Set-PnPStorageEntity -Key $1 -Value $2"
     ],
@@ -5642,7 +5804,7 @@
     ]
   },
   "Set-PnPTaxonomyFieldValue": {
-    "description": "",
+    "description": "Allows to update taxonomy term value in a listitem field.",
     "body": [
       "Set-PnPTaxonomyFieldValue -ListItem $1 -InternalFieldName $2 -TermId $3"
     ],
@@ -5660,7 +5822,7 @@
     ]
   },
   "Set-PnPTeamsChannel": {
-    "description": "",
+    "description": "Allows to update an existing Teams Channel.",
     "body": [
       "Set-PnPTeamsChannel -Team $1 -Identity $2"
     ],
@@ -5669,7 +5831,7 @@
     ]
   },
   "Set-PnPTeamsChannelUser": {
-    "description": "",
+    "description": "Allows to update the role of a user in an existing Microsoft Teams private channel.",
     "body": [
       "Set-PnPTeamsChannelUser -Team $1 -Channel $2 -Identity $3 -Role $4"
     ],
@@ -5678,7 +5840,7 @@
     ]
   },
   "Set-PnPTeamsTab": {
-    "description": "",
+    "description": "Allows to update Teams Tab settings.",
     "body": [
       "Set-PnPTeamsTab -Team $1 -Channel $2"
     ],
@@ -5686,8 +5848,17 @@
       "Set-PnPTeamsTab"
     ]
   },
-  "Set-PnPTeamsTeam": {
+  "Set-PnPTeamsTag": {
     "description": "",
+    "body": [
+      "Set-PnPTeamsTag -Team $1 -Identity $2 -DisplayName $3"
+    ],
+    "prefix": [
+      "Set-PnPTeamsTag"
+    ]
+  },
+  "Set-PnPTeamsTeam": {
+    "description": "Allows to update team settings.",
     "body": [
       "Set-PnPTeamsTeam -Identity $1"
     ],
@@ -5696,7 +5867,7 @@
     ]
   },
   "Set-PnPTeamsTeamArchivedState": {
-    "description": "",
+    "description": "Allows to update the archived state of a team.",
     "body": [
       "Set-PnPTeamsTeamArchivedState -Identity $1 -Archived $2"
     ],
@@ -5714,7 +5885,7 @@
     ]
   },
   "Set-PnPTemporarilyDisableAppBar": {
-    "description": "",
+    "description": "Allows to disable/enable SharePoint Online App Bar.",
     "body": [
       "Set-PnPTemporarilyDisableAppBar -Enabled $1"
     ],
@@ -5879,7 +6050,7 @@
     ]
   },
   "Set-PnPWebhookSubscription": {
-    "description": "",
+    "description": "Allows to update Webhook subscription.",
     "body": [
       "Set-PnPWebhookSubscription "
     ],
@@ -5888,7 +6059,7 @@
     ]
   },
   "Set-PnPWebPartProperty": {
-    "description": "",
+    "description": "Allows to modify web part property.",
     "body": [
       "Set-PnPWebPartProperty -ServerRelativePageUrl $1 -Identity $2 -Key $3 -Value $4"
     ],
@@ -5933,7 +6104,7 @@
     ]
   },
   "Submit-PnPSearchQuery": {
-    "description": "",
+    "description": "Allows to run an arbitrary search query against the SharePoint search index.",
     "body": [
       "Submit-PnPSearchQuery "
     ],
@@ -5942,7 +6113,7 @@
     ]
   },
   "Submit-PnPTeamsChannelMessage": {
-    "description": "",
+    "description": "Allows to send a message to a Microsoft Teams Channel.",
     "body": [
       "Submit-PnPTeamsChannelMessage -Team $1 -Channel $2 -Message $3"
     ],
@@ -5951,7 +6122,7 @@
     ]
   },
   "Sync-PnPAppToTeams": {
-    "description": "",
+    "description": "Allows to Synchronize an app from the tenant app catalog to the Microsoft Teams app catalog.",
     "body": [
       "Sync-PnPAppToTeams "
     ],
@@ -5993,7 +6164,7 @@
     ]
   },
   "Test-PnPListItemIsRecord": {
-    "description": "",
+    "description": "Allows to check if the specified list item is a record.",
     "body": [
       "Test-PnPListItemIsRecord "
     ],
@@ -6020,7 +6191,7 @@
     ]
   },
   "Test-PnPTenantTemplate": {
-    "description": "",
+    "description": "Allows to check if the tenant template has invalid references.",
     "body": [
       "Test-PnPTenantTemplate -Template $1"
     ],
@@ -6029,7 +6200,7 @@
     ]
   },
   "Uninstall-PnPApp": {
-    "description": "",
+    "description": "Allows to uninstall an available add-in from the site.",
     "body": [
       "Uninstall-PnPApp "
     ],
@@ -6038,7 +6209,7 @@
     ]
   },
   "Unpublish-PnPApp": {
-    "description": "",
+    "description": "Allows to unpublish an available add-in from the site.",
     "body": [
       "Unpublish-PnPApp "
     ],
@@ -6047,7 +6218,7 @@
     ]
   },
   "Unpublish-PnPContentType": {
-    "description": "",
+    "description": "Allows to unpublish a content type present on content type hub site.",
     "body": [
       "Unpublish-PnPContentType -ContentType $1"
     ],
@@ -6065,7 +6236,7 @@
     ]
   },
   "Unregister-PnPHubSite": {
-    "description": "",
+    "description": "Allows to unregister a site as a hubsite.",
     "body": [
       "Unregister-PnPHubSite -Site $1"
     ],
@@ -6074,7 +6245,7 @@
     ]
   },
   "Update-PnPApp": {
-    "description": "",
+    "description": "Allows to update an available app from the app catalog.",
     "body": [
       "Update-PnPApp "
     ],
@@ -6105,7 +6276,7 @@
     ]
   },
   "Update-PnPTeamsApp": {
-    "description": "",
+    "description": "Allows to update an existing app in the Teams App Catalog.",
     "body": [
       "Update-PnPTeamsApp -Identity $1 -Path $2"
     ],
@@ -6132,9 +6303,9 @@
     ]
   },
   "Update-PnPVivaConnectionsDashboardACE": {
-    "description": "",
+    "description": "Allows to update the Adaptive card extension in the Viva connections dashboard page.",
     "body": [
-      "Update-PnPVivaConnectionsDashboardACE "
+      "Update-PnPVivaConnectionsDashboardACE -Identity $1"
     ],
     "prefix": [
       "Update-PnPVivaConnectionsDashboardACE"
