@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as pnpPsCommands from '../../../../data/pnpPsModel.json';
 import { ICommand } from '../../../../models/ICommand';
+import { CONSTANTS } from '../../../../constants/Constants';
 import './CommandsList.css';
 import { ICommandsListProps } from './ICommandsListProps';
 import { ICommandsListState } from './ICommandsListState';
@@ -24,9 +25,11 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       <div>
         <div className='pnp-commands-list-controls'>
           <div className='pnp-commands-list-actions'>
-            <VSCodeButton appearance='secondary' title='PnP PowerShell samples' onClick={() => this._handleShowSamplesButtonClick()}>
-              Samples
-              <span slot='start' className='codicon codicon-file-code'></span>
+            <VSCodeButton appearance='icon' title='PnP PowerShell samples' onClick={() => this._handleShowSamplesButtonClick()}>
+              <span className='codicon codicon-file-code'></span>
+            </VSCodeButton>
+            <VSCodeButton appearance='icon' title='PnP PowerShell web page' onClick={() => this._handleGoToHomePageButtonClick()}>
+              <span className='codicon codicon-browser'></span>
             </VSCodeButton>
           </div>
           <VSCodeDivider />
@@ -40,6 +43,13 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
           </ul>
         </div>
       </div>);
+  }
+
+  private _handleGoToHomePageButtonClick(): void {
+    vscode.postMessage({
+      command: 'openLink',
+      value: CONSTANTS.repoHomePageLink
+    });
   }
 
   private _handleShowSamplesButtonClick(): void {
