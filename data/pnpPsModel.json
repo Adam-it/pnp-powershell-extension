@@ -1011,6 +1011,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMessageCenterAnnouncement.html"
     },
     {
+      "name": "Get-PnPMicrosoft365ExpiringGroup",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365ExpiringGroup.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365ExpiringGroup.html"
+    },
+    {
       "name": "Get-PnPMicrosoft365Group",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPMicrosoft365Group.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365Group.html"
@@ -2679,6 +2684,11 @@
       "name": "Set-PnPHubSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPHubSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPHubSite.html"
+    },
+    {
+      "name": "Set-PnPImageListItemColumn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPImageListItemColumn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPImageListItemColumn.html"
     },
     {
       "name": "Set-PnPIndexedProperties",

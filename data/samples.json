@@ -1188,6 +1188,26 @@
       ]
     },
     {
+      "title": "Disable SharePoint List Commenting at tenant level",
+      "url": "https://pnp.github.io/script-samples/spo-disable-list-comments-tenant/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-disable-list-comments-tenant/README.md",
+      "description": "This sample script shows how to disable commenting feature in SharePoint online lists at tenant level",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-disable-list-comments-tenant/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Set-PnPTenant"
+      ]
+    },
+    {
       "title": "Empty the tenant recycle bin",
       "url": "https://pnp.github.io/script-samples/spo-empty-tenant-recyclebin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-tenant-recyclebin/README.md",
