@@ -234,6 +234,28 @@
       "tags": []
     },
     {
+      "title": "Export OneDrive Sites",
+      "url": "https://pnp.github.io/script-samples/export-onedrive-sites-details-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-onedrive-sites-details-to-csv/README.md",
+      "description": "This script exports all onedrive sites to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-onedrive-sites-details-to-csv/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-SPOService",
+        "Connect-PnPOnline",
+        "Get-SPOSite",
+        "Get-PnPTenantSite"
+      ]
+    },
+    {
       "title": "Fetch User Profile Properties From Site Collection And Export To CSV",
       "url": "https://pnp.github.io/script-samples/fetch-user-profile-properties/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/fetch-user-profile-properties/README.md",
@@ -728,10 +750,14 @@
         }
       ],
       "tags": [
-        "Add-PnPGroupMember",
         "Connect-PnPOnline",
+        "Add-PnPGroupMember",
         "Get-PnPGroup",
-        "Get-PnPGroupMember"
+        "Get-PnPGroupMember",
+        "Connect-SPOService",
+        "Get-SPOSite",
+        "Get-SPOUser",
+        "Add-SPOUser"
       ]
     },
     {
@@ -931,6 +957,27 @@
       "tags": []
     },
     {
+      "title": "Add/Update Image in SharePoint Image column",
+      "url": "https://pnp.github.io/script-samples/spo-add-update-image-column/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-update-image-column/README.md",
+      "description": "Add/Update image in SharePoint image column in a SharePoint List or Library",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-update-image-column/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Add-PnPListItem",
+        "Set-PnPListItem"
+      ]
+    },
+    {
       "title": "Script allow copy column format in SharePoint and apply to different column.",
       "url": "https://pnp.github.io/script-samples/spo-apply-column-format/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-column-format/README.md",
@@ -958,6 +1005,22 @@
         "m365 spo field get",
         "m365 spo field set"
       ]
+    },
+    {
+      "title": "Sample showing how to apply a custom Form Formatting as part of your Site Provisioning",
+      "url": "https://pnp.github.io/script-samples/spo-apply-custom-form-formatting-json/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-custom-form-formatting-json/README.md",
+      "description": "Sample showing how to apply a custom Form Formatting as part of your Site Provisioning using an Azure Function",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-custom-form-formatting-json/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Bulk Publish Syntex Models To Libraries",
@@ -1150,6 +1213,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
           "name": "Brian P. McCullough",
           "pictureUrl": "https://avatars.githubusercontent.com/u/8305245?v=4"
         }
@@ -1161,7 +1228,15 @@
         "Disconnect-PnPOnline",
         "Get-PnPContext",
         "Get-PnPList",
-        "Invoke-PnPQuery"
+        "Invoke-PnPQuery",
+        "m365 login",
+        "m365 status",
+        "m365 spo page list",
+        "m365 spo page remove",
+        "m365 logout",
+        "m365 spo file checkin",
+        "m365 spo file checkout",
+        "m365 spo list get"
       ]
     },
     {
@@ -1235,6 +1310,25 @@
         "Connect-PnPOnline",
         "Get-PnPTenant",
         "Get-PnPTenantRecycleBinItem"
+      ]
+    },
+    {
+      "title": "Export all site pages details from Site Pages library",
+      "url": "https://pnp.github.io/script-samples/spo-export-all-site-pages-details/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-all-site-pages-details/README.md",
+      "description": "This script sample shows how to export all site pages details from Site Pages library.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-all-site-pages-details/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPListItem"
       ]
     },
     {
@@ -2040,6 +2134,22 @@
       "tags": []
     },
     {
+      "title": "Open Office documents in the Client ",
+      "url": "https://pnp.github.io/script-samples/spo-open-doc-in-client/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-open-doc-in-client/README.md",
+      "description": "Ensure that Office documents will open in the Client is a such is installed ",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-open-doc-in-client/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": []
+    },
+    {
       "title": "Provision Home Page to a SharePoint site",
       "url": "https://pnp.github.io/script-samples/spo-provision-homepage/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-provision-homepage/README.md",
@@ -2556,6 +2666,22 @@
         "Get-PnPListItem",
         "Get-PnPPage"
       ]
+    },
+    {
+      "title": "Sample on how to locate the classic Search Result Web part and check the Remove Duplicates setting",
+      "url": "https://pnp.github.io/script-samples/spo-update-search-result-webparts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-search-result-webparts/README.md",
+      "description": "Locate all the pages where a classic SearchResultWebPart is used, and if the Remove Duplicates setting is True (which is the default) log the location in the csv file",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-search-result-webparts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": []
     },
     {
       "title": "Update user profile properties",
