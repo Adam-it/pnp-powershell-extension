@@ -801,6 +801,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDeletedMicrosoft365Group.html"
     },
     {
+      "name": "Get-PnPDeletedTeam",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDeletedTeam.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDeletedTeam.html"
+    },
+    {
       "name": "Get-PnPDiagnostics",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDiagnostics.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDiagnostics.html"
@@ -1971,11 +1976,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADApp.html"
     },
     {
-      "name": "Revoke-PnPAzureADAppSitePermission",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPAzureADAppSitePermission.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPAzureADAppSitePermission.html"
-    },
-    {
       "name": "Remove-PnPAzureADGroup",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroup.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroup.html"
@@ -2499,6 +2499,11 @@
       "name": "Restore-PnPTenantSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPTenantSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPTenantSite.html"
+    },
+    {
+      "name": "Revoke-PnPAzureADAppSitePermission",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Revoke-PnPAzureADAppSitePermission.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Revoke-PnPAzureADAppSitePermission.html"
     },
     {
       "name": "Revoke-PnPHubSiteRights",

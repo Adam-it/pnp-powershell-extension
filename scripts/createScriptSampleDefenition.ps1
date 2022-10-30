@@ -5,7 +5,7 @@ if ($null -eq $scriptSampleFolderPath -or $scriptSampleFolderPath -eq "") {
     exit
 }
 
-$allSamples = Get-ChildItem -Path "$scriptSampleFolderPath\scripts\*.json" -Recurse -Force
+$allSamples = Get-ChildItem -Path "$scriptSampleFolderPath\scripts\**\sample.json" -Recurse -Force
 
 [hashtable]$sampleModel = @{}
 $samples = @()

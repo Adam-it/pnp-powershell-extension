@@ -1064,6 +1064,26 @@
       "tags": []
     },
     {
+      "title": "Copy the folder structure of a directory to a SharePoint list",
+      "url": "https://pnp.github.io/script-samples/spo-copy-directory-structure-to-sharepoint-list/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-directory-structure-to-sharepoint-list/README.md",
+      "description": "Copies the folder structure of a directory to a SharePoint list and trigger an migration using the Migration Manager",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-directory-structure-to-sharepoint-list/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Russell Gove",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/2412956?v=4"
+        }
+      ],
+      "tags": [
+        "Unified Audit Logs",
+        "ULS",
+        "PDF"
+      ]
+    },
+    {
       "title": "Copy library view to another library(ies)",
       "url": "https://pnp.github.io/script-samples/spo-copy-library-view/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-library-view/README.md",
@@ -1783,6 +1803,26 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Gets usage from a particular user(s) or site(s) from the Unified Audit Log",
+      "url": "https://pnp.github.io/script-samples/spo-get-usage-from-audit-logs/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-usage-from-audit-logs/README.md",
+      "description": "This script will scan the ULS Logs for the last week looking for all access by a user an or to a site and create an excel file summarizing the activity",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-usage-from-audit-logs/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Russell Gove",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/2412956?v=4"
+        }
+      ],
+      "tags": [
+        "Unified Audit Logs",
+        "ULS",
+        "PDF"
+      ]
     },
     {
       "title": "Hide SharePoint list from Site Contents",
