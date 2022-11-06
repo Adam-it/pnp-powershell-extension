@@ -15,7 +15,8 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
   public render(): React.ReactElement<IDocsProps> {
     let docs = this.props.docsMarkDown;
     const { docsCommandName, docsUrl } = this.props;
-    docs = (docs as any).replaceAll('\n', ' \n');
+    docs = docs.replaceAll('\n', ' \n');
+    docs = `# ${docsCommandName}` + docs.split(`# ${docsCommandName}`)[1];
 
     return (
       <div>
