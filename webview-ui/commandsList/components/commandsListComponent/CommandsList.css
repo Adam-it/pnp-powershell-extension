@@ -1,9 +1,9 @@
-.pnp-commands-list {
+.pnp-commands-list ul {
     padding: 0;
     list-style: inside;
 }
 
-.pnp-commands-list li {
+.pnp-commands-list ul li {
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
@@ -21,9 +21,4 @@
 
 .pnp-commands-list-wrapper { 
     padding-top: 60px;
-}
-
-.pnp-commands-list-actions{
-    text-align: right;
-    padding-right: 5px;
 }

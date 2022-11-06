@@ -5,6 +5,7 @@ import { ICardState } from './ICardState';
 import { vscode } from '../../utilities/vscode';
 import { VSCodeButton } from '@vscode/webview-ui-toolkit/react';
 
+
 export default class Card extends React.Component<ICardProps, ICardState> {
 
   constructor(props: ICardProps) {

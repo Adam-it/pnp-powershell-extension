@@ -1,67 +1,88 @@
 import * as React from 'react';
 import * as pnpPsCommands from '../../../../data/pnpPsModel.json';
 import { ICommand } from '../../../../models/ICommand';
-import { CONSTANTS } from '../../../../constants/Constants';
 import './CommandsList.css';
 import { ICommandsListProps } from './ICommandsListProps';
 import { ICommandsListState } from './ICommandsListState';
 import { vscode } from '../../utilities/vscode';
-import { VSCodeButton, VSCodeDivider, VSCodeTextField } from '@vscode/webview-ui-toolkit/react';
+import { VSCodeDivider } from '@vscode/webview-ui-toolkit/react';
+import CommandsSearch from '../commandsSearchComponent/CommandsSearch';
+import CommandsAction from '../commandsActionComponent/CommandsAction';
+import { ICommandGroup } from './model/ICommandGroup';
+
 
 export default class CommandsList extends React.Component<ICommandsListProps, ICommandsListState> {
 
   constructor(props: ICommandsListProps) {
     super(props);
 
+    const commands = pnpPsCommands.commands as ICommand[];
+
     this.state = {
-      commands: pnpPsCommands.commands as ICommand[]
+      commandsListView: commands,
+      commandsTreeView: this._getTreeView(commands),
+      isTreeViewEnabled: false
     };
   }
 
   public render(): React.ReactElement<ICommandsListProps> {
-    const { commands } = this.state;
+    const { commandsListView,
+      isTreeViewEnabled,
+      commandsTreeView } = this.state;
 
     return (
       <div>
         <div className='pnp-commands-list-controls'>
-          <div className='pnp-commands-list-actions'>
-            <VSCodeButton appearance='icon' title='PnP PowerShell samples' onClick={() => this._handleShowSamplesButtonClick()}>
-              <span className='codicon codicon-file-code'></span>
-            </VSCodeButton>
-            <VSCodeButton appearance='icon' title='PnP PowerShell web page' onClick={() => this._handleGoToHomePageButtonClick()}>
-              <span className='codicon codicon-browser'></span>
-            </VSCodeButton>
-          </div>
+          <CommandsAction isTreeViewEnabled={isTreeViewEnabled} showListView={() => this._handleShowListViewButtonClick()} showTreeView={() => this._handleShowTreeViewButtonClick()} />
           <VSCodeDivider />
-          <VSCodeTextField placeholder='Search' size={50} onInput={e => this._handleSearch((e.target as HTMLInputElement)?.value)}>
-            <span slot='start' className='codicon codicon-search'></span>
-          </VSCodeTextField>
+          <CommandsSearch onSearch={event => this._handleSearch(event)} />
         </div>
         <div className='pnp-commands-list-wrapper'>
-          <ul className='pnp-commands-list'>
-            {commands.map(command => (<li key={commands.indexOf(command)} onClick={() => this._handleCommandClick(command.name)} className='cliCommand'>{command.name}</li>))}
-          </ul>
+          {isTreeViewEnabled ?
+            <div className='pnp-commands-tree'>
+              {commandsTreeView.map((group: ICommandGroup) => {
+                return (
+                  <div key={group.name}>
+                    <div className='pnp-commands-tree-group'>
+                      <span className='codicon codicon-chevron-right'></span>
+                      <span className='pnp-commands-tree-group-name'>{group.name}</span>
+                    </div>
+                    <div className='pnp-commands-tree-commands'>
+                      <ul>
+                        {group.commands.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(command.name)}>{command.name}</li>))}
+                      </ul>
+                    </div>
+                  </div>
+                );
+              })
+              }
+            </div> :
+            <div className='pnp-commands-list'>
+              <ul>
+                {commandsListView.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(command.name)}>{command.name}</li>))}
+              </ul>
+            </div>
+          }
         </div>
       </div>);
   }
 
-  private _handleGoToHomePageButtonClick(): void {
-    vscode.postMessage({
-      command: 'openLink',
-      value: CONSTANTS.repoHomePageLink
-    });
+  private _handleShowListViewButtonClick(): void {
+    this.setState({ isTreeViewEnabled: false });
   }
 
-  private _handleShowSamplesButtonClick(): void {
-    vscode.postMessage({
-      command: 'showSamples'
-    });
+  private _handleShowTreeViewButtonClick(): void {
+    this.setState({ isTreeViewEnabled: true });
   }
 
-  private _handleSearch(searchInput: string): void {
+  private _handleSearch(event: any): void {
+    const searchInput: string = (event.target as HTMLInputElement)?.value;
     const commands: ICommand[] = pnpPsCommands.commands as ICommand[];
     const searchResult: ICommand[] = commands.filter(command => command.name.toLowerCase().includes(searchInput.toLowerCase()));
-    this.setState({ commands: searchResult });
+    this.setState({
+      commandsListView: searchResult,
+      commandsTreeView: this._getTreeView(searchResult)
+    });
   }
 
   private _handleCommandClick(commandName: string): void {
@@ -69,5 +90,18 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       command: 'showCommandManual',
       value: commandName,
     });
+  }
+
+  private _getTreeView(commands: ICommand[]): ICommandGroup[] {
+    const groups = commands.map(command => command.name.split('-')[0]).filter((value, index, self) => self.indexOf(value) === index);
+    const treeView = groups.map(group => {
+      return {
+        name: group,
+        isExpanded: false,
+        commands: commands.filter(command => command.name.startsWith(group))
+      } as ICommandGroup;
+    });
+
+    return treeView;
   }
 }
