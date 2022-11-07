@@ -1944,6 +1944,27 @@
       "tags": []
     },
     {
+      "title": "Download all the content type document templates files associated with a library",
+      "url": "https://pnp.github.io/script-samples/spo-list-download-contenttype-documenttemplate/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-download-contenttype-documenttemplate/README.md",
+      "description": "The script downloads all content type document template files in a library",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-download-contenttype-documenttemplate/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        }
+      ],
+      "tags": [
+        "classic",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPFile"
+      ]
+    },
+    {
       "title": "Export / Import list formatting",
       "url": "https://pnp.github.io/script-samples/spo-list-formatting/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-formatting/README.md",
