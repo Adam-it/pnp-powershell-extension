@@ -28,12 +28,14 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
   public componentDidMount(): void {
     const previousState = vscode.getState() as ICommandsListState;
-    this.setState({
-      isTreeViewEnabled: previousState.isTreeViewEnabled,
-      previousSearchInput: previousState.previousSearchInput,
-      commandsListView: previousState.commandsListView,
-      commandsTreeView: previousState.commandsTreeView
-    });
+    if (previousState !== undefined) {
+      this.setState({
+        isTreeViewEnabled: previousState.isTreeViewEnabled,
+        previousSearchInput: previousState.previousSearchInput,
+        commandsListView: previousState.commandsListView,
+        commandsTreeView: previousState.commandsTreeView
+      });
+    }
   }
 
   public render(): React.ReactElement<ICommandsListProps> {
