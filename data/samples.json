@@ -817,6 +817,26 @@
       "tags": []
     },
     {
+      "title": "Add dummy folders and files.",
+      "url": "https://pnp.github.io/script-samples/spo-add-dummy-folders-and-files/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-dummy-folders-and-files/README.md",
+      "description": "This sample shows how to add dummy files and folders into a library, generating files within folders to perform testing.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-dummy-folders-and-files/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Add-PnPFolder",
+        "Add-PnPFile"
+      ]
+    },
+    {
       "title": "Adding a new modern calendar view to a SharePoint list",
       "url": "https://pnp.github.io/script-samples/spo-add-modern-calendar-view/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-modern-calendar-view/README.md",

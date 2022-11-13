@@ -1876,7 +1876,7 @@
     "body": [
       "Get-PnPGroupMember -Group $1"
     ],
-    "description": "This command will return all the users or a specific user that are members of the provided SharePoint group",
+    "description": "This command will return all the users (or a specific user) that are members of the provided SharePoint group",
     "prefix": [
       "Get-PnPGroupMember"
     ]
@@ -2114,7 +2114,10 @@
     "body": [
       "Get-PnPMicrosoft365ExpiringGroup "
     ],
-    "description": "This command returns all expiring Microsoft 365 Groups within certain time. By default, groups expiring in the next 31 days are return (in accordance with SharePoint/OneDrive's retention period's 31-day months).",
+    "description": [
+      "This command returns all soon to expire Microsoft 365 Groups. By default, groups expiring in the next 31 days are returned (in accordance with SharePoint/OneDrive's retention period's 31-day months). The -Limit parameter can be used to specify a different time period.",
+      "-Limit"
+    ],
     "prefix": [
       "Get-PnPMicrosoft365ExpiringGroup"
     ]
