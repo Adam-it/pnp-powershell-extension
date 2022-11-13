@@ -30,7 +30,7 @@ export class WebViewPanels implements WebviewViewProvider {
     this._activateListener(this._view.webview);
   }
 
-  public getHtmlWebviewForSamplesView(searchQuery: string = '') {
+  public getHtmlWebviewForSamplesView(searchQuery: string = ''): void {
     if (this.sampleView === null) {
       this.sampleView = vscode.window.createWebviewPanel(
         'PnPPSSamples',
@@ -61,19 +61,17 @@ export class WebViewPanels implements WebviewViewProvider {
     this.sampleView.reveal();
   }
 
-  public getHtmlWebviewForDocsView(commandName: string) {
+  public getHtmlWebviewForDocsView(commandName: string): void {
     if (this.docsView === null) {
       this.docsView = vscode.window.createWebviewPanel(
         'PnPPSManual',
         'PnP PowerShell - docs',
         vscode.ViewColumn.One,
-        {}
+        {
+          enableScripts: true,
+          localResourceRoots: [this.context.extensionUri]
+        }
       );
-
-      this.docsView.webview.options = {
-        enableScripts: true,
-        localResourceRoots: [this.context.extensionUri],
-      };
 
       this.docsView.iconPath = {
         dark: vscode.Uri.file(vscode.Uri.joinPath(this.context.extensionUri, 'assets', 'logo.svg').path),
@@ -94,7 +92,13 @@ export class WebViewPanels implements WebviewViewProvider {
     this.docsView.reveal();
   }
 
-  public _activateListener(webview: vscode.Webview) {
+  private _getHtmlWebviewForCommandsList(webview: vscode.Webview): string {
+    const scriptUri = webview.asWebviewUri(vscode.Uri.joinPath(this.context.extensionUri, 'webview-ui', 'commandsList', 'build', 'assets', 'index.js'));
+    const stylesUri = webview.asWebviewUri(vscode.Uri.joinPath(this.context.extensionUri, 'webview-ui', 'commandsList', 'build', 'assets', 'index.css'));
+    return this._getHtmlWebview(webview, scriptUri, stylesUri);
+  }
+
+  private _activateListener(webview: vscode.Webview): void {
     webview.onDidReceiveMessage((message: any) => {
       switch (message.command) {
         case 'showCommandManual':
@@ -115,7 +119,7 @@ export class WebViewPanels implements WebviewViewProvider {
     });
   }
 
-  private _createScriptFile(sampleTitle: string) {
+  private _createScriptFile(sampleTitle: string): void {
     const sample = samples.samples.find(sample => sample.title === sampleTitle);
     const sampleUrl = sample.rawUrl;
 
@@ -131,13 +135,7 @@ export class WebViewPanels implements WebviewViewProvider {
       });
   }
 
-  private _getHtmlWebviewForCommandsList(webview: vscode.Webview) {
-    const scriptUri = webview.asWebviewUri(vscode.Uri.joinPath(this.context.extensionUri, 'webview-ui', 'commandsList', 'build', 'assets', 'index.js'));
-    const stylesUri = webview.asWebviewUri(vscode.Uri.joinPath(this.context.extensionUri, 'webview-ui', 'commandsList', 'build', 'assets', 'index.css'));
-    return this._getHtmlWebview(webview, scriptUri, stylesUri);
-  }
-
-  private _getHtmlWebview(webview: vscode.Webview, scriptUri: vscode.Uri, stylesUri: vscode.Uri, initialData: string = '') {
+  private _getHtmlWebview(webview: vscode.Webview, scriptUri: vscode.Uri, stylesUri: vscode.Uri, initialData: string = ''): string {
 
     const codiconsUri = webview.asWebviewUri(vscode.Uri.joinPath(this.context.extensionUri, 'media', 'codicon', 'codicon.css'));
 
