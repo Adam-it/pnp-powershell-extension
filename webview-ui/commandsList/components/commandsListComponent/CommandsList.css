@@ -1,15 +1,33 @@
-.pnp-commands-list {
+.pnp-commands-list ul, .pnp-commands-tree ul {
     padding: 0;
     list-style: inside;
 }
 
-.pnp-commands-list li {
+.pnp-commands-tree ul {
+    margin-top: 0;
+}
+
+.pnp-commands-tree-group { 
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.pnp-commands-tree-group .codicon {
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+
+.pnp-commands-list ul li, .pnp-commands-tree ul li {
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis;
     padding-bottom: 5px;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.pnp-commands-tree ul li {
+    padding-left: 20px;
 }
 
 .pnp-commands-list-controls { 
@@ -21,9 +39,4 @@
 
 .pnp-commands-list-wrapper { 
     padding-top: 60px;
-}
-
-.pnp-commands-list-actions{
-    text-align: right;
-    padding-right: 5px;
 }

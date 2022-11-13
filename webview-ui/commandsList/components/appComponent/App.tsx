@@ -4,6 +4,7 @@ import { IAppProps } from './IAppProps';
 import { IAppState } from './IAppState';
 import CommandsList from '../commandsListComponent/CommandsList';
 
+
 export default class App extends React.Component<IAppProps, IAppState> {
 
   constructor(props: IAppProps) {
@@ -11,7 +12,6 @@ export default class App extends React.Component<IAppProps, IAppState> {
   }
 
   public render(): React.ReactElement<IAppProps> {
-
     return (
       <main>
         <CommandsList/>

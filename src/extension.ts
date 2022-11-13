@@ -2,8 +2,9 @@ import * as vscode from 'vscode';
 import { WebViewPanels } from './panels/WebViewPanels';
 import * as pnpPsCommands from '../data/pnpPsModel.json';
 
+
 export function activate(context: vscode.ExtensionContext) {
-    const pnpPsProvider = new WebViewPanels(context?.extensionUri, {});
+    const pnpPsProvider = new WebViewPanels(context, {});
     const view = vscode.window.registerWebviewViewProvider('PnPPS', pnpPsProvider);
     context.subscriptions.push(view);
 

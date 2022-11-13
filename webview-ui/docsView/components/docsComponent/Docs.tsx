@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import { vscode } from '../../utilities/vscode';
 import { VSCodeButton } from '@vscode/webview-ui-toolkit/react';
 
+
 export default class Docs extends React.Component<IDocsProps, IDocsState> {
 
   constructor(props: IDocsProps) {
@@ -15,7 +16,8 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
   public render(): React.ReactElement<IDocsProps> {
     let docs = this.props.docsMarkDown;
     const { docsCommandName, docsUrl } = this.props;
-    docs = (docs as any).replaceAll('\n', ' \n');
+    docs = docs.replaceAll('\n', ' \n');
+    docs = `# ${docsCommandName}` + docs.split(`# ${docsCommandName}`)[1];
 
     return (
       <div>
