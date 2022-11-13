@@ -11,8 +11,10 @@ export default class CommandsSearch extends React.Component<ICommandsSearchProps
     }
 
     render(): React.ReactElement<ICommandsSearchProps> {
+        const { initialSearchInput } = this.props;
+
         return (
-            <VSCodeTextField placeholder='Search' size={50} onInput={this.props.onSearch}>
+            <VSCodeTextField placeholder='Search' size={50} value={initialSearchInput !== undefined ? initialSearchInput : ''} onInput={this.props.onSearch}>
                 <span slot='start' className='codicon codicon-search'></span>
             </VSCodeTextField>
         );

@@ -21,36 +21,52 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
     this.state = {
       commandsListView: commands,
       commandsTreeView: this._getTreeView(commands),
-      isTreeViewEnabled: false
+      isTreeViewEnabled: false,
+      previousSearchInput: ''
     };
+  }
+
+  public componentDidMount(): void {
+    const previousState = vscode.getState() as ICommandsListState;
+    this.setState({
+      isTreeViewEnabled: previousState.isTreeViewEnabled,
+      previousSearchInput: previousState.previousSearchInput,
+      commandsListView: previousState.commandsListView,
+      commandsTreeView: previousState.commandsTreeView
+    });
   }
 
   public render(): React.ReactElement<ICommandsListProps> {
     const { commandsListView,
       isTreeViewEnabled,
-      commandsTreeView } = this.state;
+      commandsTreeView,
+      previousSearchInput } = this.state;
 
     return (
       <div>
         <div className='pnp-commands-list-controls'>
           <CommandsAction isTreeViewEnabled={isTreeViewEnabled} showListView={() => this._handleShowListViewButtonClick()} showTreeView={() => this._handleShowTreeViewButtonClick()} />
           <VSCodeDivider />
-          <CommandsSearch onSearch={event => this._handleSearch(event)} />
+          <CommandsSearch initialSearchInput={previousSearchInput} onSearch={event => this._handleSearch(event)} />
         </div>
         <div className='pnp-commands-list-wrapper'>
           {isTreeViewEnabled ?
             <div className='pnp-commands-tree'>
               {commandsTreeView.map((group: ICommandGroup) => {
+                const chevronExpandedIcon = group.isExpanded ? 'codicon-chevron-down' : 'codicon-chevron-right';
                 return (
                   <div key={group.name}>
-                    <div className='pnp-commands-tree-group'>
-                      <span className='codicon codicon-chevron-right'></span>
+                    <div className='pnp-commands-tree-group' onClick={() => this._handleGroupNameClick(group.name)}>
+                      <span className={'codicon ' + chevronExpandedIcon}></span>
                       <span className='pnp-commands-tree-group-name'>{group.name}</span>
                     </div>
                     <div className='pnp-commands-tree-commands'>
-                      <ul>
-                        {group.commands.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(command.name)}>{command.name}</li>))}
-                      </ul>
+                      {group.isExpanded ?
+                        <ul>
+                          {group.commands.map(command => (<li key={commandsListView.indexOf(command)} onClick={() => this._handleCommandClick(command.name)}>{command.name}</li>))}
+                        </ul> :
+                        ''
+                      }
                     </div>
                   </div>
                 );
@@ -67,22 +83,60 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       </div>);
   }
 
+  private _handleGroupNameClick(groupName: string): void {
+    const commandsTreeView = this.state.commandsTreeView;
+    commandsTreeView.forEach(group => {
+      if (group.name === groupName) {
+        group.isExpanded = !group.isExpanded;
+      }
+    });
+
+    this.setState({ commandsTreeView: commandsTreeView });
+
+    const state = vscode.getState() as ICommandsListState;
+    state.commandsTreeView = commandsTreeView;
+    vscode.setState(state);
+  }
+
   private _handleShowListViewButtonClick(): void {
-    this.setState({ isTreeViewEnabled: false });
+    const treeView = this.state.commandsTreeView;
+    treeView.forEach(group => group.isExpanded = false);
+    this.setState({
+      isTreeViewEnabled: false,
+      commandsTreeView: treeView
+    });
+    const state = vscode.getState() as ICommandsListState;
+    state.isTreeViewEnabled = false;
+    state.commandsTreeView = treeView;
+    vscode.setState(state);
   }
 
   private _handleShowTreeViewButtonClick(): void {
     this.setState({ isTreeViewEnabled: true });
+    const state = vscode.getState() as ICommandsListState;
+    state.isTreeViewEnabled = true;
+    vscode.setState(state);
   }
 
   private _handleSearch(event: any): void {
     const searchInput: string = (event.target as HTMLInputElement)?.value;
+    this._search(searchInput);
+  }
+
+  private _search(searchInput: string): void {
     const commands: ICommand[] = pnpPsCommands.commands as ICommand[];
     const searchResult: ICommand[] = commands.filter(command => command.name.toLowerCase().includes(searchInput.toLowerCase()));
+    const searchResultTreeView: ICommandGroup[] = this._getTreeView(searchResult);
     this.setState({
       commandsListView: searchResult,
-      commandsTreeView: this._getTreeView(searchResult)
+      commandsTreeView: searchResultTreeView,
+      previousSearchInput: searchInput
     });
+    const state = vscode.getState() as ICommandsListState;
+    state.commandsListView = searchResult;
+    state.commandsTreeView = searchResultTreeView;
+    state.previousSearchInput = searchInput;
+    vscode.setState(state);
   }
 
   private _handleCommandClick(commandName: string): void {
@@ -101,6 +155,12 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
         commands: commands.filter(command => command.name.startsWith(group))
       } as ICommandGroup;
     });
+
+    if (this.state) {
+      treeView.forEach(group => {
+        this.state.commandsTreeView.find(treeGroup => treeGroup.name === group.name)?.isExpanded ? group.isExpanded = true : group.isExpanded = false;
+      });
+    }
 
     return treeView;
   }

@@ -30,7 +30,9 @@ export default class App extends React.Component<IAppProps, IAppState> {
       searchQueryInput: searchQuery ?? ''
     });
 
-    this._handleSearch(searchQuery);
+    if(searchQuery !== undefined) {
+      this._handleSearch(searchQuery);
+    }
   }
 
   public render(): React.ReactElement<IAppProps> {
@@ -56,9 +58,9 @@ export default class App extends React.Component<IAppProps, IAppState> {
     );
   }
 
-  private _handleSearch(searchInput: string): void {
+  private _handleSearch(givenSearchInput: string): void {
     const allSamples: ISample[] = samples.samples as ISample[];
-    searchInput = searchInput?.toLowerCase() ?? '';
+    const searchInput = givenSearchInput?.toLowerCase() ?? '';
     const searchResult: ISample[] = allSamples.filter(sample =>
       sample.title.toLowerCase().includes(searchInput) ||
       (sample.tags !== null && sample.tags.some(tag => tag.toLowerCase().includes(searchInput)) ||
@@ -66,7 +68,7 @@ export default class App extends React.Component<IAppProps, IAppState> {
 
     this.setState({
       samples: searchResult,
-      searchQueryInput: searchInput
+      searchQueryInput: givenSearchInput
     });
   }
 }

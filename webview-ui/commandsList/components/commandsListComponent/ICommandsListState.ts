@@ -6,4 +6,5 @@ export interface ICommandsListState {
     commandsListView: ICommand[];
     commandsTreeView: ICommandGroup[];
     isTreeViewEnabled: boolean;
+    previousSearchInput: string;
 }

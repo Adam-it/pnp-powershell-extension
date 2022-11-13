@@ -1,5 +1,6 @@
 import { IAuthor } from './IAuthor';
 
+
 export interface ISample {
     title: string;
     url: string;

@@ -12,10 +12,9 @@ export default class App extends React.Component<IAppProps, IAppState> {
   }
 
   public render(): React.ReactElement<IAppProps> {
-
     return (
       <main>
-        <CommandsList/>
+        <CommandsList />
       </main>
     );
   }
