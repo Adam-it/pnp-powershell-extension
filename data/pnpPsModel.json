@@ -31,6 +31,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADGroupOwner.html"
     },
     {
+      "name": "Add-PnPAzureADServicePrincipalAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPAzureADServicePrincipalAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPAzureADServicePrincipalAppRole.html"
+    },
+    {
       "name": "Add-PnPContentType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPContentType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPContentType.html"
@@ -724,6 +729,21 @@
       "name": "Get-PnPAzureADGroupOwner",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADGroupOwner.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADGroupOwner.html"
+    },
+    {
+      "name": "Get-PnPAzureADServicePrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipal.html"
+    },
+    {
+      "name": "Get-PnPAzureADServicePrincipalAssignedAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipalAssignedAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipalAssignedAppRole.html"
+    },
+    {
+      "name": "Get-PnPAzureADServicePrincipalAvailableAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADServicePrincipalAvailableAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADServicePrincipalAvailableAppRole.html"
     },
     {
       "name": "Get-PnPAzureADUser",
@@ -1989,6 +2009,11 @@
       "name": "Remove-PnPAzureADGroupOwner",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADGroupOwner.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADGroupOwner.html"
+    },
+    {
+      "name": "Remove-PnPAzureADServicePrincipalAssignedAppRole",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADServicePrincipalAssignedAppRole.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADServicePrincipalAssignedAppRole.html"
     },
     {
       "name": "Remove-PnPContentType",

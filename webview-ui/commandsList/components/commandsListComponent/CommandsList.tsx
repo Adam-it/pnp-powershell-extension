@@ -28,7 +28,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
   public componentDidMount(): void {
     const previousState = vscode.getState() as ICommandsListState;
-    if (previousState !== undefined) {
+    if (previousState) {
       this.setState({
         isTreeViewEnabled: previousState.isTreeViewEnabled,
         previousSearchInput: previousState.previousSearchInput,
@@ -95,7 +95,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
     this.setState({ commandsTreeView: commandsTreeView });
 
-    const state = vscode.getState() as ICommandsListState;
+    const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
     state.commandsTreeView = commandsTreeView;
     vscode.setState(state);
   }
@@ -107,7 +107,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       isTreeViewEnabled: false,
       commandsTreeView: treeView
     });
-    const state = vscode.getState() as ICommandsListState;
+    const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
     state.isTreeViewEnabled = false;
     state.commandsTreeView = treeView;
     vscode.setState(state);
@@ -115,7 +115,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
   private _handleShowTreeViewButtonClick(): void {
     this.setState({ isTreeViewEnabled: true });
-    const state = vscode.getState() as ICommandsListState;
+    const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
     state.isTreeViewEnabled = true;
     vscode.setState(state);
   }
@@ -134,7 +134,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
       commandsTreeView: searchResultTreeView,
       previousSearchInput: searchInput
     });
-    const state = vscode.getState() as ICommandsListState;
+    const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
     state.commandsListView = searchResult;
     state.commandsTreeView = searchResultTreeView;
     state.previousSearchInput = searchInput;
