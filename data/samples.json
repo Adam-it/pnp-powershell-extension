@@ -1318,6 +1318,25 @@
       ]
     },
     {
+      "title": "Deploy sppkgs and install apps",
+      "url": "https://pnp.github.io/script-samples/spo-deploy-sppkgs-and-install-apps/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-sppkgs-and-install-apps/README.md",
+      "description": "Deploy all packages from a local folder and install the apps to the SharePoint site.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-sppkgs-and-install-apps/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Matteo Serpi",
+          "pictureUrl": "https://github.com/srpmtt.png"
+        }
+      ],
+      "tags": [
+        "bash",
+        "classic"
+      ]
+    },
+    {
       "title": "Detect Installed Theme",
       "url": "https://pnp.github.io/script-samples/spo-detect-theme/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-detect-theme/README.md",
@@ -2531,6 +2550,31 @@
         "Remove-SPOSiteDesign",
         "Remove-PnPSiteScript",
         "Remove-PnPSiteDesign"
+      ]
+    },
+    {
+      "title": "Remove modern web parts from pages",
+      "url": "https://pnp.github.io/script-samples/spo-remove-webpart-from-pages/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-webpart-from-pages/README.md",
+      "description": "Remove modern web parts from pages by their Id, Instance Id, or Title",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-webpart-from-pages/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ramin Ahmadi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/15119083?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo web part",
+        "m365 spo web part properties",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPPage"
       ]
     },
     {
