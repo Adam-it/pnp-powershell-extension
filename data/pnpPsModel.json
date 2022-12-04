@@ -3081,6 +3081,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPView.html"
     },
     {
+      "name": "Set-PnPVivaConnectionsDashboardACE",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPVivaConnectionsDashboardACE.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPVivaConnectionsDashboardACE.html"
+    },
+    {
       "name": "Set-PnPWeb",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPWeb.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html"
@@ -3214,11 +3219,6 @@
       "name": "Update-PnPUserType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPUserType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPUserType.html"
-    },
-    {
-      "name": "Update-PnPVivaConnectionsDashboardACE",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Update-PnPVivaConnectionsDashboardACE.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Update-PnPVivaConnectionsDashboardACE.html"
     }
   ]
 }
