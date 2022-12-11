@@ -31,17 +31,27 @@ export default class CommandAction extends React.Component<ICommandsActionProps,
                 <VSCodeButton appearance='icon' title='PnP PowerShell samples' onClick={() => this._handleShowSamplesButtonClick()}>
                     <span className='codicon codicon-file-code'></span>
                 </VSCodeButton>
-                <VSCodeButton appearance='icon' title='PnP PowerShell web page' onClick={() => this._handleGoToHomePageButtonClick()}>
+                <VSCodeButton appearance='icon' title='PnP PowerShell docs web page' onClick={() => this._handleGoToHomePageButtonClick()}>
                     <span className='codicon codicon-browser'></span>
+                </VSCodeButton>
+                <VSCodeButton appearance='icon' title='PnP PowerShell GitHub Repo' onClick={() => this._handleGoToRepoButtonClick()}>
+                    <span className='codicon codicon-github-inverted'></span>
                 </VSCodeButton>
             </div>
         );
     }
 
+    private _handleGoToRepoButtonClick(): void {
+        vscode.postMessage({
+            command: 'openLink',
+            value: CONSTANTS.repoLink
+        });
+    }
+
     private _handleGoToHomePageButtonClick(): void {
         vscode.postMessage({
             command: 'openLink',
-            value: CONSTANTS.repoHomePageLink
+            value: CONSTANTS.homePageLink
         });
     }
 
