@@ -700,6 +700,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Dan Toft",
+          "pictureUrl": "https://github.com/Tanddant.png"
+        },
+        {
           "name": "Ganesh Sanap",
           "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
@@ -1260,6 +1264,25 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Create a multi-hub set of communication sites",
+      "url": "https://pnp.github.io/script-samples/spo-create-multi-hub-sites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-multi-hub-sites/README.md",
+      "description": "This sample builds 9 SharePoint communication sites, creates three hub sites and associates them to a main hub site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-multi-hub-sites/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "bash",
+        "classic"
+      ]
     },
     {
       "title": "Create SharePoint Groups in Bulk using CSV file",
