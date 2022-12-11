@@ -1,3 +1,4 @@
 export const CONSTANTS = {
-    repoHomePageLink: 'https://pnp.github.io/powershell/articles/index.html'
+    homePageLink: 'https://pnp.github.io/powershell/index.html',
+    repoLink: 'https://github.com/pnp/powershell'
 };
