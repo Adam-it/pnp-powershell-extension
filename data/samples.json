@@ -1341,6 +1341,29 @@
       ]
     },
     {
+      "title": "Extract the configuration of a PnP Modern Search results web part and apply it on another site collection",
+      "url": "https://pnp.github.io/script-samples/spo-deploy-pnpmodernsearch-webpart/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-pnpmodernsearch-webpart/README.md",
+      "description": "Sample showing how to use extract the configuration of a PnP Modern Search results web part and apply it on another site collection",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-pnpmodernsearch-webpart/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPProperty",
+        "Get-PnPSite",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite",
+        "Get-PnPWeb"
+      ]
+    },
+    {
       "title": "Deploy sppkgs and install apps",
       "url": "https://pnp.github.io/script-samples/spo-deploy-sppkgs-and-install-apps/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-sppkgs-and-install-apps/README.md",

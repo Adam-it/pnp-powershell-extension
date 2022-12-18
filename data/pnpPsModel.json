@@ -496,6 +496,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPFolder.html"
     },
     {
+      "name": "Copy-PnPItemProxy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPItemProxy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPItemProxy.html"
+    },
+    {
       "name": "Copy-PnPList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Copy-PnPList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Copy-PnPList.html"
