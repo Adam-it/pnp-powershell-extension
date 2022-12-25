@@ -12,22 +12,11 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
-        },
-        {
-          "name": "Patrick Lamber",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
         }
       ],
       "tags": [
         "SharePoint Online",
         "Microsoft 365 Groups",
-        "Imported CLI Sample",
-        "m365 login",
-        "m365 status",
-        "m365 aad o365group list",
-        "m365 aad o365group remove",
-        "m365 spo site classic list",
-        "m365 spo site remove",
         "Connect-PnPOnline",
         "Get-PnPTenant",
         "Get-PnPTenantSite",
@@ -49,28 +38,12 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
-        },
-        {
-          "name": "Patrick Lamber",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
-        },
-        {
-          "name": "Alan Eardley",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/10485065?v=4"
         }
       ],
       "tags": [
         "Microsoft 365 Groups",
         "Microsoft Teams",
         "Governance",
-        "Imported CLI Sample",
-        "m365 login",
-        "m365 status",
-        "m365 aad o365group get",
-        "m365 aad o365group user add",
-        "m365 aad o365group user list",
-        "m365 aad o365group user remove",
-        "m365 cli config set",
         "Add-PnPMicrosoft365GroupMember",
         "Add-PnPMicrosoft365GroupOwner",
         "Connect-PnPOnline",
@@ -94,28 +67,12 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
-        },
-        {
-          "name": "Patrick Lamber",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
-        },
-        {
-          "name": "Alan Eardley",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/10485065?v=4"
         }
       ],
       "tags": [
         "Microsoft 365 Groups",
         "Microsoft Teams",
         "Governance",
-        "Imported CLI Sample",
-        "m365 login",
-        "m365 status",
-        "m365 aad o365group list",
-        "m365 aad o365group user add",
-        "m365 aad o365group user list",
-        "m365 aad o365group user remove",
-        "m365 cli config set",
         "Add-PnPMicrosoft365GroupOwner",
         "Connect-PnPOnline",
         "Disconnect-PnPOnline",
@@ -291,16 +248,9 @@
         {
           "name": "Luise Freese",
           "pictureUrl": "https://avatars.githubusercontent.com/u/49960482?v=4"
-        },
-        {
-          "name": "Garry Trinder",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/11563347?v=4"
         }
       ],
       "tags": [
-        "m365 flow export",
-        "m365 flow list",
-        "m365 flow environment list",
         "Export-PnPFlow",
         "Get-PnPFlow"
       ]
@@ -317,19 +267,10 @@
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
-        },
-        {
-          "name": "Adam Wójcik",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
-        "Power Automate",
-        "m365 login",
-        "m365 status",
-        "m365 adaptivecard send",
-        "m365 flow list",
-        "m365 flow run list"
+        "Power Automate"
       ]
     },
     {
@@ -729,10 +670,6 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         },
         {
-          "name": "David Ramalho",
-          "pictureUrl": "https://i1.wp.com/pbs.twimg.com/profile_images/1060671490847326208/zyudunZr_200x200.jpg?zoom=1.25&ssl=1"
-        },
-        {
           "name": "Paul Bullock",
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
@@ -932,17 +869,11 @@
         {
           "name": "Jiten Parmar",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7124132?v=4"
-        },
-        {
-          "name": "Veronique Lengelle",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/25181757?v=4"
         }
       ],
       "tags": [
         "SharePoint Online",
-        "Governance",
-        "Imported CLI Sample",
-        "m365 spo folder add"
+        "Governance"
       ]
     },
     {
@@ -1437,18 +1368,10 @@
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
-        },
-        {
-          "name": "Laura Kokkarinen",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
         }
       ],
       "tags": [
         "SharePoint Online",
-        "bash",
-        "Imported CLI Sample",
-        "m365 spo tenant recyclebinitem list",
-        "m365 spo tenant recyclebinitem remove",
         "Clear-PnPTenantRecycleBinItem",
         "Connect-PnPOnline",
         "Get-PnPTenant",
@@ -1982,20 +1905,11 @@
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
-        },
-        {
-          "name": "David Ramalho",
-          "pictureUrl": "https://i1.wp.com/pbs.twimg.com/profile_images/1060671490847326208/zyudunZr_200x200.jpg?zoom=1.25&ssl=1"
         }
       ],
       "tags": [
         "SharePoint Online",
         "Hide List",
-        "bash",
-        "Imported CLI Sample",
-        "m365 login",
-        "m365 spo list get",
-        "m365 spo list set",
         "Connect-PnPOnline",
         "Get-PnPList",
         "Set-PnPList"
@@ -2217,22 +2131,12 @@
         {
           "name": "Paul Bullock",
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
-        },
-        {
-          "name": "Albert-Jan Schot",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/15227781?v=4"
         }
       ],
       "tags": [
         "SharePoint Online",
         "Governance",
         "External Users",
-        "Imported CLI Sample",
-        "m365 login",
-        "m365 status",
-        "m365 spo externaluser list",
-        "m365 spo site classic list",
-        "m365 spo user list",
         "Connect-PnPOnline",
         "Get-PnPTenant",
         "Get-PnPTenantSite",
@@ -2462,21 +2366,11 @@
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
-        },
-        {
-          "name": "Laura Kokkarinen",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
         }
       ],
       "tags": [
         "SharePoint Online",
-        "Themes",
-        "bash",
-        "Imported CLI Sample",
-        "m365 spo theme list",
-        "m365 spo theme remove",
-        "Get-PnPTenantTheme",
-        "Remove-PnPTenantTheme"
+        "Themes"
       ]
     },
     {
@@ -2539,19 +2433,11 @@
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
-        },
-        {
-          "name": "Albert-Jan Schot",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/15227781?v=4"
         }
       ],
       "tags": [
         "SharePoint Online",
         "Redirect sites",
-        "bash",
-        "Imported CLI Sample",
-        "m365 spo site classic list",
-        "m365 spo site remove",
         "Connect-PnPOnline",
         "Get-PnPTenant",
         "Get-PnPTenantSite",
@@ -2572,10 +2458,6 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
         },
         {
-          "name": "Laura Kokkarinen",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/41330990?v=4"
-        },
-        {
           "name": "Paul Bullock",
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
@@ -2583,10 +2465,6 @@
       "tags": [
         "SharePoint Online",
         "Site Designs",
-        "bash",
-        "Imported CLI Sample",
-        "m365 spo sitedesign list",
-        "m365 spo sitedesign remove",
         "Connect-SPOService",
         "Connect-PnPOnline",
         "Get-SPOSite",
@@ -2789,10 +2667,6 @@
         {
           "name": "Valeras Narbutas",
           "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=400&v=4"
-        },
-        {
-          "name": "Adam",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         }
       ],
       "tags": [
@@ -2803,27 +2677,6 @@
         "Create List",
         "Modify View",
         "Modify Navigation",
-        "Imported CLI Sample",
-        "m365 login",
-        "m365 status",
-        "m365 spo contenttype add",
-        "m365 spo contenttype field set",
-        "m365 spo contenttype get",
-        "m365 spo field add",
-        "m365 spo field get",
-        "m365 spo folder add",
-        "m365 spo folder get",
-        "m365 spo list add",
-        "m365 spo list contenttype add",
-        "m365 spo list get",
-        "m365 spo list set",
-        "m365 spo list view field add",
-        "m365 spo list view list",
-        "m365 spo navigation node add",
-        "m365 spo navigation node list",
-        "m365 spo navigation node remove",
-        "m365 spo site add",
-        "m365 spo site get",
         "Add-PnPContentType",
         "Add-PnPContentTypeToList",
         "Add-PnPField",
@@ -3111,22 +2964,11 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
-        },
-        {
-          "name": "Patrick Lamber",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/18241305?v=4"
         }
       ],
       "tags": [
         "Microsoft Teams",
         "Governance",
-        "Imported CLI Sample",
-        "m365 login",
-        "m365 status",
-        "m365 cli config set",
-        "m365 teams team get",
-        "m365 teams team list",
-        "m365 teams user list",
         "Connect-PnPOnline",
         "Disconnect-PnPOnline",
         "Get-PnPMicrosoft365Group",
