@@ -1181,6 +1181,30 @@
       ]
     },
     {
+      "title": "Create Documentset in SharePoint Library",
+      "url": "https://pnp.github.io/script-samples/spo-create-documentset/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-documentset/README.md",
+      "description": "Sample for when you need to work with documentsets in SharePoint",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-documentset/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Jimmy Hang",
+          "pictureUrl": "https://github.com/JimmyHang.png"
+        }
+      ],
+      "tags": [
+        "bash",
+        "classic",
+        "Add-PnPDocumentSet",
+        "Connect-PnPOnline",
+        "Get-PnPFolder",
+        "Set-PnPList",
+        "Set-PnPListItem"
+      ]
+    },
+    {
       "title": "Create Modern SharePoint Pages and add web parts",
       "url": "https://pnp.github.io/script-samples/spo-create-modern-pages-add-web-parts/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-modern-pages-add-web-parts/README.md",
@@ -1380,6 +1404,34 @@
         "Connect-PnPOnline",
         "Get-PnPTenant",
         "Get-PnPTenantRecycleBinItem"
+      ]
+    },
+    {
+      "title": "Enable Site Collection App Catalog on a specific sites using CSV",
+      "url": "https://pnp.github.io/script-samples/spo-enable-site-collection-app-catalog/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-site-collection-app-catalog/README.md",
+      "description": "Enable Site Collection App Catalog on list of SharePoint sites from CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-site-collection-app-catalog/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 logout",
+        "m365 status",
+        "m365 spo site appcatalog add",
+        "Add-PnPSiteCollectionAppCatalog",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Add-SPOSiteCollectionAppCatalog",
+        "Connect-SPOService",
+        "Disconnect-SPOService",
+        "Get-SPOSite"
       ]
     },
     {
