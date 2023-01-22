@@ -926,6 +926,31 @@
       ]
     },
     {
+      "title": "Creates and apply site designs",
+      "url": "https://pnp.github.io/script-samples/spo-add-sitedesign-permissions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-sitedesign-permissions/README.md",
+      "description": "Script that creates site design based on existing site with permissions",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-sitedesign-permissions/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Add-PnPSiteScript",
+        "Connect-PnPService",
+        "Get-PnPSite",
+        "Get-PnPSiteScript",
+        "Get-PnPSiteScriptFromList"
+      ]
+    },
+    {
       "title": "Add a tenant theme to SharePoint Online",
       "url": "https://pnp.github.io/script-samples/spo-add-tenant-theme/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-tenant-theme/README.md",
@@ -1404,6 +1429,26 @@
         "Connect-PnPOnline",
         "Get-PnPTenant",
         "Get-PnPTenantRecycleBinItem"
+      ]
+    },
+    {
+      "title": "Enable page scheduling on a modern site pages library",
+      "url": "https://pnp.github.io/script-samples/spo-enable-page-scheduling/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-page-scheduling/README.md",
+      "description": "Enable page scheduling on a modern site pages library",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-page-scheduling/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        }
+      ],
+      "tags": [
+        "Enable-PnPPageScheduling",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline"
       ]
     },
     {
@@ -1972,6 +2017,25 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "This script allows you to retrieve Message Centre announcements and post to teams",
+      "url": "https://pnp.github.io/script-samples/spo-get-message-centre-announcements-and-post-to-teams-channel/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-message-centre-announcements-and-post-to-teams-channel/README.md",
+      "description": "This script allows you to retrieve Message Centre announcements and post to teams.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-message-centre-announcements-and-post-to-teams-channel/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=96&v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint",
+        "Teams"
+      ]
     },
     {
       "title": "Gets usage from a particular user(s) or site(s) from the Unified Audit Log",

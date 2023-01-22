@@ -476,11 +476,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Convert-PnPSiteTemplateToMarkdown.html"
     },
     {
-      "name": "ConvertTo-PnPClientSidePage",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/ConvertTo-PnPClientSidePage.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/ConvertTo-PnPClientSidePage.html"
-    },
-    {
       "name": "ConvertTo-PnPPage",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/ConvertTo-PnPPage.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/ConvertTo-PnPPage.html"
