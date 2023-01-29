@@ -587,7 +587,11 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
-          "name": "Kasper Bo Larsen",
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        },
+        {
+          "name": "Kasper Larsen",
           "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
         }
       ],
@@ -1080,6 +1084,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Compare files hash from two different SharePoint tenants",
+      "url": "https://pnp.github.io/script-samples/spo-compare-files/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-compare-files/README.md",
+      "description": "This script will compare files hash from two different SharePoint tenants",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-compare-files/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        }
+      ],
+      "tags": [
+        "hash",
+        "Connect-PnPOnline",
+        "Get-PnPFile",
+        "Get-FileHash"
+      ]
     },
     {
       "title": "Copy the folder structure of a directory to a SharePoint list",
@@ -1783,6 +1808,26 @@
       ]
     },
     {
+      "title": "Export of pages that use Stream (Classic) Web Parts",
+      "url": "https://pnp.github.io/script-samples/spo-export-stream-classic-webparts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-stream-classic-webparts/README.md",
+      "description": "This sample script helps you understand how many Stream (Classic) Web Parts are being used by your site by outputting a CSV file of the Stream (Classic) Web Parts and the pages that use them.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-stream-classic-webparts/assets/stream.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Tetsuya Kawahara",
+          "pictureUrl": "https://github.com/tecchan1107.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Get-PnPPage"
+      ]
+    },
+    {
       "title": "Export SharePoint Term Store terms to CSV",
       "url": "https://pnp.github.io/script-samples/spo-export-termstore-terms-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-termstore-terms-to-csv/README.md",
@@ -2019,14 +2064,18 @@
       "tags": []
     },
     {
-      "title": "This script allows you to retrieve Message Centre announcements and post to teams",
+      "title": "Retrieve Message Centre announcements and post to MS Teams channel",
       "url": "https://pnp.github.io/script-samples/spo-get-message-centre-announcements-and-post-to-teams-channel/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-message-centre-announcements-and-post-to-teams-channel/README.md",
-      "description": "This script allows you to retrieve Message Centre announcements and post to teams.",
+      "description": "This script allows you to retrieve Message Centre announcements and post to MS Teams channel.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-message-centre-announcements-and-post-to-teams-channel/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
         {
           "name": "Valeras Narbutas",
           "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?s=96&v=4"
@@ -2034,7 +2083,19 @@
       ],
       "tags": [
         "SharePoint",
-        "Teams"
+        "Teams",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPMessageCenterAnnouncement",
+        "Connect-MicrosoftTeams",
+        "Submit-PnPTeamsChannelMessage",
+        "m365 login",
+        "m365 logout",
+        "m365 status",
+        "m365 teams team get",
+        "m365 teams channel get",
+        "m365 teams message send",
+        "m365 tenant serviceannouncement message list"
       ]
     },
     {
@@ -2055,6 +2116,28 @@
         "Unified Audit Logs",
         "ULS",
         "PDF"
+      ]
+    },
+    {
+      "title": "Grant permissions for a given Azure Active Directory application registration",
+      "url": "https://pnp.github.io/script-samples/spo-grant-app-site-permission/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-grant-app-site-permission/README.md",
+      "description": "Simplifies the process of granting FullControl or Manage permissions for an application registration in a SharePoint site collection",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-grant-app-site-permission/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Michał Romiszewski",
+          "pictureUrl": "https://github.com/mromiszewski.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPAzureADApp",
+        "Get-PnPAzureADAppSitePermission",
+        "Grant-PnPAzureADAppSitePermission",
+        "Set-PnPAzureADAppSitePermission"
       ]
     },
     {
@@ -2914,6 +2997,28 @@
         "Get-PnPList",
         "Get-PnPListItem",
         "Get-PnPPage"
+      ]
+    },
+    {
+      "title": "Sample showing how to ensure that the Role/Title in each People web part is updated",
+      "url": "https://pnp.github.io/script-samples/spo-update-people-web-part/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-people-web-part/README.md",
+      "description": "Sample showing how to ensure that the Role/Title in each People web is updated",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-people-web-part/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPUserProfileProperty",
+        "Export-Csv",
+        "Get-PnPClientSidePage",
+        "Get-PnPTenantSite"
       ]
     },
     {

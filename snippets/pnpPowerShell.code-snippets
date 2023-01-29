@@ -500,14 +500,14 @@
   },
   "Add-PnPSiteCollectionAdmin": {
     "description": [
-      "This command allows adding one to many users as site collection administrators to the site collection in the current context. It does not replace or remove existing site collection administrators. You must be a Site Collection Admin to run this command. Use Set-PnPTenantSite -Owners if you are not an Admin for the site but have the SharePoint admin role.",
+      "This command allows adding one to many users as site collection administrators to the site collection in the current context. It does not replace or remove existing site collection administrators. You must be a Site Collection Admin to run this command. Use Set-PnPTenantSite -Owners if you are not an Admin for the site but have the SharePoint Online admin role.",
       "Set-PnPTenantSite -Owners"
     ],
     "prefix": [
       "Add-PnPSiteCollectionAdmin"
     ],
     "body": [
-      "Add-PnPSiteCollectionAdmin -Owners $1"
+      "Add-PnPSiteCollectionAdmin "
     ]
   },
   "Add-PnPSiteCollectionAppCatalog": {
@@ -3986,7 +3986,7 @@
     ]
   },
   "Remove-PnPAzureADApp": {
-    "description": "This cmdlet remove an Azure AD App registration",
+    "description": "This cmdlet removes an Azure AD App registration.",
     "prefix": [
       "Remove-PnPAzureADApp"
     ],

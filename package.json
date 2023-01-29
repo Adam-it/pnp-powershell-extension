@@ -2,7 +2,7 @@
 	"name": "pnp-powershell-extension",
 	"displayName": "PnP PowerShell extension",
 	"description": "This extension adds snippets, syntaxes and commands manual list",
-	"version": "2.1.4",
+	"version": "2.1.5",
 	"publisher": "adamwojcikit",
 	"author": {
 		"name": "Adam"
