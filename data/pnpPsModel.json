@@ -2611,9 +2611,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPAzureADGroup.html"
     },
     {
-      "name": "Set-PnPBrowserIdleSignout",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBrowserIdleSignout.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBrowserIdleSignout.html"
+      "name": "Set-PnPBrowserIdleSignOut",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPBrowserIdleSignOut.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPBrowserIdleSignOut.html"
     },
     {
       "name": "Set-PnPBuiltInDesignPackageVisibility",
