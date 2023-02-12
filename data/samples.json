@@ -1045,6 +1045,29 @@
       "tags": []
     },
     {
+      "title": "Bulk import data from multiple files",
+      "url": "https://pnp.github.io/script-samples/spo-bulk-import-data/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-import-data/README.md",
+      "description": "Script that bulk imports data from multiple files",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-import-data/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPField",
+        "Add-PnPListItem"
+      ]
+    },
+    {
       "title": "Bulk Publish Syntex Models To Libraries",
       "url": "https://pnp.github.io/script-samples/spo-bulk-publish-syntex-model/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-publish-syntex-model/README.md",
