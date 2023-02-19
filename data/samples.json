@@ -2036,6 +2036,27 @@
       ]
     },
     {
+      "title": "Pinpoint the items/docs that hasn't been indexed yet",
+      "url": "https://pnp.github.io/script-samples/spo-get-items-not-indexed-since-last-update/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-items-not-indexed-since-last-update/README.md",
+      "description": "Pinpoint the items/docs that hasn't been indexed yet since the last time the item was updated",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-items-not-indexed-since-last-update/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPSearchCrawlLog"
+      ]
+    },
+    {
       "title": "Get SharePoint List Or Library Permissions And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-get-list-library-permission-export-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-list-library-permission-export-to-csv/README.md",
