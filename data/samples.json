@@ -1045,6 +1045,47 @@
       "tags": []
     },
     {
+      "title": "Use Invoke-PnPSiteTemplate with parameters",
+      "url": "https://pnp.github.io/script-samples/spo-apply-pnptemplate-with-parameters/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-pnptemplate-with-parameters/README.md",
+      "description": "Sample showing how create a PnP Template and ADD parameters then use Invoke-PnPSiteTemplate with parameters",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-pnptemplate-with-parameters/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/20593570?s=400&u=f9a4d5137685d8c3fcc60394fc193f3e8156f678&v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPProperty",
+        "Invoke-PnPSiteTemplate",
+        "New-PnPTenantSite",
+        "Get-PnPTenantSite",
+        "Add-PnPView"
+      ]
+    },
+    {
+      "title": "Associate Multiple Site Collections to Hub Site",
+      "url": "https://pnp.github.io/script-samples/spo-associate-multiple-sites-to-hub/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/README.md",
+      "description": "This script can be used to associate multiple site collections to Hub site; you can provide list of site collection urls in the array.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Siddharth Vaghasia",
+          "pictureUrl": "https://github.com/siddharth-vaghasia.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Bulk import data from multiple files",
       "url": "https://pnp.github.io/script-samples/spo-bulk-import-data/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-import-data/README.md",
@@ -1642,6 +1683,26 @@
         "Add-PnPField",
         "Add-PnPListItem",
         "New-PnPList"
+      ]
+    },
+    {
+      "title": "Export access shared links from SharePoint Library",
+      "url": "https://pnp.github.io/script-samples/spo-export-file-shared-links/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-file-shared-links/README.md",
+      "description": "Script will export SharePoint Library with access shared links files to CSV file.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-file-shared-links/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Andre Lage",
+          "pictureUrl": "https://github.com/aaclage.png"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 spo file list",
+        "spo file sharinginfo get"
       ]
     },
     {

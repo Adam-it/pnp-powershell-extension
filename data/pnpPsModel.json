@@ -3171,6 +3171,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Test-PnPTenantTemplate.html"
     },
     {
+      "name": "Undo-PnPFileCheckedOut",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Undo-PnPFileCheckedOut.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Undo-PnPFileCheckedOut.html"
+    },
+    {
       "name": "Uninstall-PnPApp",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Uninstall-PnPApp.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Uninstall-PnPApp.html"
