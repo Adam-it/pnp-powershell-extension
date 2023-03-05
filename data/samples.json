@@ -2797,6 +2797,26 @@
       ]
     },
     {
+      "title": "Remove Title Area from SharePoint Page",
+      "url": "https://pnp.github.io/script-samples/spo-remove-page-title-area/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-page-title-area/README.md",
+      "description": "This sample script shows how to remove the title area from SharePoint online site page using PnP PowerShell",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-page-title-area/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Set-PnPPage"
+      ]
+    },
+    {
       "title": "Delete custom SharePoint site designs",
       "url": "https://pnp.github.io/script-samples/spo-remove-site-designs/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-designs/README.md",
