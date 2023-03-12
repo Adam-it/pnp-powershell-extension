@@ -3125,6 +3125,26 @@
       ]
     },
     {
+      "title": "Update SharePoint Page Banner Image",
+      "url": "https://pnp.github.io/script-samples/spo-update-page-banner-image/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-page-banner-image/README.md",
+      "description": "This sample script shows how to update the banner image at the top of the SharePoint online modern page using PnP PowerShell",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-page-banner-image/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Set-PnPPage"
+      ]
+    },
+    {
       "title": "Sample showing how to ensure that the Role/Title in each People web part is updated",
       "url": "https://pnp.github.io/script-samples/spo-update-people-web-part/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-people-web-part/README.md",
