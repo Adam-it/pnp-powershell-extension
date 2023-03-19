@@ -1045,6 +1045,35 @@
       "tags": []
     },
     {
+      "title": "Using a PnP Site Template including files and list items",
+      "url": "https://pnp.github.io/script-samples/spo-apply-pnptemplate-with-files-and-listitems/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-pnptemplate-with-files-and-listitems/README.md",
+      "description": "Sometime you are required to create a site including some specific files and/or list items. You can do this in servaral ways, but in this sample we are using the PnP Provisioning Engine",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-pnptemplate-with-files-and-listitems/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>",
+        "Add-PnPDataRowsToSiteTemplate",
+        "Add-PnPFile",
+        "Add-PnPFileToSiteTemplate",
+        "Add-PnPListItem",
+        "Connect-PnPOnline",
+        "Copy-PnPFile",
+        "Get-PnPSite",
+        "Get-PnPSiteTemplate",
+        "Invoke-PnPSiteTemplate",
+        "New-PnPList",
+        "New-PnPTenantSite"
+      ]
+    },
+    {
       "title": "Use Invoke-PnPSiteTemplate with parameters",
       "url": "https://pnp.github.io/script-samples/spo-apply-pnptemplate-with-parameters/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-pnptemplate-with-parameters/README.md",
@@ -1942,6 +1971,24 @@
         "Get-PnPTerm",
         "Get-PnPTermGroup",
         "Get-PnPTermSet"
+      ]
+    },
+    {
+      "title": "Export User Profiles to csv",
+      "url": "https://pnp.github.io/script-samples/spo-export-upa-accounts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-upa-accounts/README.md",
+      "description": "This sample shows how to export all or a sub set of accounts from UPA to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-upa-accounts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {
