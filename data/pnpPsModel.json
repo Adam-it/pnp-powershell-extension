@@ -691,6 +691,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAvailableSiteClassification.html"
     },
     {
+      "name": "Get-PnPAzureACSPrincipal",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureACSPrincipal.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureACSPrincipal.html"
+    },
+    {
       "name": "Get-PnPAzureADActivityReportDirectoryAudit",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPAzureADActivityReportDirectoryAudit.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPAzureADActivityReportDirectoryAudit.html"
@@ -1146,6 +1151,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPlannerUserPolicy.html"
     },
     {
+      "name": "Get-PnPPowerApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerApp.html"
+    },
+    {
       "name": "Get-PnPPowerPlatformEnvironment",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformEnvironment.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformEnvironment.html"
@@ -1209,6 +1219,11 @@
       "name": "Get-PnPServiceHealthIssue",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPServiceHealthIssue.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPServiceHealthIssue.html"
+    },
+    {
+      "name": "Get-PnPSharePointAddIn",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSharePointAddIn.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSharePointAddIn.html"
     },
     {
       "name": "Get-PnPSharingForNonOwnersOfSite",
