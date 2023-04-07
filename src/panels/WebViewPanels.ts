@@ -69,7 +69,8 @@ export class WebViewPanels implements WebviewViewProvider {
         vscode.ViewColumn.One,
         {
           enableScripts: true,
-          localResourceRoots: [this.context.extensionUri]
+          localResourceRoots: [this.context.extensionUri],
+          enableFindWidget: true
         }
       );
 
