@@ -54,7 +54,7 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
             }}
           >{docs}</ReactMarkdown>
         </div>
-      </div >
+      </div>
     );
   }
 
