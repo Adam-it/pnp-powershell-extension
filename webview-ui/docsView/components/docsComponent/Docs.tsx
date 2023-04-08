@@ -32,7 +32,27 @@ export default class Docs extends React.Component<IDocsProps, IDocsState> {
           </VSCodeButton>
         </div>
         <div className='docs-content'>
-          <ReactMarkdown>{docs}</ReactMarkdown>
+          <ReactMarkdown
+            components={{
+              pre({ ...props }) {
+                const handleCopyCode = (codeChunk: React.ReactElement) => {
+                  const code = codeChunk.props.children[0];
+                  if (typeof code === 'string') {
+                    navigator.clipboard.writeText(code);
+                  }
+                };
+
+                return (
+                  <div className='copy-code'>
+                    <VSCodeButton appearance="icon" onClick={() => handleCopyCode({ ...props }?.children[0] as React.ReactElement)}>
+                      <span className='codicon codicon-copy'></span>
+                    </VSCodeButton>
+                    <pre {...props}></pre>
+                  </div>
+                );
+              }
+            }}
+          >{docs}</ReactMarkdown>
         </div>
       </div>
     );
