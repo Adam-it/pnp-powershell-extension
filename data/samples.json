@@ -607,6 +607,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://github.com/ValerasNarbutas.png"
+        },
+        {
           "name": "Nanddeep Nachan",
           "pictureUrl": "https://github.com/nanddeepn.png"
         },
@@ -1047,6 +1051,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Apply SharePoint JSON View Formatting",
+      "url": "https://pnp.github.io/script-samples/spo-apply-json-view-formatting/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-json-view-formatting/README.md",
+      "description": "This sample script shows how to apply SharePoint JSON view formatting using PnP PowerShell and CLI for Microsoft 365",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-json-view-formatting/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Set-PnPView",
+        "m365 login",
+        "m365 spo list view set"
+      ]
     },
     {
       "title": "Using a PnP Site Template including files and list items",
@@ -1573,6 +1599,47 @@
       ]
     },
     {
+      "title": "Download sppkgs from App Catalog",
+      "url": "https://pnp.github.io/script-samples/spo-download-sppkgs/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-sppkgs/README.md",
+      "description": "Download all packages from App Catalog",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-sppkgs/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Matteo Serpi",
+          "pictureUrl": "https://github.com/srpmtt.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPFile"
+      ]
+    },
+    {
+      "title": "Empty SharePoint Online Site Recycle Bin",
+      "url": "https://pnp.github.io/script-samples/spo-empty-recycle-bin/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/README.md",
+      "description": "This sample script shows how to empty SharePoint online site first stage and second stage recycle bin using PnP PowerShell",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Move-PnPRecycleBinItem",
+        "Clear-PnPRecycleBinItem"
+      ]
+    },
+    {
       "title": "Empty the tenant recycle bin",
       "url": "https://pnp.github.io/script-samples/spo-empty-tenant-recyclebin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-tenant-recyclebin/README.md",
@@ -1727,6 +1794,24 @@
         "documents",
         "checkedout",
         "hubsite"
+      ]
+    },
+    {
+      "title": "Getting checked-out files in the tenant using Search",
+      "url": "https://pnp.github.io/script-samples/spo-export-checked-out-files-in-tenant-using-search/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-checked-out-files-in-tenant-using-search/README.md",
+      "description": "Getting checked-out files in the tenant using Search",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-checked-out-files-in-tenant-using-search/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {
@@ -2170,6 +2255,22 @@
       ]
     },
     {
+      "title": "Get Content Type usage within a site collection.",
+      "url": "https://pnp.github.io/script-samples/spo-get-contenttype-usage-listitem-listversion/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-contenttype-usage-listitem-listversion/README.md",
+      "description": "Get Content Type usage within a site collection.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-contenttype-usage-listitem-listversion/assets/Preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": []
+    },
+    {
       "title": "Get all files in a Document Library along with Created By and Modified By",
       "url": "https://pnp.github.io/script-samples/spo-get-files-and-creators-modifiers/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-files-and-creators-modifiers/README.md",
@@ -2212,6 +2313,26 @@
         "Get-PnPList",
         "Get-PnPListItem",
         "Get-PnPSearchCrawlLog"
+      ]
+    },
+    {
+      "title": "SharePoint List Item Version History Retrieval",
+      "url": "https://pnp.github.io/script-samples/spo-get-list-item-version-history/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-list-item-version-history/README.md",
+      "description": "This script retrieves the version history of a specified list item, including all field values or only selected fields",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-list-item-version-history/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Michał Romiszewski",
+          "pictureUrl": "https://github.com/mromiszewski.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Get-PnPProperty"
       ]
     },
     {
