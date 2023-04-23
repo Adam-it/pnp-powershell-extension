@@ -1490,6 +1490,32 @@
       ]
     },
     {
+      "title": "Deploys and Installs SharePoint Framework (SPFx) solutions to Hub Site and Associated Sites",
+      "url": "https://pnp.github.io/script-samples/spo-deploy-install-update-spfx-hubsite-associatedsites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/README.md",
+      "description": "Deploys and Installs SharePoint Framework (SPFx) solutions to Hub Site and Associated Sites",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Add-PnPSiteCollectionAppCatalog",
+        "Add-pnpapp",
+        "Get-PnPApp",
+        "Install-PnPApp",
+        "Update-PnPApp"
+      ]
+    },
+    {
       "title": "Extract the configuration of a PnP Modern Search results web part and apply it on another site collection",
       "url": "https://pnp.github.io/script-samples/spo-deploy-pnpmodernsearch-webpart/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-pnpmodernsearch-webpart/README.md",
