@@ -991,6 +991,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLabel.html"
     },
     {
+      "name": "Get-PnPLargeListOperationStatus",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPLargeListOperationStatus.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLargeListOperationStatus.html"
+    },
+    {
       "name": "Get-PnPList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPList.html"

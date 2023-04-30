@@ -680,6 +680,10 @@
         {
           "name": "Paul Bullock",
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
       "tags": null
@@ -899,6 +903,24 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Add Page template to Site",
+      "url": "https://pnp.github.io/script-samples/spo-add-page-template/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-page-template/README.md",
+      "description": "This sample script shows how to add a page template to a SharePoint Online site collection",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-page-template/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dennis Goedegebuure",
+          "pictureUrl": "https://github.com/expiscornovus.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
     },
     {
       "title": "Creates and apply custom site design with custom column types",
@@ -1501,6 +1523,10 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
       "tags": [
@@ -1509,7 +1535,7 @@
         "Disconnect-PnPOnline",
         "Get-PnPTenantSite",
         "Add-PnPSiteCollectionAppCatalog",
-        "Add-pnpapp",
+        "Add-PnPApp",
         "Get-PnPApp",
         "Install-PnPApp",
         "Update-PnPApp"
@@ -1601,7 +1627,10 @@
       "tags": [
         "modern",
         "Connect-PnPOnline",
-        "Get-PnPList"
+        "Set-PnPList",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set"
       ]
     },
     {
@@ -1621,7 +1650,9 @@
       "tags": [
         "modern",
         "Connect-PnPOnline",
-        "Set-PnPTenant"
+        "Set-PnPTenant",
+        "Connect-SPOService",
+        "Set-SPOTenant"
       ]
     },
     {
@@ -1648,7 +1679,7 @@
       "title": "Empty SharePoint Online Site Recycle Bin",
       "url": "https://pnp.github.io/script-samples/spo-empty-recycle-bin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/README.md",
-      "description": "This sample script shows how to empty SharePoint online site first stage and second stage recycle bin using PnP PowerShell",
+      "description": "This sample script shows how to empty SharePoint online site first stage and second stage recycle bin",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -1662,7 +1693,10 @@
         "modern",
         "Connect-PnPOnline",
         "Move-PnPRecycleBinItem",
-        "Clear-PnPRecycleBinItem"
+        "Clear-PnPRecycleBinItem",
+        "m365 status",
+        "m365 login",
+        "m365 spo site recyclebinitem"
       ]
     },
     {
@@ -2413,10 +2447,10 @@
       "tags": []
     },
     {
-      "title": "Retrieve Message Centre announcements and post to MS Teams channel",
+      "title": "Retrieve Message Center announcements and post to MS Teams channel",
       "url": "https://pnp.github.io/script-samples/spo-get-message-centre-announcements-and-post-to-teams-channel/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-message-centre-announcements-and-post-to-teams-channel/README.md",
-      "description": "This script allows you to retrieve Message Centre announcements and post to MS Teams channel.",
+      "description": "This script allows you to retrieve Message Center announcements and post to MS Teams channel.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-message-centre-announcements-and-post-to-teams-channel/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -3064,7 +3098,7 @@
       "title": "Delete custom SharePoint site designs",
       "url": "https://pnp.github.io/script-samples/spo-remove-site-designs/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-designs/README.md",
-      "description": "Remove Site designs and  site scripts that ends up just hanging around in your tenant. Use the scripts below to get rid of them",
+      "description": "Remove Site designs and site scripts that ends up just hanging around in your tenant. Use the scripts below to get rid of them",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-designs/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -3076,6 +3110,10 @@
         {
           "name": "Paul Bullock",
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
       "tags": [
@@ -3089,7 +3127,45 @@
         "Remove-SPOSite",
         "Remove-SPOSiteDesign",
         "Remove-PnPSiteScript",
-        "Remove-PnPSiteDesign"
+        "Remove-PnPSiteDesign",
+        "m365 login",
+        "m365 spo sitedesign list",
+        "m365 spo sitedesign remove"
+      ]
+    },
+    {
+      "title": "Delete custom SharePoint site scripts",
+      "url": "https://pnp.github.io/script-samples/spo-remove-site-scripts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-scripts/README.md",
+      "description": "Remove Site scripts that ends up just hanging around in your tenant. Use the scripts below to get rid of them",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-site-scripts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Site Scripts",
+        "Connect-SPOService",
+        "Get-SPOSite",
+        "Get-SPOSiteScript",
+        "Remove-SPOSite",
+        "Remove-SPOSiteScript",
+        "Connect-PnPOnline",
+        "Get-PnPSiteScript",
+        "Remove-PnPSiteScript",
+        "m365 status",
+        "m365 login",
+        "m365 spo sitescript list",
+        "m365 spo sitescript remove"
       ]
     },
     {
