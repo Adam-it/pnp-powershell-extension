@@ -1030,19 +1030,27 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
-          "name": "Matt Jimison",
-          "pictureUrl": "https://github.com/mjimison.png"
-        },
-        {
           "name": "Ganesh Sanap",
           "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Matt Jimison",
+          "pictureUrl": "https://github.com/mjimison.png"
         }
       ],
       "tags": [
         "modern",
         "Connect-PnPOnline",
+        "Get-PnPFile",
         "Add-PnPListItem",
-        "Set-PnPListItem"
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo file get",
+        "m365 spo listitem add",
+        "m365 spo listitem set",
+        "m365 logout"
       ]
     },
     {
@@ -1497,6 +1505,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Kunj Balkrishna Sangani",
           "pictureUrl": "https://github.com/kunj-sangani.png"
         }
@@ -1504,7 +1516,14 @@
       "tags": [
         "classic",
         "Connect-PnPOnline",
-        "New-PnPGroup"
+        "New-PnPGroup",
+        "Connect-SPOService",
+        "New-SPOSiteGroup",
+        "Disconnect-SPOService",
+        "m365 status",
+        "m365 login",
+        "m365 spo group add",
+        "m365 logout"
       ]
     },
     {
@@ -1770,14 +1789,27 @@
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
       "tags": [
         "SharePoint Online",
         "Clear-PnPTenantRecycleBinItem",
         "Connect-PnPOnline",
-        "Get-PnPTenant",
-        "Get-PnPTenantRecycleBinItem"
+        "Get-PnPTenantRecycleBinItem",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo tenant recyclebinitem list",
+        "m365 spo tenant recyclebinitem remove",
+        "m365 logout",
+        "Connect-SPOService",
+        "Get-SPODeletedSite",
+        "Remove-SPODeletedSite",
+        "Disconnect-SPOService"
       ]
     },
     {
@@ -2302,6 +2334,33 @@
       ]
     },
     {
+      "title": "File Version Trimmer",
+      "url": "https://pnp.github.io/script-samples/spo-file-version-trimmer/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-file-version-trimmer/README.md",
+      "description": "This sample shows how to delete a number of file versions to reduce SharePoint Storage",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-file-version-trimmer/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPFileVersion",
+        "Remove-PnPFileVersion",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPFile",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite",
+        "Remove-PnPFile"
+      ]
+    },
+    {
       "title": "Generate Demo Events for SharePoint Events List",
       "url": "https://pnp.github.io/script-samples/spo-generate-demo-events/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-demo-events/README.md",
@@ -2450,6 +2509,30 @@
         "Get-PnPList",
         "Get-PnPListItem",
         "Get-PnPSearchCrawlLog"
+      ]
+    },
+    {
+      "title": "Find all items with unique permissions and export to csv",
+      "url": "https://pnp.github.io/script-samples/spo-get-items-with-custom-permissions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-items-with-custom-permissions/README.md",
+      "description": "Find items where the permissions have been broken",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-items-with-custom-permissions/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPProperty",
+        "Get-PnPSubWeb",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite"
       ]
     },
     {
@@ -2610,6 +2693,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
         }
@@ -2618,8 +2705,12 @@
         "SharePoint Online",
         "Hide List",
         "Connect-PnPOnline",
-        "Get-PnPList",
-        "Set-PnPList"
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set",
+        "m365 logout"
       ]
     },
     {
@@ -2722,13 +2813,25 @@
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
       "tags": [
         "classic",
+        "Content Type",
+        "Content Type Document Templates",
         "Connect-PnPOnline",
         "Get-PnPList",
-        "Get-PnPFile"
+        "Get-PnPFile",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list contenttype list",
+        "m365 spo file get",
+        "m365 logout"
       ]
     },
     {
@@ -3086,11 +3189,15 @@
       "title": "Delete custom color themes from SharePoint",
       "url": "https://pnp.github.io/script-samples/spo-remove-custom-themes/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-custom-themes/README.md",
-      "description": "Creating a lot of beautiful themes lately and testing them but don’t want to keep them anymore, this script is for you",
+      "description": "Creating a lot of beautiful themes lately and testing them but don't want to keep them anymore, this script is for you",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-custom-themes/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Leon Armston",
           "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
@@ -3098,7 +3205,20 @@
       ],
       "tags": [
         "SharePoint Online",
-        "Themes"
+        "Themes",
+        "Connect-SPOService",
+        "Get-SPOTheme",
+        "Remove-SPOTheme",
+        "Disconnect-SPOService",
+        "Connect-PnPOnline",
+        "Get-PnPTenantTheme",
+        "Remove-PnPTenantTheme",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo theme list",
+        "m365 spo theme remove",
+        "m365 logout"
       ]
     },
     {
@@ -3304,6 +3424,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Lotsamocha01",
+          "pictureUrl": "https://github.com/Lotsamocha01.png"
+        },
         {
           "name": "Todd Klindt",
           "pictureUrl": "https://github.com/ToddKlindt.png"

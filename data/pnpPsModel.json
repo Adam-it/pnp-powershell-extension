@@ -1766,6 +1766,16 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPRecycleBinItem.html"
     },
     {
+      "name": "Move-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPTerm.html"
+    },
+    {
+      "name": "Move-PnPTermSet",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPTermSet.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPTermSet.html"
+    },
+    {
       "name": "New-PnPAzureADGroup",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPAzureADGroup.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPAzureADGroup.html"
