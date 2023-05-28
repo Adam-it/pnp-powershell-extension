@@ -1816,7 +1816,7 @@
       "title": "Enable and Disable App Bar in SharePoint Online",
       "url": "https://pnp.github.io/script-samples/spo-enable-disable-app-bar/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-disable-app-bar/README.md",
-      "description": "This script sample demonstrates how to enable and disable the App Bar on SharePoint online sites by utilizing PnP PowerShell and SPO Management Shell.",
+      "description": "This script helps SharePoint Users to Enable or Disable App Bar Across SharePoint sites",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-disable-app-bar/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -1824,10 +1824,21 @@
         {
           "name": "Aman Panjwani",
           "pictureUrl": "https://github.com/Amanp17.png"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
       "tags": [
-        "TemporarilyDisableAppBar"
+        "SharePoint Online",
+        "TemporarilyDisableAppBar",
+        "Connect-PnPOnline",
+        "Set-PnPTemporarilyDisableAppBar",
+        "Disconnect-PnPOnline",
+        "Connect-SPOService",
+        "Set-SPOTemporarilyDisableAppBar",
+        "Disconnect-SPOService"
       ]
     },
     {
@@ -3931,6 +3942,10 @@
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
         }
       ],
       "tags": [
@@ -3940,7 +3955,12 @@
         "Disconnect-PnPOnline",
         "Get-PnPMicrosoft365Group",
         "Get-PnPMicrosoft365GroupMember",
-        "Get-PnPMicrosoft365GroupOwner"
+        "Get-PnPMicrosoft365GroupOwner",
+        "m365 status",
+        "m365 login",
+        "m365 teams team list",
+        "m365 teams user list",
+        "m365 logout"
       ]
     },
     {
