@@ -1054,6 +1054,35 @@
       ]
     },
     {
+      "title": "Allow custom scripts in SharePoint online site",
+      "url": "https://pnp.github.io/script-samples/spo-allow-custom-scripts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-allow-custom-scripts/README.md",
+      "description": "This sample script shows how to allow use of custom scripts in SharePoint online at site level",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-allow-custom-scripts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPSite",
+        "Disconnect-PnPOnline",
+        "Connect-SPOService",
+        "Set-SPOSite",
+        "Disconnect-SPOService",
+        "m365 status",
+        "m365 login",
+        "m365 spo site set",
+        "m365 logout"
+      ]
+    },
+    {
       "title": "Script allow copy column format in SharePoint and apply to different column.",
       "url": "https://pnp.github.io/script-samples/spo-apply-column-format/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-column-format/README.md",
