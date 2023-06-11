@@ -96,14 +96,34 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFile.html"
     },
     {
+      "name": "Add-PnPFileOrganizationalSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileOrganizationalSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileOrganizationalSharingLink.html"
+    },
+    {
       "name": "Add-PnPFileToSiteTemplate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileToSiteTemplate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileToSiteTemplate.html"
     },
     {
+      "name": "Add-PnPFileUserSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileUserSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileUserSharingLink.html"
+    },
+    {
       "name": "Add-PnPFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolder.html"
+    },
+    {
+      "name": "Add-PnPFolderOrganizationalSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderOrganizationalSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderOrganizationalSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFolderUserSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderUserSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderUserSharingLink.html"
     },
     {
       "name": "Add-PnPGroupMember",
@@ -1029,6 +1049,11 @@
       "name": "Get-PnPListItemPermission",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemPermission.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListItemPermission.html"
+    },
+    {
+      "name": "Get-PnPListItemVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPListItemVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPListItemVersion.html"
     },
     {
       "name": "Get-PnPListPermissions",
@@ -2191,6 +2216,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListItemComment.html"
     },
     {
+      "name": "Remove-PnPListItemVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPListItemVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPListItemVersion.html"
+    },
+    {
       "name": "Remove-PnPMicrosoft365Group",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365Group.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365Group.html"
@@ -2544,6 +2574,11 @@
       "name": "Restore-PnPFileVersion",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPFileVersion.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPFileVersion.html"
+    },
+    {
+      "name": "Restore-PnPListItemVersion",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPListItemVersion.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPListItemVersion.html"
     },
     {
       "name": "Restore-PnPRecycleBinItem",

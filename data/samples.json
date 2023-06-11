@@ -2585,6 +2585,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        },
+        {
           "name": "Michał Romiszewski",
           "pictureUrl": "https://github.com/mromiszewski.png"
         }
