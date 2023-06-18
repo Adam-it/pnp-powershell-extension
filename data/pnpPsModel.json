@@ -96,9 +96,19 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFile.html"
     },
     {
+      "name": "Add-PnPFileAnonymousSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileAnonymousSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileAnonymousSharingLink.html"
+    },
+    {
       "name": "Add-PnPFileOrganizationalSharingLink",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileOrganizationalSharingLink.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileOrganizationalSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFileSharingInvite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFileSharingInvite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileSharingInvite.html"
     },
     {
       "name": "Add-PnPFileToSiteTemplate",
@@ -116,9 +126,19 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolder.html"
     },
     {
+      "name": "Add-PnPFolderAnonymousSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderAnonymousSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderAnonymousSharingLink.html"
+    },
+    {
       "name": "Add-PnPFolderOrganizationalSharingLink",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderOrganizationalSharingLink.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderOrganizationalSharingLink.html"
+    },
+    {
+      "name": "Add-PnPFolderSharingInvite",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolderSharingInvite.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolderSharingInvite.html"
     },
     {
       "name": "Add-PnPFolderUserSharingLink",
@@ -896,6 +916,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFile.html"
     },
     {
+      "name": "Get-PnPFileSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileSharingLink.html"
+    },
+    {
       "name": "Get-PnPFileVersion",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileVersion.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileVersion.html"
@@ -919,6 +944,11 @@
       "name": "Get-PnPFolderItem",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderItem.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderItem.html"
+    },
+    {
+      "name": "Get-PnPFolderSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderSharingLink.html"
     },
     {
       "name": "Get-PnPFolderStorageMetric",
