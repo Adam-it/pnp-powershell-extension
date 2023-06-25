@@ -1616,6 +1616,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTimeZoneId.html"
     },
     {
+      "name": "Get-PnPUnfurlLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnfurlLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnfurlLink.html"
+    },
+    {
       "name": "Get-PnPUnifiedAuditLog",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPUnifiedAuditLog.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPUnifiedAuditLog.html"
@@ -2161,6 +2166,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFileFromSiteTemplate.html"
     },
     {
+      "name": "Remove-PnPFileSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFileSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFileSharingLink.html"
+    },
+    {
       "name": "Remove-PnPFileVersion",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFileVersion.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFileVersion.html"
@@ -2174,6 +2184,11 @@
       "name": "Remove-PnPFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFolder.html"
+    },
+    {
+      "name": "Remove-PnPFolderSharingLink",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFolderSharingLink.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFolderSharingLink.html"
     },
     {
       "name": "Remove-PnPGraphSubscription",

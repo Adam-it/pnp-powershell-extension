@@ -1551,7 +1551,7 @@
     ]
   },
   "Get-PnPAzureADAppPermission": {
-    "description": "This cmdlet returns the appid, displayname and permissions set for Microsoft SharePoint and the Microsoft Graph APIs",
+    "description": "This cmdlet returns the appid, displayname and permissions set for Microsoft SharePoint and the Microsoft Graph APIs.",
     "body": [
       "Get-PnPAzureADAppPermission "
     ],
@@ -1570,7 +1570,7 @@
   },
   "Get-PnPAzureADGroup": {
     "description": [
-      "Allows to retrieve list of Azure Active Directory groups. Those can be a security, distribution or Microsoft 365 group. By specifying Identity option it is possible to get single group.",
+      "Allows to retrieve list of Azure Active Directory groups. Those can be a security, distribution or Microsoft 365 group. By specifying Identity option it is possible to get a single group.",
       "Identity"
     ],
     "body": [
@@ -1629,7 +1629,7 @@
     ]
   },
   "Get-PnPAzureADUser": {
-    "description": "Allows to retrieve single or list of users from Azure Active Directory.",
+    "description": "Allows to retrieve a single user or a list of users from Azure Active Directory.",
     "body": [
       "Get-PnPAzureADUser "
     ],
@@ -3224,6 +3224,15 @@
       "Get-PnPTimeZoneId"
     ]
   },
+  "Get-PnPUnfurlLink": {
+    "description": "Creates a new organization sharing link for a file.",
+    "body": [
+      "Get-PnPUnfurlLink -Url $1"
+    ],
+    "prefix": [
+      "Get-PnPUnfurlLink"
+    ]
+  },
   "Get-PnPUnifiedAuditLog": {
     "description": "Allows to retrieve unified audit logs from the Office 365 Management API.",
     "body": [
@@ -4289,6 +4298,15 @@
       "Remove-PnPFileFromSiteTemplate"
     ]
   },
+  "Remove-PnPFileSharingLink": {
+    "description": "Removes sharing links associated with a file.",
+    "body": [
+      "Remove-PnPFileSharingLink -FileUrl $1 -Identity $2 -Force $3"
+    ],
+    "prefix": [
+      "Remove-PnPFileSharingLink"
+    ]
+  },
   "Remove-PnPFileVersion": {
     "description": "This cmdlet removes all versions or one specific version for the specified file.",
     "body": [
@@ -4314,6 +4332,15 @@
     ],
     "prefix": [
       "Remove-PnPFolder"
+    ]
+  },
+  "Remove-PnPFolderSharingLink": {
+    "description": "Removes sharing links associated with a folder.",
+    "body": [
+      "Remove-PnPFolderSharingLink -Folder $1 -Identity $2 -Force $3"
+    ],
+    "prefix": [
+      "Remove-PnPFolderSharingLink"
     ]
   },
   "Remove-PnPGraphSubscription": {

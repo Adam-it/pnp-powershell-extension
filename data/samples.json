@@ -547,6 +547,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         },
@@ -555,7 +559,16 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": null
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set",
+        "m365 logout"
+      ]
     },
     {
       "title": "Report of Private Teams channels to Excel",
@@ -606,6 +619,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Rob Ellis",
+          "pictureUrl": "https://github.com/ee61re.png"
+        },
         {
           "name": "Valeras Narbutas",
           "pictureUrl": "https://github.com/ValerasNarbutas.png"
@@ -823,13 +840,23 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Siddharth Vaghasia",
           "pictureUrl": "https://avatars.githubusercontent.com/u/9557557?s=400&u=cbb0afefedb5a1d5db510a2e5e6579c8e6fc66ad&v=4"
         }
       ],
       "tags": [
-        "bash",
-        "classic"
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPContentType",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo contenttype set",
+        "m365 logout"
       ]
     },
     {
@@ -2383,6 +2410,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Nanddeep Nachan",
+          "pictureUrl": "https://github.com/nanddeepn.png"
+        },
+        {
           "name": "Kasper Larsen",
           "pictureUrl": "https://github.com/kasperbolarsen.png"
         }
@@ -2397,7 +2428,13 @@
         "Get-PnPListItem",
         "Get-PnPTenant",
         "Get-PnPTenantSite",
-        "Remove-PnPFile"
+        "Remove-PnPFile",
+        "m365 login",
+        "m365 status",
+        "m365 spo file list",
+        "m365 spo file version list",
+        "m365 spo file version remove",
+        "m365 logout"
       ]
     },
     {
