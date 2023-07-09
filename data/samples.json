@@ -1645,7 +1645,13 @@
         "Add-PnPApp",
         "Get-PnPApp",
         "Install-PnPApp",
-        "Update-PnPApp"
+        "Update-PnPApp",
+        "Get-PnPHubSite",
+        "Get-PnPSite",
+        "Get-PnPSiteCollectionAppCatalog",
+        "Get-PnPTenant",
+        "Get-PnPWeb",
+        "Invoke-PnPSPRestMethod"
       ]
     },
     {
@@ -2544,6 +2550,22 @@
       "tags": []
     },
     {
+      "title": "Get custom fields within lists and libraries within a site ",
+      "url": "https://pnp.github.io/script-samples/spo-get-customfields-lists/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-customfields-lists/README.md",
+      "description": "Get custom Fields within lists and libraries within a site.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-customfields-lists/assets/Preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": []
+    },
+    {
       "title": "Get all files in a Document Library along with Created By and Modified By",
       "url": "https://pnp.github.io/script-samples/spo-get-files-and-creators-modifiers/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-files-and-creators-modifiers/README.md",
@@ -2720,6 +2742,31 @@
         "m365 teams channel get",
         "m365 teams message send",
         "m365 tenant serviceannouncement message list"
+      ]
+    },
+    {
+      "title": "Get storage breakdown by file size, file version size and recycle bin.",
+      "url": "https://pnp.github.io/script-samples/spo-get-storage-site-versionsrecyclebin/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-storage-site-versionsrecyclebin/README.md",
+      "description": "Get storage breakdown by file size, file version size and recycle bin.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-storage-site-versionsrecyclebin/assets/Preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPFile",
+        "Get-PnPFileVersion",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPRecycleBinItem",
+        "Get-PnPTenant",
+        "Get-PnPTenantSite"
       ]
     },
     {
@@ -3140,6 +3187,28 @@
         "Get-PnPPage",
         "Get-PnPPageComponent",
         "Get-PnPWeb"
+      ]
+    },
+    {
+      "title": "Generate a csv report for a selection of site collections showing the time of the most recent update by any user",
+      "url": "https://pnp.github.io/script-samples/spo-most-recent-update-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-most-recent-update-report/README.md",
+      "description": "This script show the date of the most recent update ",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-most-recent-update-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPAccessToken",
+        "Invoke-RestMethod",
+        "Get-PnPAccessToken",
+        "Get-PnPProperty"
       ]
     },
     {
@@ -4043,6 +4112,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         },
@@ -4051,7 +4124,19 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/8781041?v=4"
         }
       ],
-      "tags": null
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo listitem get",
+        "m365 spo listitem list",
+        "m365 spo listitem set",
+        "m365 logout"
+      ]
     }
   ]
 }
