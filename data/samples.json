@@ -3774,6 +3774,27 @@
       ]
     },
     {
+      "title": "List of active sites in Tenant with Admin and storage used.",
+      "url": "https://pnp.github.io/script-samples/spo-tenant-site-inventory/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-tenant-site-inventory/README.md",
+      "description": "This script provides you the list of active sites in your tenant",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-tenant-site-inventory/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Diksha Bhura",
+          "pictureUrl": "https://github.com/Diksha-Bhura.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPSiteCollectionAdmin",
+        "Disconnect-PnPOnline"
+      ]
+    },
+    {
       "title": "Translate columns in a SharePoint list",
       "url": "https://pnp.github.io/script-samples/spo-translate-list/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-translate-list/README.md",

@@ -646,6 +646,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPPageMapping.html"
     },
     {
+      "name": "Export-PnPPowerApp",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPPowerApp.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPPowerApp.html"
+    },
+    {
       "name": "Export-PnPTaxonomy",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Export-PnPTaxonomy.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Export-PnPTaxonomy.html"
