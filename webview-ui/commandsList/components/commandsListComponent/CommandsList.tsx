@@ -28,7 +28,9 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
   public componentDidMount(): void {
     const previousState = vscode.getState() as ICommandsListState;
-    if (previousState) {
+    if (previousState
+      && previousState.commandsListView
+      && previousState.commandsTreeView) {
       this.setState({
         isTreeViewEnabled: previousState.isTreeViewEnabled,
         previousSearchInput: previousState.previousSearchInput,
@@ -102,6 +104,7 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
 
   private _handleShowListViewButtonClick(): void {
     const treeView = this.state.commandsTreeView;
+    const listView = this.state.commandsListView;
     treeView.forEach(group => group.isExpanded = false);
     this.setState({
       isTreeViewEnabled: false,
@@ -110,13 +113,18 @@ export default class CommandsList extends React.Component<ICommandsListProps, IC
     const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
     state.isTreeViewEnabled = false;
     state.commandsTreeView = treeView;
+    state.commandsListView = listView;
     vscode.setState(state);
   }
 
   private _handleShowTreeViewButtonClick(): void {
     this.setState({ isTreeViewEnabled: true });
+    const treeView = this.state.commandsTreeView;
+    const listView = this.state.commandsListView;
     const state = vscode.getState() as ICommandsListState ?? {} as ICommandsListState;
     state.isTreeViewEnabled = true;
+    state.commandsTreeView = treeView;
+    state.commandsListView = listView;
     vscode.setState(state);
   }
 

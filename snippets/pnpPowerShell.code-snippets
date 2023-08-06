@@ -1530,7 +1530,7 @@
     "body": [
       "Get-PnPAzureACSPrincipal "
     ],
-    "description": "",
+    "description": "This cmdlet provides insight into the app registrations that have been done over time using AppRegNew.aspx. You could look at it as a (detailed) equivallent of AppPrincipals.aspx. This information can help to get insights into the app registrations that have been done on a tenant and prepare for the Azure Access Control Services (ACS) deprecation that will follow in the future.",
     "prefix": [
       "Get-PnPAzureACSPrincipal"
     ]
@@ -1864,7 +1864,7 @@
   },
   "Get-PnPFile": {
     "body": [
-      "Get-PnPFile "
+      "Get-PnPFile -Url $1 -AsFileObject $2"
     ],
     "description": "Allows downloading of a file from SharePoint Online. The file contents can either be read directly into memory as text, directly saved to local disk or stored in memory for further processing.",
     "prefix": [
@@ -1893,7 +1893,7 @@
     "body": [
       "Get-PnPFlow "
     ],
-    "description": "This cmdlet returns the flows for a given environment.",
+    "description": "This cmdlet returns Power Automate Flows meeting the specified criteria.",
     "prefix": [
       "Get-PnPFlow"
     ]

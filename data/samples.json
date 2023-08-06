@@ -1263,6 +1263,26 @@
       ]
     },
     {
+      "title": "spo-bulk-delete-recyclebin-in-batch-avoid-lvt",
+      "url": "https://pnp.github.io/script-samples/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/README.md",
+      "description": "This script will delete items from recyclebin in bulk while avoiding List View Threshold issues.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Eilaf Barmare",
+          "pictureUrl": "https://github.com/elaf365.png"
+        }
+      ],
+      "tags": [
+        "Connect-PNPOnline",
+        "Get-PnPRecycleBinItem",
+        "Clear-RecycleBinItems"
+      ]
+    },
+    {
       "title": "Bulk import data from multiple files",
       "url": "https://pnp.github.io/script-samples/spo-bulk-import-data/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-import-data/README.md",
@@ -3818,6 +3838,28 @@
         "Get-PnPListItem",
         "Remove-PnPList",
         "Remove-PnPListItem"
+      ]
+    },
+    {
+      "title": "Add dummy folders and files to a SharePoint library.",
+      "url": "https://pnp.github.io/script-samples/spo-update-largelist-pnpbatch-with-retry/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-largelist-pnpbatch-with-retry/README.md",
+      "description": "This sample shows how to efficiently update a large SharePoint list of 60,000 or more items using PnP-Batch, significantly reducing update time.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-largelist-pnpbatch-with-retry/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "PnP-Batch",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Invoke-PnPBatch"
       ]
     },
     {
