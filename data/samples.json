@@ -1263,7 +1263,7 @@
       ]
     },
     {
-      "title": "spo-bulk-delete-recyclebin-in-batch-avoid-lvt",
+      "title": "Bulk delete recycle bin items from a site in batch",
       "url": "https://pnp.github.io/script-samples/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/README.md",
       "description": "This script will delete items from recyclebin in bulk while avoiding List View Threshold issues.",
@@ -1277,9 +1277,9 @@
         }
       ],
       "tags": [
-        "Connect-PNPOnline",
+        "Connect-PnPOnline",
         "Get-PnPRecycleBinItem",
-        "Clear-RecycleBinItems"
+        "Invoke-PnPSPRestMethod"
       ]
     },
     {
@@ -1437,6 +1437,40 @@
         "m365 spo list view add",
         "m365 spo list view get",
         "m365 spo list view set"
+      ]
+    },
+    {
+      "title": "Copy SharePoint List",
+      "url": "https://pnp.github.io/script-samples/spo-copy-list/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-list/README.md",
+      "description": "Script to copy SharePoint list to a different site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-list/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 status",
+        "m365 context option set",
+        "m365 spo list get",
+        "m365 spo list view list",
+        "m365 spo field list",
+        "m365 spo list add",
+        "m365 spo list set",
+        "m365 spo list roleinheritance break",
+        "m365 spo list roleassignment add",
+        "m365 spo field add",
+        "m365 spo list view add",
+        "pnp powershell"
       ]
     },
     {
@@ -2785,7 +2819,7 @@
       ]
     },
     {
-      "title": "Get storage breakdown by file size, file version size and recycle bin.",
+      "title": "Get storage breakdown by file size, file version size and recycle bin",
       "url": "https://pnp.github.io/script-samples/spo-get-storage-site-versionsrecyclebin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-storage-site-versionsrecyclebin/README.md",
       "description": "Get storage breakdown by file size, file version size and recycle bin.",
@@ -2805,7 +2839,6 @@
         "Get-PnPList",
         "Get-PnPListItem",
         "Get-PnPRecycleBinItem",
-        "Get-PnPTenant",
         "Get-PnPTenantSite"
       ]
     },
@@ -3814,10 +3847,10 @@
       ]
     },
     {
-      "title": "List of active sites in Tenant with Admin and storage used.",
+      "title": "List of active sites in Tenant with Admins and storage used",
       "url": "https://pnp.github.io/script-samples/spo-tenant-site-inventory/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-tenant-site-inventory/README.md",
-      "description": "This script provides you the list of active sites in your tenant",
+      "description": "This script provides you the list of active sites in your tenant with their administrator and usage in MB",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-tenant-site-inventory/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -3861,7 +3894,7 @@
       ]
     },
     {
-      "title": "Add dummy folders and files to a SharePoint library.",
+      "title": "Update large list with PnP-Batch with retries to address throttling challenges",
       "url": "https://pnp.github.io/script-samples/spo-update-largelist-pnpbatch-with-retry/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-largelist-pnpbatch-with-retry/README.md",
       "description": "This sample shows how to efficiently update a large SharePoint list of 60,000 or more items using PnP-Batch, significantly reducing update time.",
@@ -3876,7 +3909,7 @@
       ],
       "tags": [
         "Connect-PnPOnline",
-        "PnP-Batch",
+        "New-PnPBatch",
         "Get-PnPListItem",
         "Set-PnPListItem",
         "Invoke-PnPBatch"
