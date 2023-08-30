@@ -1571,6 +1571,30 @@
       ]
     },
     {
+      "title": "Create Library and add custom Content Type",
+      "url": "https://pnp.github.io/script-samples/spo-create-library-add-contenttype/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-library-add-contenttype/README.md",
+      "description": "Script to create SharePoint library and add custom content type",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-library-add-contenttype/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ahamed Fazil Buhari",
+          "pictureUrl": "https://github.com/ahamedfazil.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPList",
+        "New-PnPList",
+        "Get-PnPContentType",
+        "Add-PnPContentType",
+        "Add-PnPContentTypeToList",
+        "Set-PnPDefaultContentTypeToList",
+        "Remove-PnPContentTypeFromList"
+      ]
+    },
+    {
       "title": "Create Modern SharePoint Pages and add web parts",
       "url": "https://pnp.github.io/script-samples/spo-create-modern-pages-add-web-parts/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-modern-pages-add-web-parts/README.md",
