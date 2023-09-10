@@ -831,6 +831,26 @@
       ]
     },
     {
+      "title": "Create fields and add to Content Types",
+      "url": "https://pnp.github.io/script-samples/spo-add-fields-to-contenttypes/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-fields-to-contenttypes/README.md",
+      "description": "Script to create site columns and add them to content types",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-fields-to-contenttypes/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ahamed Fazil Buhari",
+          "pictureUrl": "https://github.com/ahamedfazil.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPField",
+        "Add-PnPFieldFromXml",
+        "Add-PnPFieldToContentType"
+      ]
+    },
+    {
       "title": "Associate Form Customizer Extension with List or Libraries Form",
       "url": "https://pnp.github.io/script-samples/spo-add-formextension-to-list/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-formextension-to-list/README.md",
@@ -1544,6 +1564,38 @@
         "Add-PnPView",
         "Connect-PnPOnline",
         "New-PnPList"
+      ]
+    },
+    {
+      "title": "Create Colored Folder",
+      "url": "https://pnp.github.io/script-samples/spo-create-colored-folder/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-colored-folder/README.md",
+      "description": "This sample code creates a Colored Folder in a SharePoint document library.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-colored-folder/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Tetsuya Kawahara",
+          "pictureUrl": "https://github.com/tecchan1107.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Add-PnPFolder",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 spo folder add",
+        "m365 spo listitem get",
+        "m365 spo listitem set",
+        "m365 logout"
       ]
     },
     {
@@ -2519,6 +2571,30 @@
         "m365 spo file version list",
         "m365 spo file version remove",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "Find Web Part in Pages e.g., Twitter Web Part",
+      "url": "https://pnp.github.io/script-samples/spo-find-web-part-in-pages/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-web-part-in-pages/README.md",
+      "description": "Find a specific Web part in pages or templates, for example, defualting to and finding Twitter Web parts",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-web-part-in-pages/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPPage",
+        "Get-PnPPageComponent",
+        "Get-PnPWeb"
       ]
     },
     {
