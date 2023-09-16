@@ -191,6 +191,26 @@
       "tags": []
     },
     {
+      "title": "Export InActive Sites",
+      "url": "https://pnp.github.io/script-samples/export-inactive-sites-based-on-days-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-inactive-sites-based-on-days-to-csv/README.md",
+      "description": "This script exports all inactive sites based on certain number of days to CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-inactive-sites-based-on-days-to-csv/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite"
+      ]
+    },
+    {
       "title": "Export OneDrive Sites",
       "url": "https://pnp.github.io/script-samples/export-onedrive-sites-details-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-onedrive-sites-details-to-csv/README.md",
@@ -1626,24 +1646,41 @@
       "title": "Create Library and add custom Content Type",
       "url": "https://pnp.github.io/script-samples/spo-create-library-add-contenttype/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-library-add-contenttype/README.md",
-      "description": "Script to create SharePoint library and add custom content type",
+      "description": "Script to create SharePoint document library and add custom content type",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-library-add-contenttype/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Ahamed Fazil Buhari",
           "pictureUrl": "https://github.com/ahamedfazil.png"
         }
       ],
       "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPConnection",
+        "Disconnect-PnPOnline",
         "Get-PnPList",
         "New-PnPList",
         "Get-PnPContentType",
         "Add-PnPContentType",
         "Add-PnPContentTypeToList",
         "Set-PnPDefaultContentTypeToList",
-        "Remove-PnPContentTypeFromList"
+        "Remove-PnPContentTypeFromList",
+        "m365 status",
+        "m365 login",
+        "m365 logout",
+        "m365 spo list get",
+        "m365 spo list add",
+        "m365 spo contenttype get",
+        "m365 spo contenttype add",
+        "m365 spo list contenttype add",
+        "m365 spo list contenttype default set",
+        "m365 spo list contenttype remove"
       ]
     },
     {
