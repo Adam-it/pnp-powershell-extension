@@ -191,11 +191,11 @@
       "tags": []
     },
     {
-      "title": "Export InActive Sites",
+      "title": "Export Inactive Sites Based On Days To CSV",
       "url": "https://pnp.github.io/script-samples/export-inactive-sites-based-on-days-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-inactive-sites-based-on-days-to-csv/README.md",
       "description": "This script exports all inactive sites based on certain number of days to CSV.",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-inactive-sites-based-on-days-to-csv/assets/example.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-inactive-sites-based-on-days-to-csv/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
@@ -207,7 +207,9 @@
       "tags": [
         "SharePoint Online",
         "Connect-PnPOnline",
-        "Get-PnPTenantSite"
+        "Get-PnPTenantSite",
+        "Connect-SPOService",
+        "Get-SPOSite"
       ]
     },
     {
@@ -555,6 +557,25 @@
         "Set-PnPList",
         "Set-PnPListItem",
         "Set-PnPView"
+      ]
+    },
+    {
+      "title": "PnP Modern Search V3 usage scanner",
+      "url": "https://pnp.github.io/script-samples/pnp-modern-searchv3-scanner/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/pnp-modern-searchv3-scanner/README.md",
+      "description": "Find the pages where a v3 of PnP Modern Search web parts have been used, export report to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/pnp-modern-searchv3-scanner/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Submit-PnPSearchQuery"
       ]
     },
     {
@@ -2332,6 +2353,27 @@
         "Get-PnPClientSidePage",
         "ConvertFrom-Json",
         "Export-Csv"
+      ]
+    },
+    {
+      "title": "Report of SharePoint Files Incidents",
+      "url": "https://pnp.github.io/script-samples/spo-export-report-files-incidents/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-report-files-incidents/README.md",
+      "description": "Tracks the list of people who edit each file and exports the complete list of editors in the library. This allows us to identify users who shouldn't have editing rights or those who edited files only occasionally and then stopped.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-report-files-incidents/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Michał Kornet",
+          "pictureUrl": "https://github.com/mkm17.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPSPRestMethod",
+        "Get-PnPProperty ",
+        "Get-PnPList",
+        "Get-PnPListItem"
       ]
     },
     {
