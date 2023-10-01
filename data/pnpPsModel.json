@@ -1561,6 +1561,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantId.html"
     },
     {
+      "name": "Get-PnPTenantInfo",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantInfo.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantInfo.html"
+    },
+    {
       "name": "Get-PnPTenantInstance",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantInstance.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantInstance.html"
@@ -3034,6 +3039,11 @@
       "name": "Set-PnPSearchConfiguration",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchConfiguration.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchConfiguration.html"
+    },
+    {
+      "name": "Set-PnPSearchExternalItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchExternalItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchExternalItem.html"
     },
     {
       "name": "Set-PnPSearchSettings",

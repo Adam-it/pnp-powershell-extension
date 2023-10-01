@@ -3108,6 +3108,15 @@
       "Get-PnPTenantId -TenantUrl $1"
     ]
   },
+  "Get-PnPTenantInfo": {
+    "description": "Gets the tenantId, federation brand name, company name and default domain name regarding a specific tenant. If no Domain name or Tenant id is specified, it returns the Tenant Info of the currently connected to tenant.",
+    "prefix": [
+      "Get-PnPTenantInfo"
+    ],
+    "body": [
+      "Get-PnPTenantInfo "
+    ]
+  },
   "Get-PnPTenantInstance": {
     "description": "Allows to retrieve list of all instances of the tenant.",
     "prefix": [
@@ -4107,12 +4116,12 @@
     ]
   },
   "Read-PnPTenantTemplate": {
-    "description": "Allows to load a PnP tenant template from the file system to memory and return its instance object.",
+    "description": "Allows to load a PnP tenant template from the file system, from a stream or from a string to memory and return its instance object.",
     "prefix": [
       "Read-PnPTenantTemplate"
     ],
     "body": [
-      "Read-PnPTenantTemplate "
+      "Read-PnPTenantTemplate -Path $1"
     ]
   },
   "Receive-PnPCopyMoveJobStatus": {
@@ -5964,6 +5973,15 @@
     ],
     "body": [
       "Set-PnPSearchConfiguration -Configuration $1"
+    ]
+  },
+  "Set-PnPSearchExternalItem": {
+    "description": "This cmdlet can be used to add or update an external item in Microsoft Search on custom connectors. The cmdlet will create a new external item if the item does not exist yet. If the item already exists, it will be updated.",
+    "prefix": [
+      "Set-PnPSearchExternalItem"
+    ],
+    "body": [
+      "Set-PnPSearchExternalItem -ItemId $1 -ConnectionId $2 -Properties $3"
     ]
   },
   "Set-PnPSearchSettings": {
