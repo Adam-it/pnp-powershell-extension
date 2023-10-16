@@ -1421,6 +1421,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteUserInvitations.html"
     },
     {
+      "name": "Get-PnPSiteVersionPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteVersionPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicy.html"
+    },
+    {
       "name": "Get-PnPStorageEntity",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPStorageEntity.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPStorageEntity.html"
