@@ -346,6 +346,24 @@
       ]
     },
     {
+      "title": "Get disabled or inactive user accounts",
+      "url": "https://pnp.github.io/script-samples/get-disabled-or-inactive-user-accounts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/README.md",
+      "description": "Find the user accounts which have been disabled or are inactive, export report to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPGraphMethod,Invoke-PnPSearchQuery,Invoke-RestMethod"
+      ]
+    },
+    {
       "title": "Authenticate with and call the Microsoft Graph",
       "url": "https://pnp.github.io/script-samples/graph-call-graph/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-call-graph/README.md",
@@ -3040,6 +3058,28 @@
         "m365 teams channel get",
         "m365 teams message send",
         "m365 tenant serviceannouncement message list"
+      ]
+    },
+    {
+      "title": "Get membership report of a site",
+      "url": "https://pnp.github.io/script-samples/spo-get-sites-membership-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sites-membership-report/README.md",
+      "description": "The script export site membership details to a CSV file",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sites-membership-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Get-PnPMicrosoft365GroupMember",
+        "Get-PnPSiteCollectionAdmin",
+        "Get-PnPGroupMember"
       ]
     },
     {
