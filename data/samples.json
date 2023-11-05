@@ -27,6 +27,30 @@
       ]
     },
     {
+      "title": "Ensuring m365 group owners are m365 group members",
+      "url": "https://pnp.github.io/script-samples/aad-ensure-ownersaremembers-m365groups/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-ensure-ownersaremembers-m365groups/README.md",
+      "description": "Ensuring m365 group owners are m365 group members",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-ensure-ownersaremembers-m365groups/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Microsoft 365 Groups",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Get-PnPMicrosoft365GroupMember",
+        "Add-PnPMicrosoft365GroupMember"
+      ]
+    },
+    {
       "title": "Replace a user's membership in selected Microsoft 365 Groups or Teams",
       "url": "https://pnp.github.io/script-samples/aad-replace-membership-of-selected-groups/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-replace-membership-of-selected-groups/README.md",
@@ -2043,6 +2067,26 @@
       ]
     },
     {
+      "title": "Disable Web Templates Gallery First Run Dialog",
+      "url": "https://pnp.github.io/script-samples/spo-disable-template-dialog/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-disable-template-dialog/README.md",
+      "description": "Disable Web Templates Gallery First Run Dialog",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-disable-template-dialog/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Invoke-PnPQuery"
+      ]
+    },
+    {
       "title": "Enable modern creation forms for Document sets",
       "url": "https://pnp.github.io/script-samples/spo-document-sets-modern-new-form/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-document-sets-modern-new-form/README.md",
@@ -2415,6 +2459,27 @@
       "tags": []
     },
     {
+      "title": "Export of the Hierarchy of Hub Sites",
+      "url": "https://pnp.github.io/script-samples/spo-export-hub-site-hierarchy/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-site-hierarchy/README.md",
+      "description": "This script exports the SharePoint site hierarchy into a Markdown file to visualize the hub sites and its associated sites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-site-hierarchy/assets/example.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Tetsuya Kawahara",
+          "pictureUrl": "https://github.com/tecchan1107.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPHubSite",
+        "Disconnect-PnPOnline"
+      ]
+    },
+    {
       "title": "Get Hub Sites Information And Export It To CSV",
       "url": "https://pnp.github.io/script-samples/spo-export-hub-sites-details-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-hub-sites-details-to-csv/README.md",
@@ -2436,6 +2501,25 @@
         "SharePoint Online",
         "Connect-PnPOnline",
         "Get-PnPHubSite"
+      ]
+    },
+    {
+      "title": "Export HTML content from SharePoint Online modern pages",
+      "url": "https://pnp.github.io/script-samples/spo-export-page-html/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-page-html/README.md",
+      "description": "",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-page-html/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Giacomo Pozzoni",
+          "pictureUrl": "https://github.com/jackpoz.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPList",
+        "Get-PnPListItem"
       ]
     },
     {
