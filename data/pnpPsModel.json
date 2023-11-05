@@ -121,6 +121,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFileUserSharingLink.html"
     },
     {
+      "name": "Add-PnPFlowOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFlowOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFlowOwner.html"
+    },
+    {
       "name": "Add-PnPFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Add-PnPFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Add-PnPFolder.html"
@@ -936,6 +941,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFlow.html"
     },
     {
+      "name": "Get-PnPFlowOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFlowOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFlowOwner.html"
+    },
+    {
       "name": "Get-PnPFlowRun",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFlowRun.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFlowRun.html"
@@ -944,6 +954,16 @@
       "name": "Get-PnPFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolder.html"
+    },
+    {
+      "name": "Get-PnPFolderFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderFile.html"
+    },
+    {
+      "name": "Get-PnPFolderFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderFolder.html"
     },
     {
       "name": "Get-PnPFolderItem",
@@ -1221,6 +1241,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerApp.html"
     },
     {
+      "name": "Get-PnPPowerPlatformConnector",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformConnector.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformConnector.html"
+    },
+    {
       "name": "Get-PnPPowerPlatformEnvironment",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformEnvironment.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformEnvironment.html"
@@ -1254,6 +1279,11 @@
       "name": "Get-PnPRequestAccessEmails",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRequestAccessEmails.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRequestAccessEmails.html"
+    },
+    {
+      "name": "Get-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRetentionLabel.html"
     },
     {
       "name": "Get-PnPRoleDefinition",
@@ -1389,6 +1419,11 @@
       "name": "Get-PnPSiteUserInvitations",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteUserInvitations.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteUserInvitations.html"
+    },
+    {
+      "name": "Get-PnPSiteVersionPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteVersionPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicy.html"
     },
     {
       "name": "Get-PnPStorageEntity",
@@ -1534,6 +1569,11 @@
       "name": "Get-PnPTenantId",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantId.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantId.html"
+    },
+    {
+      "name": "Get-PnPTenantInfo",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantInfo.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantInfo.html"
     },
     {
       "name": "Get-PnPTenantInstance",
@@ -2184,6 +2224,11 @@
       "name": "Remove-PnPFlow",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFlow.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFlow.html"
+    },
+    {
+      "name": "Remove-PnPFlowOwner",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPFlowOwner.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPFlowOwner.html"
     },
     {
       "name": "Remove-PnPFolder",
@@ -3004,6 +3049,11 @@
       "name": "Set-PnPSearchConfiguration",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchConfiguration.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchConfiguration.html"
+    },
+    {
+      "name": "Set-PnPSearchExternalItem",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSearchExternalItem.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSearchExternalItem.html"
     },
     {
       "name": "Set-PnPSearchSettings",

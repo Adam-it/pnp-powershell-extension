@@ -191,6 +191,28 @@
       "tags": []
     },
     {
+      "title": "Export Inactive Sites Based On Days To CSV",
+      "url": "https://pnp.github.io/script-samples/export-inactive-sites-based-on-days-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-inactive-sites-based-on-days-to-csv/README.md",
+      "description": "This script exports all inactive sites based on certain number of days to CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-inactive-sites-based-on-days-to-csv/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Connect-SPOService",
+        "Get-SPOSite"
+      ]
+    },
+    {
       "title": "Export OneDrive Sites",
       "url": "https://pnp.github.io/script-samples/export-onedrive-sites-details-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/export-onedrive-sites-details-to-csv/README.md",
@@ -321,6 +343,24 @@
         "Get-PnPSubWeb",
         "Get-PnPTenant",
         "Get-PnPTenantSite"
+      ]
+    },
+    {
+      "title": "Get disabled or inactive user accounts",
+      "url": "https://pnp.github.io/script-samples/get-disabled-or-inactive-user-accounts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/README.md",
+      "description": "Find the user accounts which have been disabled or are inactive, export report to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPGraphMethod,Invoke-PnPSearchQuery,Invoke-RestMethod"
       ]
     },
     {
@@ -535,6 +575,25 @@
         "Set-PnPList",
         "Set-PnPListItem",
         "Set-PnPView"
+      ]
+    },
+    {
+      "title": "PnP Modern Search V3 usage scanner",
+      "url": "https://pnp.github.io/script-samples/pnp-modern-searchv3-scanner/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/pnp-modern-searchv3-scanner/README.md",
+      "description": "Find the pages where a v3 of PnP Modern Search web parts have been used, export report to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/pnp-modern-searchv3-scanner/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Submit-PnPSearchQuery"
       ]
     },
     {
@@ -831,6 +890,38 @@
       ]
     },
     {
+      "title": "Create fields and add to Content Types",
+      "url": "https://pnp.github.io/script-samples/spo-add-fields-to-contenttypes/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-fields-to-contenttypes/README.md",
+      "description": "Script to create site columns and add them to content types",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-fields-to-contenttypes/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Ahamed Fazil Buhari",
+          "pictureUrl": "https://github.com/ahamedfazil.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPField",
+        "Add-PnPFieldFromXml",
+        "Add-PnPFieldToContentType",
+        "m365 status",
+        "m365 login",
+        "m365 logout",
+        "m365 spo field get",
+        "m365 spo field add",
+        "m365 spo contenttype get",
+        "m365 spo contenttype field set"
+      ]
+    },
+    {
       "title": "Associate Form Customizer Extension with List or Libraries Form",
       "url": "https://pnp.github.io/script-samples/spo-add-formextension-to-list/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-formextension-to-list/README.md",
@@ -857,6 +948,28 @@
         "m365 login",
         "m365 spo contenttype set",
         "m365 logout"
+      ]
+    },
+    {
+      "title": "Add an alternate language to SharePoint Online Site",
+      "url": "https://pnp.github.io/script-samples/spo-add-language-settings/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-language-settings/README.md",
+      "description": "This script adds a new language to the SharePoint Online site with the help of language LCID decimal. ",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-language-settings/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kshitiz Kalra",
+          "pictureUrl": "https://github.com/kzkalra.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>",
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Invoke-PnPQuery",
+        "sharepoint-online"
       ]
     },
     {
@@ -1263,6 +1376,36 @@
       ]
     },
     {
+      "title": "Creation of SharePoint Online sites from CSV",
+      "url": "https://pnp.github.io/script-samples/spo-bulk-creation-sharepoint-sites-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-creation-sharepoint-sites-csv/README.md",
+      "description": "This script helps you in creation of SharePoint Online Communication and Team sites in bulk. It takes an input from CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-creation-sharepoint-sites-csv/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Kshitiz Kalra",
+          "pictureUrl": "https://github.com/kzkalra.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "New-PnPSite",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo site get",
+        "m365 spo site add",
+        "m365 logout"
+      ]
+    },
+    {
       "title": "Bulk delete recycle bin items from a site in batch",
       "url": "https://pnp.github.io/script-samples/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-delete-recyclebin-in-batch-avoid-lvt/README.md",
@@ -1547,6 +1690,38 @@
       ]
     },
     {
+      "title": "Create Colored Folder",
+      "url": "https://pnp.github.io/script-samples/spo-create-colored-folder/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-colored-folder/README.md",
+      "description": "This sample code creates a Colored Folder in a SharePoint document library.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-colored-folder/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Tetsuya Kawahara",
+          "pictureUrl": "https://github.com/tecchan1107.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Add-PnPFolder",
+        "Get-PnPListItem",
+        "Set-PnPListItem",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 spo folder add",
+        "m365 spo listitem get",
+        "m365 spo listitem set",
+        "m365 logout"
+      ]
+    },
+    {
       "title": "Create Documentset in SharePoint Library",
       "url": "https://pnp.github.io/script-samples/spo-create-documentset/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-documentset/README.md",
@@ -1568,6 +1743,47 @@
         "Get-PnPFolder",
         "Set-PnPList",
         "Set-PnPListItem"
+      ]
+    },
+    {
+      "title": "Create Library and add custom Content Type",
+      "url": "https://pnp.github.io/script-samples/spo-create-library-add-contenttype/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-library-add-contenttype/README.md",
+      "description": "Script to create SharePoint document library and add custom content type",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-library-add-contenttype/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
+          "name": "Ahamed Fazil Buhari",
+          "pictureUrl": "https://github.com/ahamedfazil.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPConnection",
+        "Disconnect-PnPOnline",
+        "Get-PnPList",
+        "New-PnPList",
+        "Get-PnPContentType",
+        "Add-PnPContentType",
+        "Add-PnPContentTypeToList",
+        "Set-PnPDefaultContentTypeToList",
+        "Remove-PnPContentTypeFromList",
+        "m365 status",
+        "m365 login",
+        "m365 logout",
+        "m365 spo list get",
+        "m365 spo list add",
+        "m365 spo contenttype get",
+        "m365 spo contenttype add",
+        "m365 spo list contenttype add",
+        "m365 spo list contenttype default set",
+        "m365 spo list contenttype remove"
       ]
     },
     {
@@ -2006,6 +2222,28 @@
       ]
     },
     {
+      "title": "Backup all custom formatting on a site",
+      "url": "https://pnp.github.io/script-samples/spo-export-all-customformatting/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-all-customformatting/README.md",
+      "description": "A script that let's you easily backup all custom formatting on a site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-all-customformatting/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Dan Toft",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/6947024?s=40&v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Get-PnPList",
+        "-Includes"
+      ]
+    },
+    {
       "title": "Export all site pages details from Site Pages library",
       "url": "https://pnp.github.io/script-samples/spo-export-all-site-pages-details/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-all-site-pages-details/README.md",
@@ -2219,6 +2457,27 @@
         "Get-PnPClientSidePage",
         "ConvertFrom-Json",
         "Export-Csv"
+      ]
+    },
+    {
+      "title": "Report of SharePoint Files Incidents",
+      "url": "https://pnp.github.io/script-samples/spo-export-report-files-incidents/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-report-files-incidents/README.md",
+      "description": "Tracks the list of people who edit each file and exports the complete list of editors in the library. This allows us to identify users who shouldn't have editing rights or those who edited files only occasionally and then stopped.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-report-files-incidents/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Michał Kornet",
+          "pictureUrl": "https://github.com/mkm17.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPSPRestMethod",
+        "Get-PnPProperty ",
+        "Get-PnPList",
+        "Get-PnPListItem"
       ]
     },
     {
@@ -2498,6 +2757,30 @@
       ]
     },
     {
+      "title": "Find Web Part in Pages e.g., Twitter Web Part",
+      "url": "https://pnp.github.io/script-samples/spo-find-web-part-in-pages/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-web-part-in-pages/README.md",
+      "description": "Find a specific Web part in pages or templates, for example, defualting to and finding Twitter Web parts",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-find-web-part-in-pages/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPPage",
+        "Get-PnPPageComponent",
+        "Get-PnPWeb"
+      ]
+    },
+    {
       "title": "Generate Demo Events for SharePoint Events List",
       "url": "https://pnp.github.io/script-samples/spo-generate-demo-events/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-generate-demo-events/README.md",
@@ -2753,6 +3036,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Alex Talarico",
+          "pictureUrl": "https://github.com/getalex.png"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         },
@@ -2796,6 +3083,28 @@
         "m365 teams channel get",
         "m365 teams message send",
         "m365 tenant serviceannouncement message list"
+      ]
+    },
+    {
+      "title": "Get membership report of a site",
+      "url": "https://pnp.github.io/script-samples/spo-get-sites-membership-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sites-membership-report/README.md",
+      "description": "The script export site membership details to a CSV file",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sites-membership-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Get-PnPMicrosoft365GroupMember",
+        "Get-PnPSiteCollectionAdmin",
+        "Get-PnPGroupMember"
       ]
     },
     {
@@ -3001,6 +3310,31 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Disable Quick property editing (Grid view) from SharePoint list",
+      "url": "https://pnp.github.io/script-samples/spo-list-disable-quick-property-editing/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-disable-quick-property-editing/README.md",
+      "description": "This sample script will show you how to disable the Quick property editing (Grid view) from SharePoint list.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-disable-quick-property-editing/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set",
+        "m365 logout"
+      ]
     },
     {
       "title": "Download all the content type document templates files associated with a library",
@@ -3282,6 +3616,28 @@
         "Invoke-RestMethod",
         "Get-PnPAccessToken",
         "Get-PnPProperty"
+      ]
+    },
+    {
+      "title": "Copying files between different SharePoint libraries with custom metadata",
+      "url": "https://pnp.github.io/script-samples/spo-move-files-library-sites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-move-files-library-sites/README.md",
+      "description": "This sample shows how to copy files between different SharePoint libraries with custom metadata with a matching folder structure.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-move-files-library-sites/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPFolderItem",
+        "Get-PnPFolder",
+        "Get-PnPFile",
+        "Add-PnPFile"
       ]
     },
     {
