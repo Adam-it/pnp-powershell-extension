@@ -346,6 +346,24 @@
       ]
     },
     {
+      "title": "Get disabled or inactive user accounts",
+      "url": "https://pnp.github.io/script-samples/get-disabled-or-inactive-user-accounts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/README.md",
+      "description": "Find the user accounts which have been disabled or are inactive, export report to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPGraphMethod,Invoke-PnPSearchQuery,Invoke-RestMethod"
+      ]
+    },
+    {
       "title": "Authenticate with and call the Microsoft Graph",
       "url": "https://pnp.github.io/script-samples/graph-call-graph/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-call-graph/README.md",
@@ -881,14 +899,26 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Ahamed Fazil Buhari",
           "pictureUrl": "https://github.com/ahamedfazil.png"
         }
       ],
       "tags": [
+        "Connect-PnPOnline",
         "Get-PnPField",
         "Add-PnPFieldFromXml",
-        "Add-PnPFieldToContentType"
+        "Add-PnPFieldToContentType",
+        "m365 status",
+        "m365 login",
+        "m365 logout",
+        "m365 spo field get",
+        "m365 spo field add",
+        "m365 spo contenttype get",
+        "m365 spo contenttype field set"
       ]
     },
     {
@@ -1349,11 +1379,15 @@
       "title": "Creation of SharePoint Online sites from CSV",
       "url": "https://pnp.github.io/script-samples/spo-bulk-creation-sharepoint-sites-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-creation-sharepoint-sites-csv/README.md",
-      "description": "This script helps you in creation of SharePoint Communication and Team sites in bulk. It takes an input from CSV.",
+      "description": "This script helps you in creation of SharePoint Online Communication and Team sites in bulk. It takes an input from CSV.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-creation-sharepoint-sites-csv/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Kshitiz Kalra",
           "pictureUrl": "https://github.com/kzkalra.png"
@@ -1361,9 +1395,14 @@
       ],
       "tags": [
         "Connect-PnPOnline",
-        "Get-PnPTenant",
         "Get-PnPTenantSite",
-        "New-PnPSite"
+        "New-PnPSite",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo site get",
+        "m365 spo site add",
+        "m365 logout"
       ]
     },
     {
@@ -2997,6 +3036,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Alex Talarico",
+          "pictureUrl": "https://github.com/getalex.png"
+        },
+        {
           "name": "Adam Wójcik",
           "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
         },
@@ -3040,6 +3083,28 @@
         "m365 teams channel get",
         "m365 teams message send",
         "m365 tenant serviceannouncement message list"
+      ]
+    },
+    {
+      "title": "Get membership report of a site",
+      "url": "https://pnp.github.io/script-samples/spo-get-sites-membership-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sites-membership-report/README.md",
+      "description": "The script export site membership details to a CSV file",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-sites-membership-report/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Get-PnPTenantSite",
+        "Get-PnPMicrosoft365GroupOwner",
+        "Get-PnPMicrosoft365GroupMember",
+        "Get-PnPSiteCollectionAdmin",
+        "Get-PnPGroupMember"
       ]
     },
     {
@@ -3245,6 +3310,31 @@
         }
       ],
       "tags": []
+    },
+    {
+      "title": "Disable Quick property editing (Grid view) from SharePoint list",
+      "url": "https://pnp.github.io/script-samples/spo-list-disable-quick-property-editing/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-disable-quick-property-editing/README.md",
+      "description": "This sample script will show you how to disable the Quick property editing (Grid view) from SharePoint list.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-list-disable-quick-property-editing/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo list set",
+        "m365 logout"
+      ]
     },
     {
       "title": "Download all the content type document templates files associated with a library",
