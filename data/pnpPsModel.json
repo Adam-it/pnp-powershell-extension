@@ -926,6 +926,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFile.html"
     },
     {
+      "name": "Get-PnPFileInFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileInFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileInFolder.html"
+    },
+    {
       "name": "Get-PnPFileSharingLink",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileSharingLink.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileSharingLink.html"
@@ -956,14 +961,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolder.html"
     },
     {
-      "name": "Get-PnPFolderFile",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderFile.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderFile.html"
-    },
-    {
-      "name": "Get-PnPFolderFolder",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderFolder.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderFolder.html"
+      "name": "Get-PnPFolderInFolder",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFolderInFolder.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFolderInFolder.html"
     },
     {
       "name": "Get-PnPFolderItem",
@@ -1711,9 +1711,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebHeader.html"
     },
     {
-      "name": "Get-PnPWebhookSubscriptions",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebhookSubscriptions.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebhookSubscriptions.html"
+      "name": "Get-PnPWebhookSubscription",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPWebhookSubscription.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPWebhookSubscription.html"
     },
     {
       "name": "Get-PnPWebPart",
