@@ -1411,6 +1411,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteSensitivityLabel.html"
     },
     {
+      "name": "Get-PnPSiteSetVersionPolicyProgress",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteSetVersionPolicyProgress.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteSetVersionPolicyProgress.html"
+    },
+    {
       "name": "Get-PnPSiteTemplate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteTemplate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteTemplate.html"

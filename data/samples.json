@@ -2218,6 +2218,24 @@
       ]
     },
     {
+      "title": "Enable/Disable Search Crawling on Sites and Libraries",
+      "url": "https://pnp.github.io/script-samples/spo-enable-disable-search-crawling/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-disable-search-crawling/README.md",
+      "description": "Control the sites and libraries that get crawled. Also useful for Copilot projects to chose which areas to include",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-disable-search-crawling/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ]
+    },
+    {
       "title": "Enable page scheduling on a modern site pages library",
       "url": "https://pnp.github.io/script-samples/spo-enable-page-scheduling/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-enable-page-scheduling/README.md",
@@ -2501,6 +2519,24 @@
         "SharePoint Online",
         "Connect-PnPOnline",
         "Get-PnPHubSite"
+      ]
+    },
+    {
+      "title": "Export and import library folder structure",
+      "url": "https://pnp.github.io/script-samples/spo-export-import-folderstructure/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-import-folderstructure/README.md",
+      "description": "This script shows who to export a folderstructure to a JSON file, and import the folder structure into another library",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-import-folderstructure/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
       ]
     },
     {
@@ -4079,6 +4115,28 @@
       ]
     },
     {
+      "title": "Reorder Content Types in SharePoint List",
+      "url": "https://pnp.github.io/script-samples/spo-reorder-list-content-type/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reorder-list-content-type/README.md",
+      "description": "This script guides how to rearrange content types in a SharePoint list using PnP PowerShell.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reorder-list-content-type/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Aman Panjwani",
+          "pictureUrl": "https://github.com/Amanp17.png"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "ContentTypes",
+        "Connect-PnPOnline",
+        "Invoke-PnPQuery",
+        "Disconnect-PnPOnline"
+      ]
+    },
+    {
       "title": "Request Reindex of SharePoint User Profile Properties",
       "url": "https://pnp.github.io/script-samples/spo-request-pnp-reindex-user-profile/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-request-pnp-reindex-user-profile/README.md",
@@ -4331,6 +4389,26 @@
         "Get-PnPListItem",
         "Remove-PnPList",
         "Remove-PnPListItem"
+      ]
+    },
+    {
+      "title": "How to Hide the 'See All' Button in the Highlighted Content Web Part",
+      "url": "https://pnp.github.io/script-samples/spo-update-highlightcontentwebpart-seeall/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-highlightcontentwebpart-seeall/README.md",
+      "description": "This sample shows how to how to Hide the 'See All' Button in the Highlighted Content Web Part using PnP PowerShell",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-highlightcontentwebpart-seeall/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPClientSidePage",
+        "Set-PnPPageWebPart"
       ]
     },
     {
