@@ -4395,7 +4395,7 @@
       "title": "How to Hide the 'See All' Button in the Highlighted Content Web Part",
       "url": "https://pnp.github.io/script-samples/spo-update-highlightcontentwebpart-seeall/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-highlightcontentwebpart-seeall/README.md",
-      "description": "This sample shows how to how to Hide the 'See All' Button in the Highlighted Content Web Part using PnP PowerShell",
+      "description": "This sample shows how to Hide the 'See All' Button in the Highlighted Content Web Part using PnP PowerShell",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-highlightcontentwebpart-seeall/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
@@ -4408,7 +4408,8 @@
       "tags": [
         "Connect-PnPOnline",
         "Get-PnPClientSidePage",
-        "Set-PnPPageWebPart"
+        "Set-PnPPageWebPart",
+        "Disconnect-PnPOnline"
       ]
     },
     {
