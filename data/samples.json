@@ -2991,6 +2991,29 @@
       ]
     },
     {
+      "title": "Get Checked Out Files including those with no checked in version",
+      "url": "https://pnp.github.io/script-samples/spo-get-checkedoutfiles-nocheckedinversion/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-checkedoutfiles-nocheckedinversion/README.md",
+      "description": "This script sample shows how to get checked Out files including those with no checked in version",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-checkedoutfiles-nocheckedinversion/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPList",
+        "Get-PnPContext",
+        "Get-PnPUser",
+        "Get-PnPListItem"
+      ]
+    },
+    {
       "title": "Get Content Type usage within a site collection.",
       "url": "https://pnp.github.io/script-samples/spo-get-contenttype-usage-listitem-listversion/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-contenttype-usage-listitem-listversion/README.md",
