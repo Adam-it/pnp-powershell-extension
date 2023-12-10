@@ -2227,12 +2227,30 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Paul Bullock",
           "pictureUrl": "https://github.com/pkbullock.png"
         }
       ],
       "tags": [
-        "<Cmdlets-Used>"
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Set-PnPSite",
+        "Set-PnPWeb",
+        "Get-PnPList",
+        "Set-PnPList",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo web get",
+        "m365 spo site set",
+        "m365 spo web set",
+        "m365 spo list get",
+        "m365 spo list set",
+        "m365 logout"
       ]
     },
     {

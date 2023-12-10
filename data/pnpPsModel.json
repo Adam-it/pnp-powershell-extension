@@ -841,6 +841,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPConnection.html"
     },
     {
+      "name": "Get-PnPContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainer.html"
+    },
+    {
       "name": "Get-PnPContentType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContentType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContentType.html"
@@ -2334,6 +2339,11 @@
       "name": "Remove-PnPMicrosoft365GroupOwner",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365GroupOwner.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365GroupOwner.html"
+    },
+    {
+      "name": "Remove-PnPMicrosoft365GroupPhoto",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPMicrosoft365GroupPhoto.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPMicrosoft365GroupPhoto.html"
     },
     {
       "name": "Remove-PnPMicrosoft365GroupSettings",
