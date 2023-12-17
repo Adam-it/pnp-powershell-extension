@@ -1494,6 +1494,27 @@
       ]
     },
     {
+      "title": "Bulk remove retention labels from files in a SharePoint Library",
+      "url": "https://pnp.github.io/script-samples/spo-bulk-remove-retention-labels/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-remove-retention-labels/README.md",
+      "description": "Bulk remove all retention labels from all files in a library that are labelled with a retention label. These files will now no longer be tagged with a retention label",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-bulk-publish-syntex-model/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Leon Armston",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/12968962?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Get-PnPListItem",
+        "Retention Label",
+        "Invoke-PnPSPRestMethod"
+      ]
+    },
+    {
       "title": "Change SharePoint Online List URL",
       "url": "https://pnp.github.io/script-samples/spo-change-list-url/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-change-list-url/README.md",
@@ -2977,6 +2998,22 @@
         {
           "name": "Chandani Prajapati",
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Get All Hub Site Main Sites and Navigation Nodes",
+      "url": "https://pnp.github.io/script-samples/spo-get-all-hub-site-main-sites-and-navigation-nodes/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-all-hub-site-main-sites-and-navigation-nodes/README.md",
+      "description": "Get all hub site main sites and navigation nodes using PnP PowerShell and update nodes if required.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-get-all-hub-site-main-sites-and-navigation-nodes/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/ValerasNarbutas?v=4"
         }
       ],
       "tags": []
