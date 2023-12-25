@@ -506,6 +506,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Connect-PnPOnline.html"
     },
     {
+      "name": "Convert-PnPFile",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Convert-PnPFile.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Convert-PnPFile.html"
+    },
+    {
       "name": "Convert-PnPFolderToSiteTemplate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Convert-PnPFolderToSiteTemplate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Convert-PnPFolderToSiteTemplate.html"
@@ -1856,6 +1861,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Measure-PnPWeb.html"
     },
     {
+      "name": "Merge-PnPTerm",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Merge-PnPTerm.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Merge-PnPTerm.html"
+    },
+    {
       "name": "Move-PnPFile",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Move-PnPFile.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Move-PnPFile.html"
@@ -2164,6 +2174,11 @@
       "name": "Remove-PnPAzureADServicePrincipalAssignedAppRole",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPAzureADServicePrincipalAssignedAppRole.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPAzureADServicePrincipalAssignedAppRole.html"
+    },
+    {
+      "name": "Remove-PnPContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainer.html"
     },
     {
       "name": "Remove-PnPContentType",
