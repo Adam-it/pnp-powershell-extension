@@ -851,6 +851,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainer.html"
     },
     {
+      "name": "Get-PnPContainerTypeConfiguration",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContainerTypeConfiguration.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContainerTypeConfiguration.html"
+    },
+    {
       "name": "Get-PnPContentType",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPContentType.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPContentType.html"
@@ -879,6 +884,11 @@
       "name": "Get-PnPDefaultColumnValues",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDefaultColumnValues.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDefaultColumnValues.html"
+    },
+    {
+      "name": "Get-PnPDeletedContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPDeletedContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPDeletedContainer.html"
     },
     {
       "name": "Get-PnPDeletedMicrosoft365Group",
