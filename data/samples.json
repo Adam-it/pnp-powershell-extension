@@ -388,6 +388,26 @@
       ]
     },
     {
+      "title": "Get Site Collection invalid user accounts",
+      "url": "https://pnp.github.io/script-samples/get-spo-invalid-user-accounts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-spo-invalid-user-accounts/README.md",
+      "description": "Find the user accounts which no longer is valid, export report to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-spo-invalid-user-accounts/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPGraphMethod",
+        "Get-PnPUser",
+        "Submit-PnPSearchQuery"
+      ]
+    },
+    {
       "title": "Authenticate with and call the Microsoft Graph",
       "url": "https://pnp.github.io/script-samples/graph-call-graph/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-call-graph/README.md",
@@ -1964,6 +1984,36 @@
         "Get-PnPHubSite",
         "Get-PnPSite",
         "Get-PnPSiteCollectionAppCatalog",
+        "Get-PnPTenant",
+        "Get-PnPWeb",
+        "Invoke-PnPSPRestMethod"
+      ]
+    },
+    {
+      "title": "Deploying SPFx Packages from Tenant App Catalog to Hub Site and Associated Sites",
+      "url": "https://pnp.github.io/script-samples/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappaatalog/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappaatalog/README.md",
+      "description": "Deploying SPFx Packages from Tenant App Catalog to Hub Site and Associated Sites",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappcatalog/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "modern",
+        "Connect-PnPOnline",
+        "Disconnect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Add-PnPApp",
+        "Get-PnPApp",
+        "Install-PnPApp",
+        "Update-PnPApp",
+        "Get-PnPHubSite",
+        "Get-PnPSite",
         "Get-PnPTenant",
         "Get-PnPWeb",
         "Invoke-PnPSPRestMethod"
@@ -4223,6 +4273,10 @@
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/ValerasNarbutas"
+        },
         {
           "name": "Lotsamocha01",
           "pictureUrl": "https://github.com/Lotsamocha01.png"
