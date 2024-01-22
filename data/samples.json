@@ -1991,8 +1991,8 @@
     },
     {
       "title": "Deploying SPFx Packages from Tenant App Catalog to Hub Site and Associated Sites",
-      "url": "https://pnp.github.io/script-samples/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappaatalog/README.html",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappaatalog/README.md",
+      "url": "https://pnp.github.io/script-samples/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappcatalog/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappcatalog/README.md",
       "description": "Deploying SPFx Packages from Tenant App Catalog to Hub Site and Associated Sites",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-deploy-install-update-spfx-hubsiteassociatedsites-tenantappcatalog/assets/preview.png",
       "type": "powershell",
@@ -4262,6 +4262,24 @@
         "Connect-PnPOnline",
         "Invoke-PnPQuery",
         "Disconnect-PnPOnline"
+      ]
+    },
+    {
+      "title": "Replace specific users in the People web part",
+      "url": "https://pnp.github.io/script-samples/spo-replace-people-in-people-web-part/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-replace-people-in-people-web-part/README.md",
+      "description": "Replaces specific users in the People web part",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-replace-people-in-people-web-part/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPClientSidePage"
       ]
     },
     {
