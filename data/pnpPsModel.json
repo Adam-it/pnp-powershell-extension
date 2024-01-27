@@ -946,6 +946,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFile.html"
     },
     {
+      "name": "Get-PnPFileAnalyticsData",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileAnalyticsData.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileAnalyticsData.html"
+    },
+    {
       "name": "Get-PnPFileInFolder",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPFileInFolder.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPFileInFolder.html"
@@ -1271,6 +1276,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformEnvironment.html"
     },
     {
+      "name": "Get-PnPPowerPlatformSolution",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformSolution.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformSolution.html"
+    },
+    {
       "name": "Get-PnPPowerShellTelemetryEnabled",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerShellTelemetryEnabled.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerShellTelemetryEnabled.html"
@@ -1349,6 +1359,11 @@
       "name": "Get-PnPSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSite.html"
+    },
+    {
+      "name": "Get-PnPSiteAnalyticsData",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteAnalyticsData.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteAnalyticsData.html"
     },
     {
       "name": "Get-PnPSiteClosure",
@@ -1931,6 +1946,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPBatch.html"
     },
     {
+      "name": "New-PnPContainerType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPContainerType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPContainerType.html"
+    },
+    {
       "name": "New-PnPExtensibilityHandlerObject",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPExtensibilityHandlerObject.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPExtensibilityHandlerObject.html"
@@ -2189,6 +2209,11 @@
       "name": "Remove-PnPContainer",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainer.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainer.html"
+    },
+    {
+      "name": "Remove-PnPContainerType",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPContainerType.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPContainerType.html"
     },
     {
       "name": "Remove-PnPContentType",
@@ -2699,6 +2724,11 @@
       "name": "Restart-PnPFlowRun",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restart-PnPFlowRun.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Restart-PnPFlowRun.html"
+    },
+    {
+      "name": "Restore-PnPDeletedContainer",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Restore-PnPDeletedContainer.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Restore-PnPDeletedContainer.html"
     },
     {
       "name": "Restore-PnPDeletedMicrosoft365Group",

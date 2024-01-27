@@ -1916,6 +1916,15 @@
       "Get-PnPFile"
     ]
   },
+  "Get-PnPFileAnalyticsData": {
+    "body": [
+      "Get-PnPFileAnalyticsData -Url $1"
+    ],
+    "description": "Retrieves file analytics data within a specific date range.",
+    "prefix": [
+      "Get-PnPFileAnalyticsData"
+    ]
+  },
   "Get-PnPFileInFolder": {
     "body": [
       "Get-PnPFileInFolder "
@@ -2553,6 +2562,15 @@
       "Get-PnPPowerPlatformEnvironment"
     ]
   },
+  "Get-PnPPowerPlatformSolution": {
+    "body": [
+      "Get-PnPPowerPlatformSolution "
+    ],
+    "description": "This cmdlet returns the PowerPlatform solution on a given enviroment.",
+    "prefix": [
+      "Get-PnPPowerPlatformSolution"
+    ]
+  },
   "Get-PnPPowerShellTelemetryEnabled": {
     "body": [
       "Get-PnPPowerShellTelemetryEnabled "
@@ -2708,6 +2726,15 @@
     "description": "Allows to retrieve current site collection from the context.",
     "prefix": [
       "Get-PnPSite"
+    ]
+  },
+  "Get-PnPSiteAnalyticsData": {
+    "body": [
+      "Get-PnPSiteAnalyticsData -Url $1"
+    ],
+    "description": "Retrieves site analytics data within a specific date range.",
+    "prefix": [
+      "Get-PnPSiteAnalyticsData"
     ]
   },
   "Get-PnPSiteClosure": {
@@ -3848,6 +3875,18 @@
       "New-PnPBatch"
     ]
   },
+  "New-PnPContainerType": {
+    "body": [
+      "New-PnPContainerType -ContainerTypeName $1 -OwningApplicationId $2 -TrialContainerType $3"
+    ],
+    "description": [
+      "Enables the creation of either a trial or standard SharePoint Container Type. Use the TrialContainerType switch parameter to designate the container type as a trial.",
+      "TrialContainerType"
+    ],
+    "prefix": [
+      "New-PnPContainerType"
+    ]
+  },
   "New-PnPExtensibilityHandlerObject": {
     "body": [
       "New-PnPExtensibilityHandlerObject "
@@ -4353,6 +4392,15 @@
     "description": "",
     "prefix": [
       "Remove-PnPContainer"
+    ]
+  },
+  "Remove-PnPContainerType": {
+    "body": [
+      "Remove-PnPContainerType "
+    ],
+    "description": "",
+    "prefix": [
+      "Remove-PnPContainerType"
     ]
   },
   "Remove-PnPContentType": {
@@ -5332,6 +5380,15 @@
       "Restart-PnPFlowRun"
     ]
   },
+  "Restore-PnPDeletedContainer": {
+    "body": [
+      "Restore-PnPDeletedContainer -Identity $1"
+    ],
+    "description": "",
+    "prefix": [
+      "Restore-PnPDeletedContainer"
+    ]
+  },
   "Restore-PnPDeletedMicrosoft365Group": {
     "body": [
       "Restore-PnPDeletedMicrosoft365Group -Identity $1"
@@ -5533,10 +5590,7 @@
     "body": [
       "Set-PnPAzureADAppSitePermission -PermissionId $1 -Permissions $2"
     ],
-    "description": [
-      "This cmdlet updates permissions for a given Azure Active Directory application registration in a site collection. It is used in conjunction with the Azure Active Directory SharePoint application permission Sites.Selected. Notice that this cmdlet allows for more permissions compared for when initially setting rights through Grant-PnPAzureADAppSitePermission.",
-      "Grant-PnPAzureADAppSitePermission"
-    ],
+    "description": "This cmdlet updates permissions for a given Azure Active Directory application registration in a site collection. It is used in conjunction with the Azure Active Directory SharePoint application permission Sites.Selected.",
     "prefix": [
       "Set-PnPAzureADAppSitePermission"
     ]
