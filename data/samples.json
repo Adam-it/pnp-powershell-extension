@@ -823,6 +823,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Chandani Prajapati",
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         }
@@ -835,7 +839,13 @@
         "Connect-SPOService",
         "Get-SPOSite",
         "Get-SPOUser",
-        "Add-SPOUser"
+        "Add-SPOUser",
+        "m365 status",
+        "m365 login",
+        "m365 spo group get",
+        "m365 spo group member list",
+        "m365 spo group member add",
+        "m365 logout"
       ]
     },
     {
@@ -914,14 +924,18 @@
       "tags": []
     },
     {
-      "title": "Add dummy folders and files.",
+      "title": "Add dummy folders and files to a SharePoint library",
       "url": "https://pnp.github.io/script-samples/spo-add-dummy-folders-and-files/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-dummy-folders-and-files/README.md",
-      "description": "This sample shows how to add dummy files and folders into a library, generating files within folders to perform testing.",
+      "description": "This sample shows how to add dummy folders and files into a SharePoint library, generating files within folders to perform testing.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-dummy-folders-and-files/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
@@ -930,7 +944,13 @@
       "tags": [
         "Connect-PnPOnline",
         "Add-PnPFolder",
-        "Add-PnPFile"
+        "Add-PnPFile",
+        "m365 status",
+        "m365 login",
+        "m365 spo folder add",
+        "m365 spo file add",
+        "m365 logout",
+        "Get-ChildItem"
       ]
     },
     {
@@ -1059,14 +1079,18 @@
       ]
     },
     {
-      "title": "Add multiple folders in libraries using a csv file",
+      "title": "Add multiple folders in libraries using a CSV file",
       "url": "https://pnp.github.io/script-samples/spo-add-multiple-folders-in-libraries-using-csv-file/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-multiple-folders-in-libraries-using-csv-file/README.md",
-      "description": "This script will create the folders (not nested) into the libraries provided in the .csv file.",
+      "description": "This script will create the folders (not nested) into the libraries provided in the CSV file.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-add-multiple-folders-in-libraries-using-csv-file/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Jiten Parmar",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7124132?v=4"
@@ -1074,7 +1098,15 @@
       ],
       "tags": [
         "SharePoint Online",
-        "Governance"
+        "Connect-PnPOnline",
+        "Get-PnPWeb",
+        "Get-PnPList",
+        "Resolve-PnPFolder",
+        "m365 status",
+        "m365 login",
+        "m365 spo list get",
+        "m365 spo folder add",
+        "m365 logout"
       ]
     },
     {
