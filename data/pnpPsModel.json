@@ -1266,9 +1266,9 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerApp.html"
     },
     {
-      "name": "Get-PnPPowerPlatformConnector",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformConnector.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformConnector.html"
+      "name": "Get-PnPPowerPlatformCustomConnector",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPowerPlatformCustomConnector.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPowerPlatformCustomConnector.html"
     },
     {
       "name": "Get-PnPPowerPlatformEnvironment",
@@ -1309,11 +1309,6 @@
       "name": "Get-PnPRequestAccessEmails",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRequestAccessEmails.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRequestAccessEmails.html"
-    },
-    {
-      "name": "Get-PnPRetentionLabel",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRetentionLabel.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRetentionLabel.html"
     },
     {
       "name": "Get-PnPRoleDefinition",
@@ -1446,11 +1441,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteSensitivityLabel.html"
     },
     {
-      "name": "Get-PnPSiteSetVersionPolicyProgress",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteSetVersionPolicyProgress.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteSetVersionPolicyProgress.html"
-    },
-    {
       "name": "Get-PnPSiteTemplate",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteTemplate.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteTemplate.html"
@@ -1464,6 +1454,11 @@
       "name": "Get-PnPSiteVersionPolicy",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteVersionPolicy.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicy.html"
+    },
+    {
+      "name": "Get-PnPSiteVersionPolicyProgress",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteVersionPolicyProgress.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteVersionPolicyProgress.html"
     },
     {
       "name": "Get-PnPStorageEntity",
@@ -1624,6 +1619,11 @@
       "name": "Get-PnPTenantRecycleBinItem",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPTenantRecycleBinItem.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPTenantRecycleBinItem.html"
+    },
+    {
+      "name": "Get-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPRetentionLabel.html"
     },
     {
       "name": "Get-PnPTenantSequence",
@@ -2706,14 +2706,14 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPFileVersion.html"
     },
     {
-      "name": "Reset-PnPLabel",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPLabel.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPLabel.html"
-    },
-    {
       "name": "Reset-PnPMicrosoft365GroupExpiration",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPMicrosoft365GroupExpiration.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPMicrosoft365GroupExpiration.html"
+    },
+    {
+      "name": "Reset-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Reset-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Reset-PnPRetentionLabel.html"
     },
     {
       "name": "Reset-PnPUserOneDriveQuotaToDefault",
@@ -2976,11 +2976,6 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPKnowledgeHubSite.html"
     },
     {
-      "name": "Set-PnPLabel",
-      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPLabel.md",
-      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPLabel.html"
-    },
-    {
       "name": "Set-PnPList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPList.html"
@@ -3116,6 +3111,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPRequestAccessEmails.html"
     },
     {
+      "name": "Set-PnPRetentionLabel",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPRetentionLabel.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPRetentionLabel.html"
+    },
+    {
       "name": "Set-PnPRoleDefinition",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPRoleDefinition.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPRoleDefinition.html"
@@ -3139,6 +3139,11 @@
       "name": "Set-PnPSite",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSite.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSite.html"
+    },
+    {
+      "name": "Set-PnPSiteArchiveState",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteArchiveState.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteArchiveState.html"
     },
     {
       "name": "Set-PnPSiteClassification",
@@ -3184,6 +3189,11 @@
       "name": "Set-PnPSiteTemplateMetadata",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteTemplateMetadata.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteTemplateMetadata.html"
+    },
+    {
+      "name": "Set-PnPSiteVersionPolicy",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Set-PnPSiteVersionPolicy.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Set-PnPSiteVersionPolicy.html"
     },
     {
       "name": "Set-PnPStorageEntity",
