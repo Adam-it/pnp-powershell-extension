@@ -489,7 +489,9 @@
         "modern",
         "Connect-PnPOnline",
         "Get-PnPTenantSite",
-        "Get-PnPUnifiedAuditLog"
+        "Get-PnPUnifiedAuditLog",
+        "m365 purview auditlog list",
+        "m365 login"
       ]
     },
     {
