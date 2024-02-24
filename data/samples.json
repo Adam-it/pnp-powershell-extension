@@ -4355,6 +4355,30 @@
       ]
     },
     {
+      "title": "Reindex SharePoint sites",
+      "url": "https://pnp.github.io/script-samples/spo-reindex-sites/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-sites/README.md",
+      "description": "Keeping your SharePoint environment up-to-date is crucial, especially after making schema changes - this script streamlines the process of reindexing sites, libraries, or lists. ",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-sites/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Mikael Svenson",
+          "pictureUrl": "https://github.com/wobba.png"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Request-PnPReIndexWeb"
+      ]
+    },
+    {
       "title": "Delete custom color themes from SharePoint",
       "url": "https://pnp.github.io/script-samples/spo-remove-custom-themes/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-custom-themes/README.md",
