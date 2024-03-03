@@ -2275,6 +2275,41 @@
       ]
     },
     {
+      "title": "Report and Export Solutions from M365 Developer Tenant",
+      "url": "https://pnp.github.io/script-samples/spo-dev-tenant-report-export/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-dev-tenant-report-export/README.md",
+      "description": "Expiring tenant or need to understand what you have created in the past, report and optionally export your projects and solutions",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-dev-tenant-report-export/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Export-PnPFlow",
+        "Export-PnPPowerApp",
+        "Get-PnPApp",
+        "Get-PnPAzureADApp",
+        "Get-PnPAzureADAppPermission",
+        "Get-PnPFile",
+        "Get-PnPFlow",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "Get-PnPPowerApp",
+        "Get-PnPPowerPlatformEnvironment",
+        "Get-PnPSite",
+        "Get-PnPSiteTemplate",
+        "Get-PnPTeamsApp",
+        "Get-PnPTenant",
+        "Get-PnPTenantAppCatalogUrl",
+        "Get-PnPTenantSite"
+      ]
+    },
+    {
       "title": "Disable SharePoint List Commenting at list level",
       "url": "https://pnp.github.io/script-samples/spo-disable-list-comments/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-disable-list-comments/README.md",

@@ -1096,6 +1096,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLargeListOperationStatus.html"
     },
     {
+      "name": "Get-PnPLibraryFileVersionExpirationReportJobProgress",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPLibraryFileVersionExpirationReportJobProgress.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPLibraryFileVersionExpirationReportJobProgress.html"
+    },
+    {
       "name": "Get-PnPList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPList.html"
@@ -1224,6 +1229,11 @@
       "name": "Get-PnPPageComponent",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageComponent.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageComponent.html"
+    },
+    {
+      "name": "Get-PnPPageLikedByInformation",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPPageLikedByInformation.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPPageLikedByInformation.html"
     },
     {
       "name": "Get-PnPPlannerBucket",
@@ -1404,6 +1414,11 @@
       "name": "Get-PnPSiteDesignTask",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteDesignTask.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteDesignTask.html"
+    },
+    {
+      "name": "Get-PnPSiteFileVersionExpirationReportJobProgress",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Get-PnPSiteFileVersionExpirationReportJobProgress.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Get-PnPSiteFileVersionExpirationReportJobProgress.html"
     },
     {
       "name": "Get-PnPSiteGroup",
@@ -1971,6 +1986,16 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPGroup.html"
     },
     {
+      "name": "New-PnPLibraryFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPLibraryFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPLibraryFileVersionBatchDeleteJob.html"
+    },
+    {
+      "name": "New-PnPLibraryFileVersionExpirationReportJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPLibraryFileVersionExpirationReportJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPLibraryFileVersionExpirationReportJob.html"
+    },
+    {
       "name": "New-PnPList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPList.html"
@@ -2009,6 +2034,16 @@
       "name": "New-PnPSiteCollectionTermStore",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteCollectionTermStore.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteCollectionTermStore.html"
+    },
+    {
+      "name": "New-PnPSiteFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteFileVersionBatchDeleteJob.html"
+    },
+    {
+      "name": "New-PnPSiteFileVersionExpirationReportJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/New-PnPSiteFileVersionExpirationReportJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/New-PnPSiteFileVersionExpirationReportJob.html"
     },
     {
       "name": "New-PnPSiteGroup",
@@ -2351,6 +2386,11 @@
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPKnowledgeHubSite.html"
     },
     {
+      "name": "Remove-PnPLibraryFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPLibraryFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPLibraryFileVersionBatchDeleteJob.html"
+    },
+    {
       "name": "Remove-PnPList",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPList.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPList.html"
@@ -2504,6 +2544,11 @@
       "name": "Remove-PnPSiteDesignTask",
       "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteDesignTask.md",
       "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteDesignTask.html"
+    },
+    {
+      "name": "Remove-PnPSiteFileVersionBatchDeleteJob",
+      "url": "https://raw.githubusercontent.com/pnp/powershell/dev/documentation/Remove-PnPSiteFileVersionBatchDeleteJob.md",
+      "docs": "https://pnp.github.io/powershell/cmdlets/Remove-PnPSiteFileVersionBatchDeleteJob.html"
     },
     {
       "name": "Remove-PnPSiteGroup",
