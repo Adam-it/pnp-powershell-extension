@@ -1718,6 +1718,24 @@
       ]
     },
     {
+      "title": "Scan for potential inaccessible site collection homepages",
+      "url": "https://pnp.github.io/script-samples/spo-check-unaccessable-homepages/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-unaccessable-homepages/README.md",
+      "description": "looks for site collections where the default page has custom permissions and outputs to a CSV file",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-unaccessable-homepages/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Get-PnPHomePage,Get-PnPListItem,Get-PnPListItemPermission"
+      ]
+    },
+    {
       "title": "Clean Up Unwanted Site Columns from Content Types and Lists/Libraries",
       "url": "https://pnp.github.io/script-samples/spo-cleanup-site-column-usage/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-cleanup-site-column-usage/README.md",
@@ -1791,6 +1809,28 @@
         "Unified Audit Logs",
         "ULS",
         "PDF"
+      ]
+    },
+    {
+      "title": "Copy a hub navigation from a source site to any desired target hub site",
+      "url": "https://pnp.github.io/script-samples/spo-copy-hubsite-navigation/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-hubsite-navigation/README.md",
+      "description": "This script copies a hub navigation from any hub site (source) to another hub site (target)",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-copy-hubsite-navigation/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Tobias Maestrini",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/69770609?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPConnection",
+        "Add-PnPNavigationNode",
+        "Get-PnPNavigationNode",
+        "Remove-PnPNavigationNode"
       ]
     },
     {
@@ -2749,6 +2789,28 @@
       ]
     },
     {
+      "title": "Export Content Type Details To CSV",
+      "url": "https://pnp.github.io/script-samples/spo-export-content-type-details-to-csv/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-content-type-details-to-csv/README.md",
+      "description": "This script exports all content types available on sites to CSV.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-content-type-details-to-csv/assets/preview.png",
+      "type": "powershell",
+      "tabTag": "#tab/pnpps",
+      "authors": [
+        {
+          "name": "Chandani Prajapati",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+        }
+      ],
+      "tags": [
+        "SharePoint Online",
+        "Connect-PnPOnline",
+        "Get-PnPContentType",
+        "Get-PnPProperty",
+        "Export-Csv"
+      ]
+    },
+    {
       "title": "Export CSV To SharePoint List Data",
       "url": "https://pnp.github.io/script-samples/spo-export-data-to-sharepoint-lists/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-data-to-sharepoint-lists/README.md",
@@ -2841,6 +2903,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Tetsuya Kawahara",
           "pictureUrl": "https://github.com/tecchan1107.png"
         }
@@ -2849,7 +2915,12 @@
         "Connect-PnPOnline",
         "Get-PnPTenantSite",
         "Get-PnPHubSite",
-        "Disconnect-PnPOnline"
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 spo site list",
+        "m365 spo hubsite list",
+        "m365 logout"
       ]
     },
     {
@@ -4393,11 +4464,15 @@
       "title": "Reindex SharePoint sites",
       "url": "https://pnp.github.io/script-samples/spo-reindex-sites/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-sites/README.md",
-      "description": "Keeping your SharePoint environment up-to-date is crucial, especially after making schema changes - this script streamlines the process of reindexing sites, libraries, or lists. ",
+      "description": "Keeping your SharePoint environment up-to-date is crucial, especially after making schema changes - this script streamlines the process of reindexing sites, libraries, or lists.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-reindex-sites/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Mikael Svenson",
           "pictureUrl": "https://github.com/wobba.png"
@@ -4410,7 +4485,13 @@
       "tags": [
         "Connect-PnPOnline",
         "Get-PnPTenantSite",
-        "Request-PnPReIndexWeb"
+        "Request-PnPReIndexWeb",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo site list",
+        "m365 spo web reindex",
+        "m365 logout"
       ]
     },
     {
