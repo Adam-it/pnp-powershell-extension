@@ -4,11 +4,15 @@
       "title": "Delete all Microsoft 365 groups and SharePoint sites",
       "url": "https://pnp.github.io/script-samples/aad-delete-m365-groups-and-sharepoint-sites/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-delete-m365-groups-and-sharepoint-sites/README.md",
-      "description": "Example how you can delete all Microsoft 365 Groups and SharePoint Online sites in your development environment",
+      "description": "Sample shows how you can delete Microsoft 365 Groups and associated SharePoint Online sites in your development environment",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-delete-m365-groups-and-sharepoint-sites/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
@@ -18,12 +22,17 @@
         "SharePoint Online",
         "Microsoft 365 Groups",
         "Connect-PnPOnline",
-        "Get-PnPTenant",
         "Get-PnPTenantSite",
         "Remove-PnPDeletedMicrosoft365Group",
         "Remove-PnPMicrosoft365Group",
         "Remove-PnPTenantDeletedSite",
-        "Remove-PnPTenantSite"
+        "Remove-PnPTenantSite",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 entra m365group list",
+        "m365 entra m365group remove",
+        "m365 logout"
       ]
     },
     {
@@ -89,6 +98,10 @@
       "tabTag": "#tab/pnpps",
       "authors": [
         {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
+        {
           "name": "Reshmee Auckloo",
           "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
         }
@@ -103,7 +116,14 @@
         "Get-PnPMicrosoft365Group",
         "Get-PnPMicrosoft365GroupOwner",
         "Remove-PnPMicrosoft365Group",
-        "Remove-PnPMicrosoft365GroupOwner"
+        "Remove-PnPMicrosoft365GroupOwner",
+        "m365 login",
+        "m365 status",
+        "m365 entra m365group list",
+        "m365 entra m365group user list",
+        "m365 entra m365group user add",
+        "m365 entra m365group user remove",
+        "m365 logout"
       ]
     },
     {
@@ -1721,18 +1741,34 @@
       "title": "Scan for potential inaccessible site collection homepages",
       "url": "https://pnp.github.io/script-samples/spo-check-unaccessable-homepages/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-unaccessable-homepages/README.md",
-      "description": "looks for site collections where the default page has custom permissions and outputs to a CSV file",
+      "description": "Looks for site collections where the home page has custom permissions and outputs to a CSV file.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-check-unaccessable-homepages/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Kasper Larsen",
           "pictureUrl": "https://github.com/kasperbolarsen.png"
         }
       ],
       "tags": [
-        "Get-PnPHomePage,Get-PnPListItem,Get-PnPListItemPermission"
+        "Connect-PnPOnline",
+        "Get-PnPTenantSite",
+        "Get-PnPList",
+        "Get-PnPHomePage",
+        "Get-PnPListItem",
+        "Get-PnPListItemPermission",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 status",
+        "m365 spo site list",
+        "m365 spo web get",
+        "m365 spo listitem list",
+        "m365 logout"
       ]
     },
     {
@@ -2792,11 +2828,15 @@
       "title": "Export Content Type Details To CSV",
       "url": "https://pnp.github.io/script-samples/spo-export-content-type-details-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-content-type-details-to-csv/README.md",
-      "description": "This script exports all content types available on sites to CSV.",
+      "description": "This script exports all content types available on a SharePoint site to CSV.",
       "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-export-content-type-details-to-csv/assets/preview.png",
       "type": "powershell",
       "tabTag": "#tab/pnpps",
       "authors": [
+        {
+          "name": "Ganesh Sanap",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
+        },
         {
           "name": "Chandani Prajapati",
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
@@ -2807,7 +2847,12 @@
         "Connect-PnPOnline",
         "Get-PnPContentType",
         "Get-PnPProperty",
-        "Export-Csv"
+        "Export-Csv",
+        "Disconnect-PnPOnline",
+        "m365 status",
+        "m365 login",
+        "m365 spo contenttype list",
+        "m365 logout"
       ]
     },
     {
